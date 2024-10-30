@@ -1,0 +1,4939 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bike Rental by BestWebSoft v1.0.2\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2021-05-24 22:15+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bws_menu\n"
+
+#: bike-rental.php:66
+msgid "Bike Rental Pro Settings"
+msgstr "Налаштування прокату велосипедів Pro"
+
+#: bike-rental.php:68
+msgid "Bike Rental Pro General Settings"
+msgstr "Загальні налаштування Bike Rental Pro"
+
+#: bike-rental.php:118
+msgid "Please select Drop-off Location"
+msgstr "Виберіть Місце висадки"
+
+#: bike-rental.php:119
+msgid "Please select Pick-up location"
+msgstr "Виберіть місце прийому"
+
+#: bike-rental.php:162
+#, php-format
+msgid ""
+"Your theme does not declare %1$s plugin support. Please check out our %2$s "
+"theme which has been developed specifically for use with %1$s plugin."
+msgstr ""
+"У вашій темі не вказано підтримку плагіна %1$s. Будь ласка, ознайомтесь з "
+"нашою темою %2$s, яка була розроблена спеціально для використання з плагіном "
+"%1$s."
+
+#: bike-rental.php:188 bike-rental.php:210
+#: booking_adapter/plugin_settings.php:296
+#: booking_adapter/plugin_settings.php:323
+#: bws_booking/classes/admin/profile/bws_bkng_profile_page.php:43
+msgid "Settings"
+msgstr "Налаштування"
+
+#: bike-rental.php:190
+msgid "FAQ"
+msgstr "FAQ"
+
+#: bike-rental.php:191
+msgid "Support"
+msgstr "Тех. підтримка "
+
+#: booking_adapter/class_bkrntl_bike_widget.php:37
+#: booking_adapter/class_bkrntl_booking_adapter.php:210
+#: booking_adapter/demo-data.php:761 booking_adapter/plugin_settings.php:27
+#: booking_adapter/plugin_settings.php:31
+msgid "Bikes"
+msgstr "Велосипеди"
+
+#: booking_adapter/class_bkrntl_bike_widget.php:104
+msgid "More Bikes"
+msgstr "Більше велосипедів"
+
+#: booking_adapter/class_bkrntl_bike_widget.php:110
+#: bws_booking/classes/front-end/bws_bkng_cart.php:351
+#: bws_booking/classes/helpers/bws_bkng_helper.php:385
+#: bws_booking/classes/widgets/bws_bkng_pre_order_widget.php:80
+#: bws_booking/classes/widgets/bws_bkng_search_filter_widget.php:72
+msgid "Title"
+msgstr "Заголовок"
+
+#: booking_adapter/class_bkrntl_bike_widget.php:116
+msgid "Product Button Text"
+msgstr "Текст кнопки продукту"
+
+#: booking_adapter/class_bkrntl_bike_widget.php:122
+msgid "Product Button Link"
+msgstr "Посилання на кнопку продукту"
+
+#: booking_adapter/class_bkrntl_bike_widget.php:135
+msgid "Product Count Display"
+msgstr "Відображення кількості продуктів"
+
+#: booking_adapter/class_bkrntl_booking_adapter.php:85
+msgid "Icon"
+msgstr "Значок"
+
+#: booking_adapter/class_bkrntl_booking_adapter.php:96
+msgid "Add Icon"
+msgstr "Додати значок"
+
+#: booking_adapter/class_bkrntl_booking_adapter.php:97
+msgid "Remove Icon"
+msgstr "Видалити значок"
+
+#: booking_adapter/class_bkrntl_booking_adapter.php:120
+msgid "Select or Upload Icon For Amenity"
+msgstr "Виберіть або завантажте значок для зручності"
+
+#: booking_adapter/class_bkrntl_booking_adapter.php:122
+msgid "Use this icon"
+msgstr "Використовуйте цей значок"
+
+#: booking_adapter/class_bkrntl_booking_adapter.php:212
+msgid "No Bike Set"
+msgstr "Немає зайнятих велосипедів"
+
+#: booking_adapter/class_bkrntl_booking_adapter.php:213
+#: booking_adapter/plugin_settings.php:19
+msgid "Add New Bike"
+msgstr "Додати новий велосипед"
+
+#: booking_adapter/class_bkrntl_booking_adapter.php:238
+msgid "Bike Rental"
+msgstr "Прокат велосипедів"
+
+#: booking_adapter/class_bkrntl_booking_adapter.php:385
+#: booking_adapter/class_bkrntl_booking_adapter.php:462
+#: booking_adapter/class_bkrntl_booking_adapter.php:477
+#: booking_adapter/class_bkrntl_booking_adapter.php:494
+#: booking_adapter/templates/bws-bkng-checkout.php:184
+#: booking_adapter/templates/bws-bkng-checkout.php:187
+msgid "Age"
+msgstr "Вік"
+
+#: booking_adapter/class_bkrntl_locations.php:41
+#: booking_adapter/class_bkrntl_locations.php:302
+msgid "Pick-up & Drop-off locations"
+msgstr "Місце збору та вивезення"
+
+#: booking_adapter/class_bkrntl_locations.php:125
+msgid "Any Locations"
+msgstr "Будь-які місця"
+
+#: booking_adapter/class_bkrntl_locations.php:133
+msgid "Return at different location"
+msgstr "Повернення в іншому місці"
+
+#: booking_adapter/class_bkrntl_locations.php:141
+msgid "Drop-off Locations"
+msgstr "Місце висадки"
+
+#: booking_adapter/class_bkrntl_locations.php:145
+msgid "Choose Locations"
+msgstr "Виберіть Місцеположення"
+
+#: booking_adapter/class_bkrntl_locations.php:166
+#: booking_adapter/plugin_settings.php:264
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:834
+msgid "Locations"
+msgstr "Місцезнаходження"
+
+#: booking_adapter/class_bkrntl_locations.php:168
+#: booking_adapter/class_bkrntl_locations.php:293
+msgid "Pick-up from"
+msgstr "Пікап від"
+
+#: booking_adapter/class_bkrntl_locations.php:172
+#: booking_adapter/class_bkrntl_locations.php:299
+msgid "Return to"
+msgstr "Повернутися до"
+
+#: booking_adapter/class_bkrntl_locations.php:214
+msgid "Adds Pickup and Return Locations of a rented product"
+msgstr "Додає місця вивезення та повернення орендованого товару"
+
+#: booking_adapter/class_bkrntl_locations.php:237
+#: booking_adapter/class_bkrntl_locations.php:432
+msgid "Not selected"
+msgstr "Не выбрано"
+
+#: booking_adapter/class_bkrntl_locations.php:238
+msgid "pick-up from"
+msgstr "пікап від"
+
+#: booking_adapter/class_bkrntl_locations.php:239
+msgid "return to"
+msgstr "повернутися до"
+
+#: booking_adapter/class_bkrntl_locations.php:278
+#: booking_adapter/class_bkrntl_locations.php:281
+msgid "removed"
+msgstr "видалено"
+
+#: booking_adapter/class_bkrntl_locations.php:287
+msgid "Not Selected"
+msgstr "Не выбрано"
+
+#: booking_adapter/class_bkrntl_locations.php:347
+msgid "Can't get location data"
+msgstr "Не вдається отримати дані про місцезнаходження"
+
+#: booking_adapter/demo-data.php:762 booking_adapter/demo-data.php:764
+#: booking_adapter/templates/bws-bkng-single-bike.php:203
+#: booking_adapter/templates/bws-bkng-single-bike.php:206
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:102
+#: bws_booking/data/default_settings.php:92
+#: bws_booking/templates/forms/extras.php:101
+#: bws_booking/templates/forms/to-checkout-button.php:16
+msgid "Checkout"
+msgstr "Перевіряти"
+
+#: booking_adapter/demo-data.php:763 bws_booking/data/default_settings.php:93
+msgid "Thank you"
+msgstr "Дякую"
+
+#: booking_adapter/plugin_settings.php:17
+#: booking_adapter/plugin_settings.php:18
+#: booking_adapter/templates/bws-bkng-single-bike.php:41
+#: booking_adapter/templates/bws-bkng-single-products.php:10
+msgid "Bike"
+msgstr "Велосипед"
+
+#: booking_adapter/plugin_settings.php:20
+msgid "Edit Bike"
+msgstr "Редагувати велосипед"
+
+#: booking_adapter/plugin_settings.php:21
+msgid "New Bike"
+msgstr "Новий велосипед"
+
+#: booking_adapter/plugin_settings.php:22
+msgid "View Bike"
+msgstr "Переглянути велосипед"
+
+#: booking_adapter/plugin_settings.php:23
+msgid "View Bikes"
+msgstr "Переглянути велосипеди"
+
+#: booking_adapter/plugin_settings.php:24
+msgid "Search Bikes"
+msgstr "Шукати велосипеди"
+
+#: booking_adapter/plugin_settings.php:25
+msgid "No Bike found"
+msgstr "Нічого не знайдено"
+
+#: booking_adapter/plugin_settings.php:26
+msgid "No Bike found in Trash"
+msgstr "В кошику не знайдено велосипеда"
+
+#: booking_adapter/plugin_settings.php:28
+msgid "Bike Attributes"
+msgstr "Атрибути велосипеда"
+
+#: booking_adapter/plugin_settings.php:29
+msgid "Insert into Bike"
+msgstr "Вставте в Bike"
+
+#: booking_adapter/plugin_settings.php:30
+msgid "Uploaded to this Bike"
+msgstr "Завантажено на цей велосипед"
+
+#: booking_adapter/plugin_settings.php:46
+#: booking_adapter/plugin_settings.php:47
+#: booking_adapter/plugin_settings.php:56
+msgid "Extra"
+msgstr "Додатково"
+
+#: booking_adapter/plugin_settings.php:48
+msgid "Add New Extra"
+msgstr "Додати Новий Додаток"
+
+#: booking_adapter/plugin_settings.php:49
+msgid "Edit Extra"
+msgstr "Редагувати додаток"
+
+#: booking_adapter/plugin_settings.php:50
+msgid "New Extra"
+msgstr "Новий додаток"
+
+#: booking_adapter/plugin_settings.php:51
+msgid "View Extra"
+msgstr "Переглянути додаток"
+
+#: booking_adapter/plugin_settings.php:52
+msgid "View Extras"
+msgstr "Переглянути додатки"
+
+#: booking_adapter/plugin_settings.php:53
+msgid "Search Extras"
+msgstr "Пошук Додатків"
+
+#: booking_adapter/plugin_settings.php:54
+msgid "No Extra found"
+msgstr "Додаток не знайдено"
+
+#: booking_adapter/plugin_settings.php:55
+msgid "No Extra found in Trash"
+msgstr "У кошику не знайдено жодної зайвої"
+
+#: booking_adapter/plugin_settings.php:57
+msgid "Extra Attributes"
+msgstr "Додаткові атрибути"
+
+#: booking_adapter/plugin_settings.php:58
+msgid "Insert into Extra"
+msgstr "Вставте в Додаток"
+
+#: booking_adapter/plugin_settings.php:59
+msgid "Uploaded to this Extra"
+msgstr "Завантажено до цього додатка"
+
+#: booking_adapter/plugin_settings.php:60
+#: booking_adapter/plugin_settings.php:371
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1227
+#: bws_booking/templates/forms/extras.php:30
+#: bws_booking/templates/order-details.php:60
+#: bws_booking/templates/pre-order.php:34
+msgid "Extras"
+msgstr "Додатки"
+
+#: booking_adapter/plugin_settings.php:80
+#: booking_adapter/plugin_settings.php:88
+#: booking_adapter/plugin_settings.php:103
+#: booking_adapter/plugin_settings.php:111
+msgid "Types"
+msgstr "Типи"
+
+#: booking_adapter/plugin_settings.php:81
+#: booking_adapter/plugin_settings.php:104
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:166
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:768
+msgid "Type"
+msgstr "Тип"
+
+#: booking_adapter/plugin_settings.php:82
+#: booking_adapter/plugin_settings.php:105
+msgid "Add New Type"
+msgstr "Додати Новий Тип"
+
+#: booking_adapter/plugin_settings.php:83
+#: booking_adapter/plugin_settings.php:106
+msgid "Edit Type"
+msgstr "Редагувати Тип"
+
+#: booking_adapter/plugin_settings.php:84
+#: booking_adapter/plugin_settings.php:107
+msgid "New Type"
+msgstr "Новий Тип"
+
+#: booking_adapter/plugin_settings.php:85
+#: booking_adapter/plugin_settings.php:108
+msgid "View Type"
+msgstr "Переглянути Тип"
+
+#: booking_adapter/plugin_settings.php:86
+#: booking_adapter/plugin_settings.php:109
+msgid "Search Types"
+msgstr "Типи пошуку"
+
+#: booking_adapter/plugin_settings.php:87
+#: booking_adapter/plugin_settings.php:110
+msgid "No Types found"
+msgstr "Типи не знайдено"
+
+#: booking_adapter/plugin_settings.php:136
+msgid "Bike Status"
+msgstr "Статус велосипеда"
+
+#: booking_adapter/plugin_settings.php:142
+#: booking_adapter/plugin_settings.php:227
+msgid "Ability to Choose Quantity"
+msgstr "Можливість вибору кількості"
+
+#: booking_adapter/plugin_settings.php:148
+#: booking_adapter/plugin_settings.php:233
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:135
+#: bws_booking/classes/front-end/bws_bkng_cart.php:356
+#: bws_booking/classes/general/bws_bkng_order.php:915
+#: bws_booking/templates/forms/extras.php:25
+#: bws_booking/templates/order-details.php:50
+#: bws_booking/templates/pre-order.php:30
+msgid "Quantity"
+msgstr "Кількість"
+
+#: booking_adapter/plugin_settings.php:154
+#: booking_adapter/plugin_settings.php:239
+#: bws_booking/classes/front-end/bws_bkng_cart.php:352
+#: bws_booking/classes/general/bws_bkng_order.php:913
+msgid "SKU"
+msgstr "SKU"
+
+#: booking_adapter/plugin_settings.php:163
+#: booking_adapter/plugin_settings.php:215
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:262
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1113
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:212
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:234
+msgid "Price on Request"
+msgstr "Ціна за запитом"
+
+#: booking_adapter/plugin_settings.php:169
+#: booking_adapter/plugin_settings.php:184
+#: booking_adapter/plugin_settings.php:221
+#: booking_adapter/plugin_settings.php:369
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:821
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1131
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1165
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1207
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:134
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:147
+#: bws_booking/classes/front-end/bws_bkng_cart.php:355
+#: bws_booking/classes/general/bws_bkng_ajax.php:361
+#: bws_booking/classes/general/bws_bkng_order.php:914
+#: bws_booking/classes/helpers/bws_bkng_helper.php:383
+#: bws_booking/templates/order-details.php:38
+#: bws_booking/templates/pre-order.php:23
+msgid "Price"
+msgstr "Ціна"
+
+#: booking_adapter/plugin_settings.php:175
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1142
+msgid "Price by days"
+msgstr "Ціна по днях"
+
+#: booking_adapter/plugin_settings.php:182
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1165
+#: bws_booking/classes/general/bws_bkng_ajax.php:361
+msgid "Day From"
+msgstr "День від"
+
+#: booking_adapter/plugin_settings.php:183
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1165
+#: bws_booking/classes/general/bws_bkng_ajax.php:361
+msgid "Day To"
+msgstr "День До"
+
+#: booking_adapter/plugin_settings.php:192
+msgid "Price in Winter Season"
+msgstr "Ціна в зимовий сезон"
+
+#: booking_adapter/plugin_settings.php:193
+msgid "Price in Spring Season"
+msgstr "Ціна у весняний сезон"
+
+#: booking_adapter/plugin_settings.php:194
+msgid "Price in Summer Season"
+msgstr "Ціна в літній сезон"
+
+#: booking_adapter/plugin_settings.php:195
+msgid "Price in Autumn Season"
+msgstr "Ціна в осінній сезон"
+
+#: booking_adapter/plugin_settings.php:209
+msgid "Extra Status"
+msgstr "Статус Додатка"
+
+#: booking_adapter/plugin_settings.php:257
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:826
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:148
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: booking_adapter/plugin_settings.php:271
+msgid "Orders"
+msgstr "Замовлення"
+
+#: booking_adapter/plugin_settings.php:282
+msgid "Your profile"
+msgstr "Ваш профіль"
+
+#: booking_adapter/plugin_settings.php:289
+#: booking_adapter/plugin_settings.php:316
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:166
+msgid "General Settings"
+msgstr "Загальні налаштування"
+
+#: booking_adapter/plugin_settings.php:346
+msgid "Your Destination"
+msgstr "Ваше призначення"
+
+#: booking_adapter/plugin_settings.php:347
+msgid "Enter city, region or district"
+msgstr "Введіть місто, область чи район"
+
+#: booking_adapter/plugin_settings.php:352
+msgid "Check In"
+msgstr "Зареєструватися"
+
+#: booking_adapter/plugin_settings.php:358
+msgid "Check Out"
+msgstr "Вийти"
+
+#: booking_adapter/plugin_settings.php:370
+msgid "User Rating"
+msgstr "Рейтинг користувачів"
+
+#: booking_adapter/templates/bws-bkng-bike-activity-select.php:113
+msgid "Simple select"
+msgstr "Простий вибір"
+
+#: booking_adapter/templates/bws-bkng-bike-model-select.php:87
+msgid "Sort by price"
+msgstr "Сортувати за ціною"
+
+#: booking_adapter/templates/bws-bkng-bike-model-select.php:88
+msgid "Lowest first"
+msgstr "Спочатку найнижчий"
+
+#: booking_adapter/templates/bws-bkng-bike-model-select.php:89
+msgid "Highest first"
+msgstr "Спочатку найвищий"
+
+#: booking_adapter/templates/bws-bkng-bike-model-select.php:94
+msgid "All brands"
+msgstr "Всі марки"
+
+#: booking_adapter/templates/bws-bkng-bike-model-select.php:102
+msgid "All types"
+msgstr "Всі типи"
+
+#: booking_adapter/templates/bws-bkng-bike-model-select.php:136
+#: booking_adapter/templates/bws-bkng-single-bike.php:201
+msgid "Back"
+msgstr "Назад"
+
+#: booking_adapter/templates/bws-bkng-bike-simple-select.php:88
+msgid "Advanced select"
+msgstr "Розширений вибір"
+
+#: booking_adapter/templates/bws-bkng-bike-simple-select.php:89
+msgid "View tours"
+msgstr "Переглянути екскурсії"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:76
+msgid "BIKE: "
+msgstr "ВЕЛОСИПЕД: "
+
+#: booking_adapter/templates/bws-bkng-checkout.php:112
+msgid "SUBTOTAL"
+msgstr "ЗАГАЛЬНО"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:117
+#: booking_adapter/templates/bws-bkng-checkout.php:149
+msgid "day(s)"
+msgstr "дн."
+
+#: booking_adapter/templates/bws-bkng-checkout.php:124
+msgid "EXTRAS"
+msgstr "ДОДАДКОВО"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:132
+msgid "pc(s)."
+msgstr "шт."
+
+#: booking_adapter/templates/bws-bkng-checkout.php:141
+msgid "EXTRAS TOTAL"
+msgstr "ДОДАДКОВО ВСЬОГО"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:158
+msgid "ORDER TOTAL"
+msgstr "ЗАМОВИТИ ВСЬОГО"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:169
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:164
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:756
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:164
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:573
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:145
+msgid "Name"
+msgstr "Ім'я"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:170
+msgid "Please enter your name!"
+msgstr "Введіть своє ім'я!"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:172
+msgid "First name"
+msgstr "Ім'я"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:173
+#: booking_adapter/templates/bws-bkng-checkout.php:177
+#: booking_adapter/templates/bws-bkng-checkout.php:188
+#: booking_adapter/templates/bws-bkng-checkout.php:241
+msgid "This field is required!"
+msgstr "Це поле є обов'язковим!"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:176
+msgid "Last name"
+msgstr "Прізвище"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:185
+msgid "Please enter your age!"
+msgstr "Введіть свій вік!"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:195
+#: booking_adapter/templates/bws-bkng-checkout.php:198
+#: bws_booking/classes/general/bws_bkng_mailer.php:256
+#: bws_booking/classes/helpers/bws_bkng_helper.php:500
+#: bws_booking/templates/forms/checkout.php:39
+#: bws_booking/templates/order-details.php:122
+msgid "Phone"
+msgstr "Телефон"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:196
+msgid "Please enter your phone!"
+msgstr "Введіть св ім'я!"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:199
+msgid "Invalid Phone Number"
+msgstr "Недійсний номер телефону"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:206
+msgid "Email address"
+msgstr "Email адреса"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:207
+msgid "Please enter your email address!"
+msgstr "Введіть свою адресу електронної пошти!"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:209
+#: bws_booking/classes/general/bws_bkng_user.php:329
+msgid "Email Address"
+msgstr "Email адреса"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:210
+msgid "Invalid Email Address"
+msgstr "Невірна e-mail адреса"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:213
+msgid "Confirm Email Address"
+msgstr "Підтвердьте Email"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:214
+msgid "Email Address does not match"
+msgstr "Адреса електронної пошти не відповідає"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:237
+msgid "Additional requests or comments"
+msgstr "Додаткові запити або коментарі"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:238
+msgid "Please enter your additional requests or comments!"
+msgstr "Введіть додаткові запити чи коментарі!"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:240
+msgid "Your Message"
+msgstr "Ваше повідомлення"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:248
+msgid "Payment method"
+msgstr "Спосіб оплати"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:249
+msgid "Please choose your payment method!"
+msgstr "Оберіть спосіб оплати!"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:258
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:131
+msgid "Terms and Conditions"
+msgstr "Правила та умови"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:261
+#: bws_booking/templates/forms/checkout.php:68
+msgid "I agree with"
+msgstr "З погоджуюся з"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:261
+#: bws_booking/templates/forms/checkout.php:68
+msgid "terms and conditions"
+msgstr "правила та умови"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:274
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:306
+msgid "Confirm"
+msgstr "Підтвердьте"
+
+#: booking_adapter/templates/bws-bkng-checkout.php:283
+msgid "Your order is empty"
+msgstr "Ваше замовлення порожнє"
+
+#: booking_adapter/templates/bws-bkng-search-results-template.php:116
+#, php-format
+msgid "From %d day"
+msgid_plural "From %d days"
+msgstr[0] "З % d дня"
+msgstr[1] "З % d дня"
+msgstr[2] "З % d дня"
+
+#: booking_adapter/templates/bws-bkng-search-results-template.php:118
+#, php-format
+msgid "%d day"
+msgstr "%d день"
+
+#: booking_adapter/templates/bws-bkng-search-results-template.php:120
+#, php-format
+msgid "%d-%d days"
+msgstr "%d-%d днів"
+
+#: booking_adapter/templates/bws-bkng-search-results-template.php:138
+#, php-format
+msgid "%s price"
+msgstr "%s ціна"
+
+#: booking_adapter/templates/bws-bkng-search-results-template.php:146
+msgid "Rent for"
+msgstr "Оренда за"
+
+#: booking_adapter/templates/bws-bkng-single-bike.php:66
+msgid "From"
+msgstr "З"
+
+#: booking_adapter/templates/bws-bkng-single-bike.php:72
+msgid "To"
+msgstr "До"
+
+#: booking_adapter/templates/bws-bkng-single-bike.php:79
+msgid "Take bike in"
+msgstr "Візьміть велосипед"
+
+#: booking_adapter/templates/bws-bkng-single-bike.php:82
+msgid "-Place-"
+msgstr "-Місце-"
+
+#: booking_adapter/templates/bws-bkng-single-bike.php:94
+msgid "Bike size"
+msgstr "Розмір велосипеда"
+
+#: booking_adapter/templates/bws-bkng-single-bike.php:97
+msgid "-Size-"
+msgstr "-Розмір-"
+
+#: booking_adapter/templates/bws-bkng-single-bike.php:110
+msgid "Pedals type"
+msgstr "Тип педалей"
+
+#: booking_adapter/templates/bws-bkng-single-bike.php:112
+msgid "-Type-"
+msgstr "-Тип-"
+
+#: booking_adapter/templates/bws-bkng-single-bike.php:150
+msgid "EXTRA PRODUCTS"
+msgstr "ДОДАТКОВІ ПРОДУКТИ"
+
+#: bws_booking/classes/admin/bws_bkng_admin.php:113
+msgid "Upgrade to Pro"
+msgstr "Оновіть до версії Pro"
+
+#: bws_booking/classes/admin/bws_bkng_admin.php:134
+#: bws_booking/classes/admin/bws_bkng_categories_metabox.php:87
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:145
+#: bws_booking/classes/helpers/bws_bkng_helper.php:502
+msgid "Featured Image"
+msgstr "Вибране зображення"
+
+#: bws_booking/classes/admin/bws_bkng_admin.php:170
+msgid "Show extras"
+msgstr "Показати додадкове"
+
+#: bws_booking/classes/admin/bws_bkng_admin.php:171
+msgid "Hide extras"
+msgstr "Сховати додаткові послуги"
+
+#: bws_booking/classes/admin/bws_bkng_admin.php:183
+#, php-format
+msgid ""
+"Are you sure you want to do it? Attribute \"%s\" will be completely removed "
+"from the products data without the possibility to recover them"
+msgstr ""
+"Ви впевнені, що хочете це зробити? Атрибут \"%s\" буде повністю видалений з "
+"даних про товари без можливості їх відновлення"
+
+#: bws_booking/classes/admin/bws_bkng_admin.php:184
+msgid "Are you sure you want to delete chosen orders"
+msgstr "Ви впевнені, що хочете видалити слайд"
+
+#: bws_booking/classes/admin/bws_bkng_admin.php:278
+#: bws_booking/classes/admin/bws_bkng_admin.php:303
+msgid "Availble shortcodes"
+msgstr "Доступні шорткоди"
+
+#: bws_booking/classes/admin/bws_bkng_admin.php:315
+msgid "Items per Page"
+msgstr "Елементів на сторінці"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:111
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:112
+msgid "Clone"
+msgstr "Клонувати"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:152
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:753
+msgid "Copy"
+msgstr "Копіювати"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:243
+msgid "Term is not cloned"
+msgstr "Термін не клонується"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:244
+msgid "Term is cloned"
+msgstr "Термін клонується"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:245
+msgid "Term is cloned with some errors. Check term options"
+msgstr "Термін клонується з деякими помилками. Перевірте варіанти термінів"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:461
+#: bws_booking/tags/agencies.php:91
+msgid "Holiday"
+msgstr "Вихідні"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:462
+msgid "Workday"
+msgstr "Робочий день"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:465
+#: bws_booking/classes/general/bws_bkng_mailer.php:477
+#: bws_booking/templates/order-details.php:29
+msgid "from"
+msgstr "з"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:466
+msgid "till"
+msgstr "до"
+
+#: bws_booking/classes/admin/bws_bkng_agencies_metabox.php:472
+msgid "Notes"
+msgstr "Примітки"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:134
+msgid "attribute"
+msgstr "атрибут"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:135
+msgid "attributes"
+msgstr "атрибути"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:150
+msgid "No attributes found"
+msgstr "Атрибутів не знайдено"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:165
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:762
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:127
+msgid "Slug"
+msgstr "Slug"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:167
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:881
+#: bws_booking/classes/front-end/bws_bkng_content_filter.php:109
+msgid "Description"
+msgstr "Опис"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:236
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:236
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:252
+msgid "Edit"
+msgstr "Редагувати"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:238
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:281
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:851
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:238
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:281
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:253
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:325
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:762
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:207
+msgid "Delete"
+msgstr "Видалити"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:406
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:370
+msgid "Field name is empty."
+msgstr "Назва поля порожня."
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:413
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:419
+msgid "Select at least one available value."
+msgstr "Виберіть принаймні одне доступне значення."
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:416
+msgid "Select at least two available values."
+msgstr "Виберіть принаймні два доступних значення."
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:426
+msgid "The field has been updated"
+msgstr "Поле оновлено"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:441
+msgid "The field has been created"
+msgstr "Поле створено"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:659
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:749
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:498
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:566
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1551
+msgid "Add New"
+msgstr "Додати"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:688
+msgid "Edit Attribute"
+msgstr "Редагувати атрибут"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:727
+msgid "Add New Attribute"
+msgstr "Додати новий атрибут"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:778
+msgid "Max Length"
+msgstr "Максимальна довжина"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:781
+msgid ""
+"Specify field max length (for text field and textarea type) or max number "
+"(for number field type)."
+msgstr ""
+"Вкажіть максимальну довжину поля (для текстового поля та типу текстового "
+"поля) або максимальну кількість (для типу числового поля)."
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:785
+msgid "Field width in characters"
+msgstr "Ширина поля в символах"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:791
+msgid "The height of the field in the text lines"
+msgstr "Висота поля в рядках тексту"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:797
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:800
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:266
+msgid "Date Format"
+msgstr "Формат дати"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:813
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:837
+msgid "Custom:"
+msgstr "Користувацький:"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:813
+msgid "enter a custom date format in the following field"
+msgstr "введіть власний формат дати у наступному полі"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:814
+msgid "Custom date format:"
+msgstr "Спеціальний формат дати:"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:815
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:838
+msgid "example:"
+msgstr "приклад:"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:816
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:839
+msgid "Documentation on date and time formatting."
+msgstr "Документація щодо форматування дати та часу."
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:821
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:824
+msgid "Time Format"
+msgstr "Формат часу"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:837
+msgid "enter a custom time format in the following field"
+msgstr "введіть власний формат часу в наступному полі"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:838
+msgid "Custom time format:"
+msgstr "Спеціальний формат часу:"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:844
+msgid "Available Values"
+msgstr "Доступні значення"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:848
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:860
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:870
+msgid "Name of value"
+msgstr "Назва цінності"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:875
+msgid "Add"
+msgstr "Додати"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:876
+msgid "Click save button to add more values"
+msgstr "Натисніть кнопку зберегти, щоб додати більше значень"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:891
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:631
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:102
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:193
+#: bws_booking/classes/helpers/bws_bkng_settings_helper.php:39
+msgid "Save Changes"
+msgstr "Зберегти налаштування"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:1002
+msgid "Not enough data"
+msgstr "Недостатньо даних"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:1022
+msgid "Attribute slug is wrong or empty"
+msgstr "Атрибут slug неправильний або порожній"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:1024
+msgid "Taxonomy with such slug already exists"
+msgstr "Таксономія з таким slug вже існує"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:1116
+#, php-format
+msgid "One attribute deleted"
+msgid_plural "%s attributes deleted"
+msgstr[0] "%s  атрибут видалено"
+msgstr[1] "%s атрибута видалено"
+msgstr[2] "%s атрибутв видалено"
+
+#: bws_booking/classes/admin/bws_bkng_attributes_page.php:1125
+msgid "Attribute updated"
+msgstr "Атрибут оновлений"
+
+#: bws_booking/classes/admin/bws_bkng_categories_metabox.php:31
+msgid "Uncategorized"
+msgstr "Без категорії"
+
+#: bws_booking/classes/admin/bws_bkng_categories_metabox.php:91
+msgid "Default Rent Interval"
+msgstr "Інтервал оренди за замовчуванням"
+
+#: bws_booking/classes/admin/bws_bkng_categories_metabox.php:95
+msgid "Exclude From Search"
+msgstr "Виключити з пошуку"
+
+#: bws_booking/classes/admin/bws_bkng_default_term.php:149
+#: bws_booking/classes/admin/bws_bkng_default_term.php:150
+msgid "Set as default"
+msgstr "Встановити за замовчуванням"
+
+#: bws_booking/classes/admin/bws_bkng_default_term.php:169
+msgid "Default term is changed"
+msgstr "Термін за замовчуванням змінено"
+
+#: bws_booking/classes/admin/bws_bkng_default_term.php:238
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:304
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:277
+msgid "All"
+msgstr "Всі"
+
+#: bws_booking/classes/admin/bws_bkng_demo_data_loader.php:768
+msgid "Can't add terms"
+msgstr "Не вдається додати умови"
+
+#: bws_booking/classes/admin/bws_bkng_demo_data_loader.php:771
+msgid "Can't add posts"
+msgstr "Не вдається додати публікації"
+
+#: bws_booking/classes/admin/bws_bkng_demo_data_loader.php:774
+msgid "Can't add thumbnail"
+msgstr "Не вдається додати ескіз"
+
+#: bws_booking/classes/admin/bws_bkng_demo_data_loader.php:777
+msgid "Terms don't exists"
+msgstr "Умов не існує"
+
+#: bws_booking/classes/admin/bws_bkng_demo_data_loader.php:780
+msgid "Can't remove terms"
+msgstr "Не вдається видалити умови"
+
+#: bws_booking/classes/admin/bws_bkng_demo_data_loader.php:783
+msgid "Can't remove posts"
+msgstr "Не вдається видалити публікації"
+
+#: bws_booking/classes/admin/bws_bkng_demo_data_loader.php:786
+msgid "Can't remove thumbnail"
+msgstr "Не вдається видалити ескіз"
+
+#: bws_booking/classes/admin/bws_bkng_locations_metabox.php:42
+#: bws_booking/classes/general/bws_bkng_user.php:395
+#: bws_booking/classes/helpers/bws_bkng_helper.php:499
+#: bws_booking/tags/general.php:472 bws_booking/templates/single-agency.php:38
+msgid "Location"
+msgstr "Розташування"
+
+#: bws_booking/classes/admin/bws_bkng_locations_metabox.php:104
+msgid "Please enable JavaScript to add new location"
+msgstr "Будь ласка, увімкніть JavaScript, щоб додати нове місце"
+
+#: bws_booking/classes/admin/bws_bkng_locations_metabox.php:114
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:165
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:592
+msgid "Address"
+msgstr "Адреса"
+
+#: bws_booking/classes/admin/bws_bkng_locations_metabox.php:122
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:585
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1588
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:528
+msgid "Find by address"
+msgstr "Знайти за адресою"
+
+#: bws_booking/classes/admin/bws_bkng_locations_metabox.php:129
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:608
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1589
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:550
+msgid "Find by coordinates"
+msgstr "Знайдіть за координатами"
+
+#: bws_booking/classes/admin/bws_bkng_locations_metabox.php:133
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:166
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:612
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1582
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:554
+msgid "Latitude"
+msgstr "Широта"
+
+#: bws_booking/classes/admin/bws_bkng_locations_metabox.php:134
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:167
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:613
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1583
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:555
+msgid "Longitude"
+msgstr "Довгота"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:134
+msgid "location"
+msgstr "розташування"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:135
+msgid "locations"
+msgstr "місця"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:150
+msgid "No locations found"
+msgstr "Місцезнаходжень не знайдено"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:373
+msgid "Field address is empty."
+msgstr "Адреса поля порожня."
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:393
+msgid "The location has been updated"
+msgstr "Місцезнаходження оновлено"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:395
+msgid "The location has been created"
+msgstr "Місцезнаходження створено"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:527
+msgid "Edit Location"
+msgstr "Редагувати місцезнаходження"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:544
+msgid "Add New Location"
+msgstr "Додати нове місце"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:625
+msgid "Coordinates"
+msgstr "Координати"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:676
+#, php-format
+msgid "One location deleted"
+msgid_plural "%s locations deleted"
+msgstr[0] "%s місце видалено"
+msgstr[1] "%s локаціі видалено"
+msgstr[2] "%s локацій видалено"
+
+#: bws_booking/classes/admin/bws_bkng_locations_page.php:685
+msgid "Location updated"
+msgstr "Місцезнаходження оновлено"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:133
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:111
+msgid "order"
+msgstr "замовлення"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:134
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:112
+msgid "orders"
+msgstr "замовлення"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:158
+msgid "No orders found"
+msgstr "Замовлень не знайдено"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:172
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:94
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:139
+msgid "Order"
+msgstr "Замовлення"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:173
+#: bws_booking/classes/general/bws_bkng_data_loader.php:46
+msgid "Customer"
+msgstr "Клієнт"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:174
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:124
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:141
+msgid "Status"
+msgstr "Статус"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:175
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:182
+msgid "Customer Note"
+msgstr "Примітка клієнта"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:176
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:275
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:142
+#: bws_booking/classes/general/bws_bkng_order_table.php:181
+#: bws_booking/templates/order-details.php:91
+msgid "Total"
+msgstr "Всього"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:177
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:118
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:143
+#: bws_booking/classes/general/bws_bkng_data_loader.php:591
+#: bws_booking/classes/helpers/bws_bkng_helper.php:384
+msgid "Date"
+msgstr "Дата"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:350
+msgid "All dates"
+msgstr "Усі дати"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:360
+msgid "All Customers"
+msgstr "Всі Клієнти"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:364
+msgid "Filter"
+msgstr "Фільтр"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:417
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:329
+#: bws_booking/classes/general/bws_bkng_order.php:427
+#: bws_booking/classes/general/bws_bkng_order.php:710
+#: bws_booking/classes/general/bws_bkng_order.php:724
+#: bws_booking/classes/general/bws_bkng_order.php:803
+msgid "Oops, something went wrong"
+msgstr "Щось пішло не так"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:484
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:464
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:392
+#: bws_booking/tags/search.php:471
+msgid "Search"
+msgstr "Пошук"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:601
+#, php-format
+msgid "One order has been removed"
+msgid_plural "%s orders have been removed"
+msgstr[0] "%s замовлення видалено"
+msgstr[1] "%s замовлення видалено"
+msgstr[2] "%s замовлень видалено"
+
+#: bws_booking/classes/admin/bws_bkng_orders_page.php:651
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:520
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:456
+msgid "Cannot get the parent post"
+msgstr "Не вдається отримати батьківський пост"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:472
+msgid "Cannot create the variation"
+msgstr "Не вдається створити варіацію"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:563
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:569
+msgid "There were some errors during the copying of the product"
+msgstr "Під час копіювання продукту сталися помилки"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:566
+msgid "There were some errors during the removing of the product"
+msgstr "Під час вилучення продукту сталися помилки"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:582
+msgid "variation has been added successfully"
+msgstr "плагін успішно додано"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:585
+msgid "variation has been removed successfully"
+msgstr "плагін успішно видалено"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:588
+msgid "variation has been copied successfully"
+msgstr "плагін успішно скопійовано"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:625
+msgid "Preferences"
+msgstr "Преференції"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:635
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:35
+#: bws_booking/classes/helpers/bws_bkng_helper.php:503
+#: bws_booking/templates/single-agency.php:59
+msgid "Gallery"
+msgstr "Галерея"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:695
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:705
+msgid "Cannot get product's data"
+msgstr "Не вдається отримати дані про товар"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:775
+msgid "Add new variation"
+msgstr "Додайте новий варіант"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:815
+#: bws_booking/classes/admin/settings/bws_bkng_settings_cart.php:26
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:26
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:50
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:96
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:26
+msgid "General"
+msgstr "Загальні"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:844
+msgid "Please enable JavaScript to manage the data."
+msgstr "Будь ласка, увімкніть JavaScript для управління даними"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1059
+#: bws_booking/templates/lists/taxonomies.php:24
+msgid "Category"
+msgstr "Категорії"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1189
+msgid "Add New Interval"
+msgstr "Додати новий інтервал"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1196
+msgid "Winter Season"
+msgstr "Зимовий сезон"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1197
+msgid "Spring Season"
+msgstr "Весняний сезон"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1198
+msgid "Summer Season"
+msgstr "Літній сезон"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1199
+msgid "Autumn Season"
+msgstr "Осінній сезон"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1227
+msgid ""
+"Select products that will be offered as extras for the currently edited one."
+msgstr ""
+"Виберіть продукти, які будуть пропонуватися як додаткові послуги до "
+"редагованого на даний момент."
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1377
+msgid "Select location"
+msgstr "Виберіть місце"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1461
+msgid "the manage attribute page"
+msgstr "сторінку управління атрибутами"
+
+#: bws_booking/classes/admin/bws_bkng_post_metabox.php:1463
+msgid "The list is empty. To edit it, please go to"
+msgstr "Список порожній. Щоб редагувати його, перейдіть на"
+
+#: bws_booking/classes/admin/bws_bkng_products_tree.php:104
+#: bws_booking/classes/admin/bws_bkng_products_tree.php:374
+msgid "Loading"
+msgstr "Завантаження"
+
+#: bws_booking/classes/admin/bws_bkng_products_tree.php:107
+msgid "Oops, something went wrong. Check, please"
+msgstr "Щось пішло не так. Перевірте, будь ласка"
+
+#: bws_booking/classes/admin/bws_bkng_products_tree.php:560
+msgid "Saved"
+msgstr "Збережено"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:102
+msgid "Notice"
+msgstr "Повідомлення"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:102
+msgid "The order's data have been changed."
+msgstr "Дані замовлення змінено."
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:110
+#: bws_booking/classes/widgets/bws_bkng_pre_order_widget.php:30
+msgid "Order Details"
+msgstr "Деталі замовлення"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:115
+msgid "ID"
+msgstr "ID"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:132
+msgid "Customer Details"
+msgstr "Інформація про клієнта"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:147
+#: bws_booking/classes/general/bws_bkng_mailer.php:257
+#: bws_booking/templates/forms/checkout.php:44
+#: bws_booking/templates/order-details.php:127
+msgid "Email"
+msgstr "Email"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:157
+msgid "Additional Info"
+msgstr "Додаткова інформація"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:164
+#: bws_booking/classes/general/bws_bkng_mailer.php:479
+#: bws_booking/templates/order-details.php:43
+#: bws_booking/templates/pre-order.php:27
+msgid "Pick-up drop-off dates"
+msgstr "Дати вивезення"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:184
+msgid "There are no notes from the customer"
+msgstr "Зауважень від замовника немає"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:189
+msgid "Order Actions"
+msgstr "Замовити дії"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:194
+msgid "Re-send"
+msgstr "Повторно надіслати"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:214
+msgid "Submit"
+msgstr "Відправити"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:342
+msgid "Order re-sent successfully"
+msgstr "Замовлення повторно надіслано"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:345
+msgid "Order saved successfully"
+msgstr "Замовлення успішно збережено"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_page.php:348
+msgid "Order status saved successfully"
+msgstr "Статус замовлення успішно збережено"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:82
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:117
+msgid "product"
+msgstr "товар"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:83
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:118
+msgid "products"
+msgstr "товари"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:120
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:125
+msgid "No products found"
+msgstr "Не знайдено товарів"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:133
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:146
+#: bws_booking/classes/general/bws_bkng_order.php:912
+#: bws_booking/templates/order-details.php:33
+msgid "Product"
+msgstr "Товар"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:136
+#: bws_booking/classes/general/bws_bkng_order.php:926
+msgid "Summary"
+msgstr "Резюме"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:230
+#: bws_booking/templates/price.php:18
+msgid "Price on request"
+msgstr "Ціна за запитом"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:271
+#: bws_booking/classes/front-end/bws_bkng_cart.php:357
+#: bws_booking/classes/general/bws_bkng_order_table.php:175
+#: bws_booking/templates/order-details.php:89
+#: bws_booking/templates/pre-order.php:41
+msgid "Subtotal"
+msgstr "Проміжна сума"
+
+#: bws_booking/classes/admin/bws_bkng_single_order_products_list.php:278
+msgid "The price of some product was not shown to the user."
+msgstr "Ціна деякого товару не була показана користувачеві."
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:140
+msgid "Amount of Products"
+msgstr "Кількість товарів"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:203
+msgid "View"
+msgstr "Дивитись"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:368
+msgid "Quantity:"
+msgstr "Кількість:"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:371
+msgid "Price:"
+msgstr "Ціна:"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:393
+msgid "Total:"
+msgstr "Всього:"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:398
+msgid "Close"
+msgstr "Закрити"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_history.php:401
+msgid "Rent again"
+msgstr "Зняти знову"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_page.php:46
+msgid "History"
+msgstr "Історія"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_page.php:49
+msgid "Wishlist"
+msgstr "Список побажань"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:34
+msgid "Personal Info"
+msgstr "Особиста інформація"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:74
+msgid "Your new password does not match."
+msgstr "Ваш новий пароль не збігається."
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:77
+msgid "Invalid password."
+msgstr "Невірний пароль."
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:80
+msgid "Your password has been successfully changed. Please, reload the page."
+msgstr "Ваш пароль успішно змінено. Будь ласка, перезавантажте сторінку."
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:100
+msgid "Your Gallery"
+msgstr "Ваша галерея"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:118
+msgid "Your Personal Info"
+msgstr "Ваша особиста інформація"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:132
+msgid "Profile Picture"
+msgstr "Зображення профілю"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:154
+#, fuzzy
+#| msgid "Date of birth"
+msgid "Date of Birth"
+msgstr "Дата народження"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:162
+msgid "Billing Data"
+msgstr "Дані оплати"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_settings.php:172
+msgid "Change Password"
+msgstr "Змінити пароль"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:131
+msgid "No items in your wishlist"
+msgstr "Немає елементів у вашому списку побажань"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:223
+msgid "Rent"
+msgstr "Оренда"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:225
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:273
+msgid "Remove"
+msgstr "Видалити"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:256
+msgid "There is no attributes for this product"
+msgstr "Для цього товару немає атрибутів"
+
+#: bws_booking/classes/admin/profile/bws_bkng_profile_wishlist.php:437
+#, php-format
+msgid "One item has been removed from your wishlist"
+msgid_plural "%s items have been removed from your wishlist"
+msgstr[0] "%s елемент видалено зі списку побажань"
+msgstr[1] "%s елемента було видалено з вашого списку бажань"
+msgstr[2] "%s елементів було видалено з вашого списку бажань"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_agencies.php:26
+#: bws_booking/classes/admin/settings/bws_bkng_settings_agents.php:26
+#: bws_booking/classes/admin/settings/bws_bkng_settings_users.php:26
+msgid "Display"
+msgstr "Відображати"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_agencies.php:70
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_agencies.php:76
+msgid "Agencies Page"
+msgstr "Сторінки агентств"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_agencies.php:91
+msgid "Additional Fields"
+msgstr "Додаткові поля"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_agents.php:58
+msgid "Agents page"
+msgstr "Сторінка агентів"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_cart.php:60
+msgid "Cart page"
+msgstr "Сторінка кошика"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_cart.php:67
+msgid "days"
+msgstr "днів"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_cart.php:69
+msgid ""
+"The user's cart will be automatically erased after the end of goods shelf "
+"life in it"
+msgstr ""
+"Після закінчення терміну зберігання товарів кошик користувача буде "
+"автоматично очищено"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_cart.php:71
+msgid "Keep goods in the cart"
+msgstr "Тримайте товари в кошику"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:97
+msgid "Checkout Page"
+msgstr "Сторінка оформлення замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:102
+msgid "page"
+msgstr "сторінка"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:103
+msgid "Redirect after Placing an Order to"
+msgstr "Перенаправлення після розміщення замовлення на"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:111
+msgid "Only for registered users"
+msgstr "Тільки для зареєстрованих користувачів"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:112
+msgid "Available for anyone"
+msgstr "Доступно для всіх"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:113
+msgid "The customer can be registered during placing the order"
+msgstr "Клієнт може бути зареєстрований під час оформлення замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:113
+msgid ""
+"The registration will be enabled but not required. Also, please make sure "
+"that users registration is enabled on \"Dashboard\" -> \"Settings\" -> "
+"\"General\" page"
+msgstr ""
+"Реєстрацію буде ввімкнено, але не потрібно. Також переконайтеся, що "
+"реєстрацію користувачів увімкнено на сторінці \"Інформаційна панель\" -> "
+"\"Налаштування\" -> \"Загальне\""
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:124
+msgid "Placing Orders"
+msgstr "Розміщення замовлень"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:130
+msgid ""
+"To avoid the displaying of the \"Agree...\" checkbox, just leave this field "
+"empty"
+msgstr ""
+"Щоб уникнути відображення прапорця \"Погоджуюсь ...\", просто залиште це "
+"поле порожнім"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:156
+#: bws_booking/classes/front-end/bws_bkng_paypal.php:168
+msgid "PayPal does not support this currency."
+msgstr "PayPal не підтримує цю валюту."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:159
+msgid "Enable to add the PayPal payment feature."
+msgstr "Увімкніть, щоб додати функцію оплати PayPal."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:159
+msgid "Get the necessary API keys and enter them below. "
+msgstr "Отримайте необхідні API ключі і введіть їх нижче."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:159
+msgid "Get the API Keys"
+msgstr "Отримайте API ключі"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:169
+msgid "PayPal "
+msgstr "PayPal "
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:171
+msgid "Client ID of your PayPal App."
+msgstr "Ідентифікатор клієнта вашого додатку PayPal."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:179
+msgid "PayPal Client ID"
+msgstr "Ідентифікатор клієнта PayPal"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:181
+msgid "Secret of your PayPal App."
+msgstr "\"Секрет\" вашого додатку PayPal."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_checkout.php:189
+msgid "PayPal Secret"
+msgstr "\"Paypal\" secret"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:45
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:141
+msgid "Customer Notifications"
+msgstr "Повідомлення клієнтів"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:46
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:197
+msgid "Agent Notifications"
+msgstr "Повідомлення агента"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:51
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:57
+msgid "New Order"
+msgstr "Нове замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:51
+msgid ""
+"Enable to notify customers of their order being placed or marked as \"On Hold"
+"\""
+msgstr ""
+"Увімкнути сповіщення клієнтів про розміщення замовлення або позначення його "
+"як \"На утриманні\""
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:52
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:58
+msgid "Processed Order"
+msgstr "Оброблене замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:52
+msgid "Enable to notify customers of their order being processed"
+msgstr "Увімкнути сповіщення клієнтів про їх обробку замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:53
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:59
+msgid "Completed Order"
+msgstr "Виконане замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:53
+msgid "Enable to notify customers of their order being completed"
+msgstr "Увімкнути сповіщення клієнтів про те, що їх замовлення виконано"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:54
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:60
+msgid "Canceled Order"
+msgstr "Скасоване замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:54
+msgid "Enable to notify customers of their order being canceled"
+msgstr "Увімкнути сповіщення клієнтів про скасування їх замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:57
+msgid ""
+"Enable to notify agents of a new order being placed or marked as \"On Hold\""
+msgstr ""
+"Увімкнути сповіщення агентів про нове замовлення, розміщене або позначене як "
+"\"На утриманні\""
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:58
+msgid "Enable to notify agents of an order being marked as \"Processed\""
+msgstr "Увімкнути сповіщення агентів про замовлення, позначене як «Оброблене»"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:59
+msgid "Enable to notify agents of an order being marked as \"Completed\""
+msgstr "Увімкнути сповіщення агентів про замовлення, позначене як \"Виконане\""
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:60
+msgid "Enable to notify agents of order cancellation"
+msgstr "Увімкнути сповіщення агентів про скасування замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:157
+msgid ""
+"No users allowed to send notifications to clients. Please check the users' "
+"capabilities on your site."
+msgstr ""
+"Жоден користувач не має права надсилати сповіщення клієнтам. Будь ласка, "
+"перевірте можливості користувачів на вашому сайті."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:161
+msgid "Select the user on whose behalf customers will receive notifications"
+msgstr ""
+"Виберіть користувача, від імені якого клієнти будуть отримувати сповіщення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:171
+msgid "name"
+msgstr "ім'я"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:176
+msgid "email"
+msgstr "email"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:178
+msgid "Enter custom data for \"From\" field"
+msgstr "Введіть власні дані для поля \"Від\""
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:181
+msgid "Send from"
+msgstr "Надіслати від"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:206
+msgid ""
+"Enter additional comma-separated emails of users who will receive "
+"notifications"
+msgstr ""
+"Введіть додаткові електронні адреси, розділені комами користувачів, які "
+"отримуватимуть сповіщення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:223
+msgid "Choose the agent(s) that will receive service notifications"
+msgstr "Виберіть агента (агентів), який буде отримувати службові сповіщення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:228
+msgid "Send to"
+msgstr "Відправити"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:253
+msgid "Cannot get emails info"
+msgstr "Не вдається отримати інформацію про електронні листи"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_emails.php:269
+msgid "Enter subject"
+msgstr "Введіть тему"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:51
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:58
+msgid "Advanced"
+msgstr "Розширений"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:52
+msgid "Custom Code"
+msgstr "Спеціальний код"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:56
+msgid "Images"
+msgstr "Зображення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:57
+msgid "Slider"
+msgstr "Слайдер"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:59
+msgid "Misc"
+msgstr "Різне"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:60
+msgid "Import / Export"
+msgstr "Імпорт / Експорт"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:61
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:105
+msgid "Thousands and decimal separators can't be the same"
+msgstr "Тисячі та десяткові роздільники не можуть бути однаковими"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:110
+msgid "Thousands separator mustn't contain numbers"
+msgstr "Розділювач тисяч не повинен містити цифр"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:114
+msgid "Decimal separator  mustn't contain numbers"
+msgstr "Десятковий роздільник не повинен містити цифр"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:176
+msgid "Currency"
+msgstr "Валюта"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:184
+msgid "Before numerals"
+msgstr "Перед числівниками"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:190
+msgid "After numerals"
+msgstr "Після числівників"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:195
+msgid "Currency Position"
+msgstr "Валютна позиція"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:209
+msgid "Basic price"
+msgstr "Базова ціна"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:215
+msgid "Seasons price"
+msgstr "Сезона ціна"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:220
+msgid "Price Type"
+msgstr "Тип ціни"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:232
+msgid "Thousands Separator"
+msgstr "Тисячний роздільник"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:244
+msgid "Decimal Separator"
+msgstr "Десятковий роздільник"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:256
+msgid "Number of Decimal Places"
+msgstr "Кількість десяткових місць"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:285
+msgid "Install Now"
+msgstr "Встановити"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:292
+msgid "Activate"
+msgstr "Активувати"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:297
+#, php-format
+msgid "Enable to use %s with %s"
+msgstr "Увімкнути використання % s з % s"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:303
+#, php-format
+msgid "Your %s plugin is outdated. Update it to the latest version"
+msgstr "Ваш плагін %s застарів. Оновіть його до останньої версії"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:321
+msgid "Images Settings"
+msgstr "Налаштування зображень"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:327
+msgid "Catalog Images Size"
+msgstr "Розмір зображень каталогу"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:328
+msgid "Gallery Images Size"
+msgstr "Розмір зображень галереї"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:355
+msgid ""
+"Enable to crop images when loading. Disable to resize images automatically "
+"using their aspect ratio."
+msgstr ""
+"Увімкнути обрізання зображень під час завантаження. Вимкніть автоматичне "
+"зменшення розміру зображень із використанням їх пропорції."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:356
+msgid "Crop Images"
+msgstr "Обрізати зображення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:375
+msgid "Select the base crop position (the default is center)."
+msgstr "Виберіть базове положення обрізання (за замовчуванням - центр)."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:376
+msgid "Crop position"
+msgstr "Позиція обрізання"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:386
+msgid "Enable Lightbox"
+msgstr "Увімкнути лайтбокс"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:399
+msgid "Slider Settings"
+msgstr "Налаштування слайдера"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:410
+msgid "Enable Slider for Home Page"
+msgstr "Увімкніть повзунок для домашньої сторінки"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:417
+#: bws_booking/classes/general/bws_bkng_related_plugins.php:280
+msgid "No"
+msgstr "Немає"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:418
+#: bws_booking/classes/general/bws_bkng_related_plugins.php:281
+msgid "Centered"
+msgstr "По центру"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:419
+#: bws_booking/classes/general/bws_bkng_related_plugins.php:282
+msgid "Align Left"
+msgstr "Вирівняти за лівим краєм"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:420
+#: bws_booking/classes/general/bws_bkng_related_plugins.php:283
+msgid "Align Right"
+msgstr "Вирівняти за правим краєм"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:425
+msgid "Add Search Form"
+msgstr "Додайте форму пошуку"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:447
+msgid "Post Type in Slider"
+msgstr "Тип публікації в повзунку"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:460
+msgid "Advanced Settings"
+msgstr "Розширені налаштування"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:463
+msgid "Google Map Options"
+msgstr "Параметри карти Google"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:472
+msgid "Key"
+msgstr "Ключ"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:479
+msgid "Auto (using WordPress locale)"
+msgstr "Автоматично (з використанням мови WordPress)"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:496
+msgid "Language"
+msgstr "Мова"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:506
+#, php-format
+msgid ""
+"For more info see %s. To allow automatic region detection, just leave it "
+"empty"
+msgstr ""
+"Для отримання додаткової інформації див. %s. Щоб дозволити автоматичне "
+"виявлення регіону, просто залиште його порожнім"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:509
+msgid "Region localization"
+msgstr "Локалізація регіону"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:516
+msgid "Region Identifier"
+msgstr "Ідентифікатор регіону"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:534
+msgid "Default Address"
+msgstr "Адреса за замовчуванням"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:567
+msgid "Default Coordinates"
+msgstr "Координати за замовчуванням"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:571
+msgid "Remove all products"
+msgstr "Видаліть усі продукти"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:572
+msgid "Remove all attributes"
+msgstr "Видаліть усі атрибути"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:573
+msgid "Remove all orders"
+msgstr "Видаліть усі замовлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_general.php:582
+msgid "Uninstall Settings"
+msgstr "Видаліть Налаштування"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:84
+msgid "Products"
+msgstr "Товари"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:110
+#: bws_booking/data/default_general_settings.php:119
+msgid "Cart"
+msgstr "Кошик"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:123
+msgid "Notifications"
+msgstr "Повідомлення"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:174
+msgid "New products status has been added successfully"
+msgstr "Статус нових продуктів успішно додано"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:236
+msgid ""
+"Ability to manage the plugin settings is not available any more. Please "
+"upgrade the plugin core and re-create all your products"
+msgstr ""
+"Можливість керувати налаштуваннями плагіна більше не доступна. Будь ласка, "
+"оновіть ядро плагіна та заново створіть усі свої продукти"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:238
+msgid "Update the plugin core"
+msgstr "Оновіть ядро плагіна"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:280
+msgid "Select new status for products that are marked as"
+msgstr "Виберіть новий статус для продуктів, позначених як"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:285
+msgid "New products will be created that you can manage the way you want"
+msgstr ""
+"Будуть створені нові продукти, якими ви зможете керувати так, як хочете"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:290
+msgid "Demo data will be completely removed from your site"
+msgstr "Демонстраційні дані будуть повністю видалені з вашого сайту"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:321
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:368
+msgid "Status has been removed successfully"
+msgstr "Статус успішно видалено"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:371
+msgid "Demo data successfully installed"
+msgstr "Демо дані успішно встановлені"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_page.php:374
+msgid "Demo data deleted successfully"
+msgstr "Демо дані успішно видалені"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:112
+msgid "Enable Variations"
+msgstr "Увімкнути варіації"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:119
+msgid "Add to the search filters"
+msgstr "Додати до фільтрів пошуку"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:124
+msgid "Statuses"
+msgstr "Статус"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:128
+msgid "Label"
+msgstr "Мітка"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:154
+msgid "Remove Status"
+msgstr "Видалити статус"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:163
+msgid "Enter the new status slug"
+msgstr "Введіть новий статус slug"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:167
+msgid "Enter the new status label"
+msgstr "Введіть нову мітку стану"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:173
+msgid "Save Status"
+msgstr "Зберегти статус"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:187
+msgid "Page"
+msgstr "Сторінка"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:198
+#, php-format
+msgid "Sort %s by"
+msgstr "Сортувати %s за"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:201
+msgid "Ascending (e.g., 1, 2, 3; a, b, c)"
+msgstr "Зростаючі (наприклад, 1, 2, 3; a, b, c)"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:202
+msgid "Descending (e.g., 3, 2, 1; c, b, a)"
+msgstr "За спаданням (наприклад, 3, 2, 1; c, b, a)"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_products.php:210
+#, php-format
+msgid "Sort %s"
+msgstr "Сортувати %s"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_tabs.php:105
+msgid "Settings saved"
+msgstr "Налаштування збережені"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_tabs.php:138
+msgid "Demo Data"
+msgstr "Демо Дані"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_tabs.php:142
+msgid "Remove Demo Data"
+msgstr "Видалити Демо Дані"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_tabs.php:143
+msgid ""
+"Not recommended in case you have changed and use demo data (products, "
+"attributes, etc.)."
+msgstr ""
+"Не рекомендується, якщо ви змінили та використовуєте демонстраційні дані "
+"(продукти, атрибути тощо)."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_tabs.php:146
+msgid "Install Demo Data"
+msgstr "Встановити Демо Дані"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_tabs.php:147
+msgid ""
+"Install demo data to add demo products and demo extras with images, details, "
+"manufacturers, body types, and others."
+msgstr ""
+"Встановіть демонстраційні дані, щоб додати демонстраційні продукти та "
+"демонстраційні додатки із зображеннями, деталями, виробниками, типами "
+"кузовів та іншими."
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_users.php:65
+msgid "Display Settings"
+msgstr "Налаштування"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_users.php:71
+msgid "User Account Page"
+msgstr "Сторінка користувача"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_users.php:81
+msgid "Enable registration"
+msgstr "Увімкнути реєстрацію"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_users.php:84
+msgid "Account Endpoints"
+msgstr "Кінцеві точки облікового запису"
+
+#: bws_booking/classes/admin/settings/bws_bkng_settings_users.php:84
+msgid ""
+"Postfixes to links used on user accounts pages to perform certain actions. "
+"They must be unique and not contain spaces or other characters that are not "
+"allowed for use in the links."
+msgstr ""
+"Постфікси до посилань, що використовуються на сторінках облікових записів "
+"користувачів для виконання певних дій. Вони повинні бути унікальними та не "
+"містити пробілів та інших символів, які заборонені для використання у "
+"посиланнях."
+
+#: bws_booking/classes/front-end/bws_bkng_cart.php:202
+msgid "Not enough data to add product(-s) to the cart"
+msgstr "Недостатньо даних, щоб додати товар (и) до кошика"
+
+#: bws_booking/classes/front-end/bws_bkng_cart.php:205
+msgid "The product is already in the cart"
+msgid_plural "Products are already in the cart"
+msgstr[0] "Товар вже в кошику"
+msgstr[1] "Товари вже в кошику"
+msgstr[2] "Товарів вже в кошику"
+
+#: bws_booking/classes/front-end/bws_bkng_cart.php:353
+msgid "Pick-Up Date"
+msgstr "Дата прийому"
+
+#: bws_booking/classes/front-end/bws_bkng_cart.php:354
+msgid "Drop-Off Date"
+msgstr "Дата висадки"
+
+#: bws_booking/classes/front-end/bws_bkng_cart.php:358
+msgid "Cost"
+msgstr "Вартість"
+
+#: bws_booking/classes/front-end/bws_bkng_cart.php:443
+#: bws_booking/classes/general/bws_bkng_ajax.php:299
+msgid "Cannot add extras to the cart"
+msgstr "Не вдається додати до кошика додаткові послуги"
+
+#: bws_booking/classes/front-end/bws_bkng_content_filter.php:175
+msgid "Product ordering is available only for registered users"
+msgstr "Замовлення товарів доступне лише для зареєстрованих користувачів"
+
+#: bws_booking/classes/front-end/bws_bkng_front.php:371
+msgid "Please set correct date range"
+msgstr "Будь ласка, встановіть правильний діапазон дат"
+
+#: bws_booking/classes/front-end/bws_bkng_front.php:372
+msgid "You can't select a past date"
+msgstr "Ви не можете вибрати минулу дату"
+
+#: bws_booking/classes/front-end/bws_bkng_front.php:373
+msgid "Please select the category"
+msgstr "Виберіть категорію"
+
+#: bws_booking/classes/front-end/bws_bkng_front.php:374
+msgid "Please enter a destination to start searching"
+msgstr "Введіть пункт призначення, щоб розпочати пошук"
+
+#: bws_booking/classes/front-end/bws_bkng_front.php:375
+msgid "Please choose some extras"
+msgstr "Будь ласка, оберіть деякі додаткові послуги"
+
+#: bws_booking/classes/front-end/bws_bkng_paypal.php:46
+msgid "Payment successfully completed"
+msgstr "Оплата успішно виконана"
+
+#: bws_booking/classes/front-end/bws_bkng_paypal.php:47
+msgid "You have not entered the required data"
+msgstr "Ви не ввели необхідні дані"
+
+#: bws_booking/classes/front-end/bws_bkng_paypal.php:136
+msgid "Not paid"
+msgstr "Не оплачено"
+
+#: bws_booking/classes/front-end/bws_bkng_paypal.php:172
+msgid ""
+"For the payment system to work correctly, you need to introduce correct "
+"Client ID and Secret."
+msgstr ""
+"Щоб платіжна система працювала коректно, потрібно ввести правильний "
+"ідентифікатор клієнта та секрет."
+
+#: bws_booking/classes/general/bws_bkng.php:343
+msgid "The period of keeping products in the cart"
+msgstr "Період зберігання продуктів у кошику"
+
+#: bws_booking/classes/general/bws_bkng.php:481
+msgid "Cannot find the address on the map"
+msgstr "Не вдається знайти адресу на карті"
+
+#: bws_booking/classes/general/bws_bkng_ajax.php:85
+msgid "Please enter the valid term slug"
+msgstr "Будь ласка, введіть дійсний термін slug"
+
+#: bws_booking/classes/general/bws_bkng_ajax.php:99
+msgid "There are some errors occurred. Cannot get the attribute data"
+msgstr "Сталися деякі помилки. Не вдається отримати дані атрибута"
+
+#: bws_booking/classes/general/bws_bkng_ajax.php:237
+#: bws_booking/tags/general.php:215
+msgid "Add to Wishlist"
+msgstr "Додати до списку побажань"
+
+#: bws_booking/classes/general/bws_bkng_ajax.php:240
+#: bws_booking/tags/general.php:213
+msgid "Remove from Wishlist"
+msgstr "Вилучити зі списку побажань"
+
+#: bws_booking/classes/general/bws_bkng_ajax.php:275
+msgid "View more"
+msgstr "Детальніше"
+
+#: bws_booking/classes/general/bws_bkng_ajax.php:343
+#, php-format
+msgid "One product is added to the cart"
+msgid_plural "%s products are added to the cart"
+msgstr[0] "До кошика додається %s товар"
+msgstr[1] "%s товари додано в кошик"
+msgstr[2] "%s товарів додано в кошик"
+
+#: bws_booking/classes/general/bws_bkng_ajax.php:484
+msgid "Image could not be processed. Please go back and try again."
+msgstr "Не вдалось обробити зображення. Поверніться і спробуйте ще раз."
+
+#: bws_booking/classes/general/bws_bkng_data_loader.php:55
+msgid "Agent"
+msgstr "Агент"
+
+#: bws_booking/classes/general/bws_bkng_data_loader.php:586
+msgid "Text field"
+msgstr "Текстове поле"
+
+#: bws_booking/classes/general/bws_bkng_data_loader.php:587
+msgid "Textarea"
+msgstr "Textarea"
+
+#: bws_booking/classes/general/bws_bkng_data_loader.php:588
+#: bws_booking/classes/helpers/bws_bkng_helper.php:274
+msgid "Checkbox"
+msgstr "Прапорець"
+
+#: bws_booking/classes/general/bws_bkng_data_loader.php:589
+msgid "Radio button"
+msgstr "Радіо-кнопка"
+
+#: bws_booking/classes/general/bws_bkng_data_loader.php:590
+msgid "Drop down list"
+msgstr "Випадаючий список"
+
+#: bws_booking/classes/general/bws_bkng_data_loader.php:592
+msgid "Time"
+msgstr "Час"
+
+#: bws_booking/classes/general/bws_bkng_data_loader.php:593
+msgid "Datetime"
+msgstr "Дата, час"
+
+#: bws_booking/classes/general/bws_bkng_data_loader.php:594
+#: bws_booking/classes/helpers/bws_bkng_helper.php:271
+msgid "Number"
+msgstr "Нумер"
+
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:130
+msgid "Delete media"
+msgstr "Видалити"
+
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:140
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:230
+msgid "Set featured image"
+msgstr "Встановити обране зображення"
+
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:140
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:231
+msgid "Update featured image"
+msgstr "Оновити обране зображення"
+
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:141
+msgid "Select featured image"
+msgstr "Виберіть обране зображення"
+
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:142
+#: bws_booking/classes/helpers/bws_bkng_helper.php:272
+msgid "Select"
+msgstr "Виберіть"
+
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:144
+msgid "Add images"
+msgstr "Додайте зображення"
+
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:145
+msgid "Select images"
+msgstr "Виберіть зображення"
+
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:146
+msgid "Insert"
+msgstr "Вставити"
+
+#: bws_booking/classes/general/bws_bkng_image_gallery.php:157
+msgid "Please enable JavaScript to manage images"
+msgstr "Будь ласка, увімкніть JavaScript для управління зображеннями"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:61
+msgid "Adds the site title"
+msgstr "Додає заголовок сайту"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:65
+msgid "Adds the order ID"
+msgstr "Додає ідентифікатор замовлення"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:69
+msgid "Adds the order creation date"
+msgstr "Додає дату створення замовлення"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:73
+msgid "Adds the ordered products rent interval"
+msgstr "Додає інтервал оренди замовленої продукції"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:77
+msgid "Adds the list of ordered products data with the price summaries"
+msgstr "Додає перелік даних замовлених товарів із підсумками цін"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:81
+msgid "Adds customer data entered during placing the order"
+msgstr "Додає дані клієнта, введені під час оформлення замовлення"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:85
+msgid "Adds customer's full name entered during placing the order"
+msgstr "Додає повне ім’я клієнта, введене під час оформлення замовлення"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:89
+msgid "Adds the order status"
+msgstr "Додає статус замовлення"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:254
+#: bws_booking/classes/general/bws_bkng_user.php:315
+#: bws_booking/templates/forms/checkout.php:27
+#: bws_booking/templates/order-details.php:110
+msgid "First Name"
+msgstr "Ім'я"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:255
+#: bws_booking/classes/general/bws_bkng_user.php:319
+#: bws_booking/templates/forms/checkout.php:32
+#: bws_booking/templates/order-details.php:115
+msgid "Last Name"
+msgstr "Прізвище"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:258
+#: bws_booking/templates/order-details.php:132
+msgid "Message"
+msgstr "Повідомлення"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:320
+msgid "Can't get order data"
+msgstr "Не вдається отримати дані замовлення"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:323
+msgid "Can't get email recipient data"
+msgstr "Не вдається отримати дані одержувача електронної пошти"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:326
+msgid "Can't get email data"
+msgstr "Не вдається отримати дані електронної пошти"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:477
+msgid "Order number"
+msgstr "Номер замовлення"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:478
+msgid "Order status"
+msgstr "Статус замовлення"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:480
+msgid "Ordered products"
+msgstr "Замовлена продукція"
+
+#: bws_booking/classes/general/bws_bkng_mailer.php:482
+msgid "Billing details"
+msgstr "Платіжні реквізити"
+
+#: bws_booking/classes/general/bws_bkng_order.php:157
+msgid "product removed"
+msgstr "продукт видалено"
+
+#: bws_booking/classes/general/bws_bkng_order.php:612
+msgid "Please fill in all required fields"
+msgstr "Будь ласка, заповніть всі обов'язкові поля"
+
+#: bws_booking/classes/general/bws_bkng_order.php:615
+msgid "Please enter the correct phone number"
+msgstr "Введіть правильний номер телефону"
+
+#: bws_booking/classes/general/bws_bkng_order.php:618
+msgid "Please enter the correct email"
+msgstr "Введіть правильну електронну адресу"
+
+#: bws_booking/classes/general/bws_bkng_order.php:621
+msgid "Emails don't match. Please check"
+msgstr "Електронні адреси не збігаються. Будь ласка, перевірте"
+
+#: bws_booking/classes/general/bws_bkng_order.php:624
+msgid "Please accept Terms and Conditions"
+msgstr "Прийміть Загальні положення та умови"
+
+#: bws_booking/classes/general/bws_bkng_order.php:627
+msgid "Cannot place order. Please try again later"
+msgstr "Неможливо зробити замовлення. Будь-ласка спробуйте пізніше"
+
+#: bws_booking/classes/general/bws_bkng_order.php:630
+msgid ""
+"It seems that there is nothing to order. Please choose a product to make an "
+"order"
+msgstr ""
+"Здається, замовляти нема чого. Будь ласка, виберіть товар, щоб зробити "
+"замовлення"
+
+#: bws_booking/classes/general/bws_bkng_order.php:634
+#, php-format
+msgid "User with such email is already registered. Would you like to %s"
+msgstr "Користувач з такою електронною поштою вже зареєстрований. Хочете %s"
+
+#: bws_booking/classes/general/bws_bkng_order.php:635
+msgid "login"
+msgstr "логін"
+
+#: bws_booking/classes/general/bws_bkng_order.php:639
+msgid "Cannot register new user. Please try again later"
+msgstr ""
+"Не вдається зареєструвати нового користувача. Будь-ласка спробуйте пізніше"
+
+#: bws_booking/classes/general/bws_bkng_order.php:642
+msgid "Cannot authenticate user"
+msgstr "Не вдається автентифікувати користувача"
+
+#: bws_booking/classes/general/bws_bkng_order.php:645
+msgid "Cannot update order data"
+msgstr "Не вдається оновити дані замовлення"
+
+#: bws_booking/classes/general/bws_bkng_order.php:648
+msgid "Cannot update products list"
+msgstr "Не вдається оновити список продуктів"
+
+#: bws_booking/classes/general/bws_bkng_related_plugins.php:256
+#, php-format
+msgid "%s is outdated. Update it to the latest version"
+msgstr "%s застарілий. Оновіть його до останньої версії"
+
+#: bws_booking/classes/general/bws_bkng_related_plugins.php:266
+msgid "Enable Slider for"
+msgstr "Увімкнути повзунок для"
+
+#: bws_booking/classes/general/bws_bkng_related_plugins.php:277
+msgid "Add Product Search Form"
+msgstr "Додайте форму пошуку товару"
+
+#: bws_booking/classes/general/bws_bkng_user.php:302
+msgid "Columns"
+msgstr "Стовпці"
+
+#: bws_booking/classes/general/bws_bkng_user.php:309
+msgid ""
+"The amount of columns that will be displayed in gallery on Your profile page"
+msgstr ""
+"Кількість стовпців, яка буде відображатися в галереї на сторінці вашого "
+"профілю"
+
+#: bws_booking/classes/general/bws_bkng_user.php:323
+#: bws_booking/classes/general/bws_bkng_user.php:361
+msgid "Nickname"
+msgstr "Прізвисько"
+
+#: bws_booking/classes/general/bws_bkng_user.php:334
+msgid "About Me"
+msgstr "Про мене"
+
+#: bws_booking/classes/general/bws_bkng_user.php:341
+msgid "Current Password"
+msgstr "Поточний пароль"
+
+#: bws_booking/classes/general/bws_bkng_user.php:347
+msgid "New Password"
+msgstr "Новий Пароль"
+
+#: bws_booking/classes/general/bws_bkng_user.php:353
+msgid "Confirm New Password"
+msgstr "Підтвердити новий пароль"
+
+#: bws_booking/classes/general/bws_bkng_user.php:368
+#: bws_booking/classes/general/bws_bkng_user.php:435
+msgid "Month"
+msgstr "Місяць"
+
+#: bws_booking/classes/general/bws_bkng_user.php:374
+msgid "Day"
+msgstr "День"
+
+#: bws_booking/classes/general/bws_bkng_user.php:380
+#: bws_booking/classes/general/bws_bkng_user.php:441
+msgid "Year"
+msgstr "Рік"
+
+#: bws_booking/classes/general/bws_bkng_user.php:386
+msgid "Visibility"
+msgstr "Видимість"
+
+#: bws_booking/classes/general/bws_bkng_user.php:388
+#, fuzzy
+#| msgid "Do not show the date of birth to other users"
+msgid "Do not show the date of birth to other users."
+msgstr "Не показувати дату народження іншим користувачам"
+
+#: bws_booking/classes/general/bws_bkng_user.php:401
+msgid "Postal Code"
+msgstr "Поштовий індекс"
+
+#: bws_booking/classes/general/bws_bkng_user.php:406
+msgid "Billing Address"
+msgstr "Адреса виставлення рахунку"
+
+#: bws_booking/classes/general/bws_bkng_user.php:411
+msgid "Billing Address 2"
+msgstr "Адреса виставлення рахунку 2"
+
+#: bws_booking/classes/general/bws_bkng_user.php:418
+msgid "Card Number"
+msgstr "Номер картки"
+
+#: bws_booking/classes/general/bws_bkng_user.php:420
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore"
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore"
+
+#: bws_booking/classes/general/bws_bkng_user.php:429
+msgid "Country"
+msgstr "Країна"
+
+#: bws_booking/classes/general/bws_bkng_user.php:447
+msgid "CCV"
+msgstr "CCV"
+
+#: bws_booking/classes/general/bws_bkng_user.php:531
+msgid "Select image"
+msgstr "Виберіть зображення"
+
+#: bws_booking/classes/general/bws_bkng_user.php:532
+msgid "Select and Crop"
+msgstr "Виберіть і обріжте"
+
+#: bws_booking/classes/general/bws_bkng_user.php:533
+msgid "Set Image"
+msgstr "Встановити зображення"
+
+#: bws_booking/classes/general/bws_bkng_user.php:549
+msgid "Remove Image"
+msgstr "Видалити зображення"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:247
+msgid "On hold"
+msgstr "На утриманні"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:248
+msgid "Processed"
+msgstr "Оброблено"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:249
+msgid "Completed"
+msgstr "Завершено"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:250
+msgid "Canceled"
+msgstr "Скасовано"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:266
+msgid "Drop Down List"
+msgstr "Випадаючий список"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:267
+msgid "List with Checkboxes"
+msgstr "Список із прапорцями"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:268
+msgid "List with Radioboxes"
+msgstr "Список з радіобоксами"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:269
+msgid "List of Locations"
+msgstr "Список місць"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:270
+msgid "Single Location"
+msgstr "Одномісне розташування"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:273
+msgid "Text"
+msgstr "Текст"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:310
+msgid "sun"
+msgstr "нд"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:311
+msgid "mon"
+msgstr "пн"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:312
+msgid "tue"
+msgstr "вт"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:313
+msgid "wed"
+msgstr "ср"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:314
+msgid "thu"
+msgstr "чт"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:315
+msgid "fri"
+msgstr "пт"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:316
+msgid "sat"
+msgstr "сб"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:320
+msgid "Sunday"
+msgstr "Неділя"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:321
+msgid "Monday"
+msgstr "Понеділок"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:322
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:323
+msgid "Wednesday"
+msgstr "Середа"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:324
+msgid "Thursday"
+msgstr "Четвер"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:325
+msgid "Friday"
+msgstr "П’ятниця"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:326
+msgid "Saturday"
+msgstr "Субота"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:343
+msgid "none"
+msgstr "жоден"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:344
+msgid "hour"
+msgstr "год"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:345
+msgid "day"
+msgstr "день"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:346
+msgid "night"
+msgstr "ніч"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:347
+msgid "week"
+msgstr "тиждень"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:348
+msgid "month"
+msgstr "місяць"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:349
+msgid "year"
+msgstr "рік"
+
+#: bws_booking/classes/helpers/bws_bkng_helper.php:501
+msgid "Working Hours"
+msgstr "Робочі години"
+
+#: bws_booking/classes/helpers/bws_bkng_html_helper.php:36
+#: bws_booking/tags/categories.php:71
+msgid "No image"
+msgstr "Немає зображення"
+
+#: bws_booking/classes/helpers/bws_bkng_html_helper.php:437
+msgid "More details"
+msgstr "Детальніше"
+
+#: bws_booking/classes/widgets/bws_bkng_search_filter_widget.php:30
+msgid "Search Filter"
+msgstr "Фільтр пошуку"
+
+#: bws_booking/data/currencies.php:12
+msgid "Albania Lek"
+msgstr ""
+
+#: bws_booking/data/currencies.php:13
+msgid "Afghanistan Afghani"
+msgstr ""
+
+#: bws_booking/data/currencies.php:14
+msgid "Argentina Peso"
+msgstr ""
+
+#: bws_booking/data/currencies.php:15
+msgid "Aruba Guilder"
+msgstr ""
+
+#: bws_booking/data/currencies.php:16
+msgid "Australia Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:17
+msgid "Azerbaijan New Manat"
+msgstr ""
+
+#: bws_booking/data/currencies.php:18
+msgid "Bahamas Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:19
+msgid "Barbados Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:20
+msgid "Belarus Ruble"
+msgstr ""
+
+#: bws_booking/data/currencies.php:21
+msgid "Belize Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:22
+msgid "Bermuda Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:23
+msgid "Bolivia Boliviano"
+msgstr ""
+
+#: bws_booking/data/currencies.php:24
+msgid "Bosnia and Herzegovina Convertible Mark"
+msgstr ""
+
+#: bws_booking/data/currencies.php:25
+msgid "Botswana Pula"
+msgstr ""
+
+#: bws_booking/data/currencies.php:26
+msgid "Bulgaria Lev"
+msgstr ""
+
+#: bws_booking/data/currencies.php:27
+msgid "Brazil Real"
+msgstr ""
+
+#: bws_booking/data/currencies.php:28
+msgid "Brunei Darussalam Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:29
+msgid "Cambodia Riel"
+msgstr ""
+
+#: bws_booking/data/currencies.php:30
+msgid "Canada Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:31
+msgid "Cayman Islands Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:32
+msgid "Chile Peso"
+msgstr ""
+
+#: bws_booking/data/currencies.php:33
+msgid "China Yuan Renminbi"
+msgstr ""
+
+#: bws_booking/data/currencies.php:34
+msgid "Colombia Peso"
+msgstr ""
+
+#: bws_booking/data/currencies.php:35
+msgid "Costa Rica Colon"
+msgstr ""
+
+#: bws_booking/data/currencies.php:36
+msgid "Croatia Kuna"
+msgstr ""
+
+#: bws_booking/data/currencies.php:37
+msgid "Cuba Peso"
+msgstr ""
+
+#: bws_booking/data/currencies.php:38
+msgid "Czech Republic Koruna"
+msgstr ""
+
+#: bws_booking/data/currencies.php:39
+msgid "Denmark Krone"
+msgstr ""
+
+#: bws_booking/data/currencies.php:40
+msgid "Dominican Republic Peso"
+msgstr ""
+
+#: bws_booking/data/currencies.php:41
+msgid "East Caribbean Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:42
+msgid "Egypt Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:43
+msgid "El Salvador Colon"
+msgstr ""
+
+#: bws_booking/data/currencies.php:44
+msgid "Estonia Kroon"
+msgstr ""
+
+#: bws_booking/data/currencies.php:45
+msgid "European Union Euro"
+msgstr ""
+
+#: bws_booking/data/currencies.php:46
+msgid "Falkland Islands (Malvinas) Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:47
+msgid "Fiji Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:48
+msgid "Ghana Cedi"
+msgstr ""
+
+#: bws_booking/data/currencies.php:49
+msgid "Gibraltar Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:50
+msgid "Guatemala Quetzal"
+msgstr ""
+
+#: bws_booking/data/currencies.php:51
+msgid "Guernsey Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:52
+msgid "Guyana Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:53
+msgid "Honduras Lempira"
+msgstr ""
+
+#: bws_booking/data/currencies.php:54
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:55
+msgid "Hungary Forint"
+msgstr ""
+
+#: bws_booking/data/currencies.php:56
+msgid "Iceland Krona"
+msgstr ""
+
+#: bws_booking/data/currencies.php:57
+msgid "India Rupee"
+msgstr ""
+
+#: bws_booking/data/currencies.php:58
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: bws_booking/data/currencies.php:59
+msgid "Iran Rial"
+msgstr ""
+
+#: bws_booking/data/currencies.php:60
+msgid "Isle of Man Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:61
+msgid "Israel Shekel"
+msgstr ""
+
+#: bws_booking/data/currencies.php:62
+msgid "Jamaica Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:63
+msgid "Japan Yen"
+msgstr ""
+
+#: bws_booking/data/currencies.php:64
+msgid "Jersey Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:65
+msgid "Kazakhstan Tenge"
+msgstr ""
+
+#: bws_booking/data/currencies.php:66 bws_booking/data/currencies.php:86
+msgid "Korea (North) Won"
+msgstr ""
+
+#: bws_booking/data/currencies.php:67 bws_booking/data/currencies.php:106
+msgid "Korea (South) Won"
+msgstr ""
+
+#: bws_booking/data/currencies.php:68
+msgid "Kyrgyzstan Som"
+msgstr ""
+
+#: bws_booking/data/currencies.php:69
+msgid "Laos Kip"
+msgstr ""
+
+#: bws_booking/data/currencies.php:70
+msgid "Latvia Lat"
+msgstr ""
+
+#: bws_booking/data/currencies.php:71
+msgid "Lebanon Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:72
+msgid "Liberia Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:73
+msgid "Lithuania Litas"
+msgstr ""
+
+#: bws_booking/data/currencies.php:74
+msgid "Macedonia Denar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:75
+msgid "Malaysia Ringgit"
+msgstr ""
+
+#: bws_booking/data/currencies.php:76
+msgid "Mauritius Rupee"
+msgstr ""
+
+#: bws_booking/data/currencies.php:77
+msgid "Mexico Peso"
+msgstr ""
+
+#: bws_booking/data/currencies.php:78
+msgid "Mongolia Tughrik"
+msgstr ""
+
+#: bws_booking/data/currencies.php:79
+msgid "Mozambique Metical"
+msgstr ""
+
+#: bws_booking/data/currencies.php:80
+msgid "Namibia Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:81
+msgid "Nepal Rupee"
+msgstr ""
+
+#: bws_booking/data/currencies.php:82
+msgid "Netherlands Guilder"
+msgstr ""
+
+#: bws_booking/data/currencies.php:83
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:84
+msgid "Nicaragua Cordoba"
+msgstr ""
+
+#: bws_booking/data/currencies.php:85
+msgid "Nigeria Naira"
+msgstr ""
+
+#: bws_booking/data/currencies.php:87
+msgid "Norway Krone"
+msgstr ""
+
+#: bws_booking/data/currencies.php:88
+msgid "Oman Rial"
+msgstr ""
+
+#: bws_booking/data/currencies.php:89
+msgid "Pakistan Rupee"
+msgstr ""
+
+#: bws_booking/data/currencies.php:90
+msgid "Panama Balboa"
+msgstr ""
+
+#: bws_booking/data/currencies.php:91
+msgid "Paraguay Guarani"
+msgstr ""
+
+#: bws_booking/data/currencies.php:92
+msgid "Peru Nuevo Sol"
+msgstr ""
+
+#: bws_booking/data/currencies.php:93
+msgid "Philippines Peso"
+msgstr ""
+
+#: bws_booking/data/currencies.php:94
+msgid "Poland Zloty"
+msgstr ""
+
+#: bws_booking/data/currencies.php:95
+msgid "Qatar Riyal"
+msgstr ""
+
+#: bws_booking/data/currencies.php:96
+msgid "Romania New Leu"
+msgstr ""
+
+#: bws_booking/data/currencies.php:97
+msgid "Russia Ruble"
+msgstr ""
+
+#: bws_booking/data/currencies.php:98
+msgid "Saint Helena Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:99
+msgid "Saudi Arabia Riyal"
+msgstr ""
+
+#: bws_booking/data/currencies.php:100
+msgid "Serbia Dinar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:101
+msgid "Seychelles Rupee"
+msgstr ""
+
+#: bws_booking/data/currencies.php:102
+msgid "Singapore Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:103
+msgid "Solomon Islands Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:104
+msgid "Somalia Shilling"
+msgstr ""
+
+#: bws_booking/data/currencies.php:105
+msgid "South Africa Rand"
+msgstr ""
+
+#: bws_booking/data/currencies.php:107
+msgid "Sri Lanka Rupee"
+msgstr ""
+
+#: bws_booking/data/currencies.php:108
+msgid "Sweden Krona"
+msgstr ""
+
+#: bws_booking/data/currencies.php:109
+msgid "Switzerland Franc"
+msgstr ""
+
+#: bws_booking/data/currencies.php:110
+msgid "Suriname Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:111
+msgid "Syria Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:112
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:113
+msgid "Thailand Baht"
+msgstr ""
+
+#: bws_booking/data/currencies.php:114
+msgid "Trinidad and Tobago Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:115
+msgid "Turkey Lira"
+msgstr ""
+
+#: bws_booking/data/currencies.php:116
+msgid "Tuvalu Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:117
+msgid "Ukraine Hryvnia"
+msgstr ""
+
+#: bws_booking/data/currencies.php:118
+msgid "United Kingdom Pound"
+msgstr ""
+
+#: bws_booking/data/currencies.php:119
+msgid "United States Dollar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:120
+msgid "Uruguay Peso"
+msgstr ""
+
+#: bws_booking/data/currencies.php:121
+msgid "Uzbekistan Som"
+msgstr ""
+
+#: bws_booking/data/currencies.php:122
+msgid "Venezuela Bolivar"
+msgstr ""
+
+#: bws_booking/data/currencies.php:123
+msgid "Viet Nam Dong"
+msgstr ""
+
+#: bws_booking/data/currencies.php:124
+msgid "Yemen Rial"
+msgstr ""
+
+#: bws_booking/data/currencies.php:125
+msgid "Zimbabwe Dollar"
+msgstr ""
+
+#: bws_booking/data/default_settings.php:38
+msgid "Available"
+msgstr "Доступно"
+
+#: bws_booking/data/default_settings.php:39
+msgid "Not Available"
+msgstr "Не активовано"
+
+#: bws_booking/data/default_settings.php:40
+msgid "Reserved"
+msgstr "Зарезервований"
+
+#: bws_booking/data/default_settings.php:41
+msgid "In Use"
+msgstr "У вживанні"
+
+#: bws_booking/data/default_settings.php:94
+msgid "Agencies"
+msgstr "Агентства"
+
+#: bws_booking/data/map_languages.php:13
+msgid "Arabic"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:14
+msgid "Bulgarian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:15
+msgid "Bengali"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:16
+msgid "Catalan"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:17
+msgid "Czech"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:18
+msgid "Danish"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:19
+msgid "German"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:20
+msgid "Greek"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:21
+msgid "English"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:22
+msgid "English (Australian)"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:23
+msgid "English (Great Britain)"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:24
+msgid "Spanish"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:25 bws_booking/data/map_languages.php:26
+msgid "Basque"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:27
+msgid "Farsi"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:28
+msgid "Finnish"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:29
+msgid "Filipino"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:30
+msgid "French"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:31
+msgid "Galician"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:32
+msgid "Gujarati"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:33
+msgid "Hindi"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:34
+msgid "Croatian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:35
+msgid "Hungarian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:36
+msgid "Indonesian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:37
+msgid "Italian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:38
+msgid "Hebrew"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:39
+msgid "Japanese"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:40
+msgid "Korean"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:41
+msgid "Lithuanian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:42
+msgid "Latvian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:43
+msgid "Malayalam"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:44
+msgid "Marathi"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:45
+msgid "Dutch"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:46
+msgid "Norwegian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:47
+msgid "Polish"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:48
+msgid "Portuguese"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:49
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:50
+msgid "Portuguese (Portugal)"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:51
+msgid "Romanian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:52
+msgid "Russian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:53
+msgid "Slovak"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:54
+msgid "Slovenian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:55
+msgid "Serbian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:56
+msgid "Swedish"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:57
+msgid "Tamil"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:58
+msgid "Telugu"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:59
+msgid "Thai"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:60
+msgid "Tagalog"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:61
+msgid "Turkish"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:62
+msgid "Ukrainian"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:63
+msgid "Vietnamese"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:64
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: bws_booking/data/map_languages.php:65
+msgid "Chinese (Traditional)"
+msgstr ""
+
+#: bws_booking/tags/agencies.php:109
+msgid "Note"
+msgstr "Примітка"
+
+#: bws_booking/tags/cart.php:36
+msgid "Add to cart"
+msgstr "Додати в кошик"
+
+#: bws_booking/tags/cart.php:90
+msgid "Add extras to cart"
+msgstr "Додайте додаткові товари в кошик"
+
+#: bws_booking/tags/categories.php:112
+msgid "Select Category"
+msgstr "Виберіть категорію"
+
+#: bws_booking/tags/general.php:167
+msgid "Back to search"
+msgstr "Повернутися до пошуку"
+
+#: bws_booking/tags/general.php:490
+msgid "Show on map"
+msgstr "Показати на карті"
+
+#: bws_booking/tags/general.php:490
+msgid "Hide map"
+msgstr "Сховати карту"
+
+#: bws_booking/tags/search.php:76
+msgid "Grid view"
+msgstr "Вид сітки"
+
+#: bws_booking/tags/search.php:77
+msgid "List view"
+msgstr "Перегляд списку"
+
+#: bws_booking/tags/search.php:309
+msgid "Pick-up Date"
+msgstr "Дата прийому"
+
+#: bws_booking/tags/search.php:310
+msgid "Drop-off Date and Time"
+msgstr "Дата та час висадки"
+
+#: bws_booking/tags/search.php:413
+msgid "Choose an item"
+msgstr "Виберіть предмет"
+
+#: bws_booking/tags/search.php:478
+msgid "Reset"
+msgstr "Скинути"
+
+#: bws_booking/templates/forms/cart.php:25
+msgid "Update Cart"
+msgstr "Оновити кошик"
+
+#: bws_booking/templates/forms/cart.php:28
+#: bws_booking/templates/forms/checkout.php:86
+msgid "Place Order"
+msgstr "Зробити замовлення"
+
+#: bws_booking/templates/forms/cart.php:30
+msgid "Back to products"
+msgstr "Повернутися до продуктів"
+
+#: bws_booking/templates/forms/cart.php:43
+msgid "There is nothing in the cart"
+msgstr "У кошику нічого немає"
+
+#: bws_booking/templates/forms/checkout.php:49
+msgid "Confirm Email"
+msgstr "Підтвердьте електронну пошту"
+
+#: bws_booking/templates/forms/checkout.php:56
+msgid "Enter your message"
+msgstr "Введіть своє повідомлення"
+
+#: bws_booking/templates/forms/checkout.php:78
+msgid "Register me"
+msgstr "Реєстрація"
+
+#: bws_booking/templates/forms/extras.php:21
+msgid "Rent Interval"
+msgstr "Інтервал оренди"
+
+#: bws_booking/templates/lists/agencies.php:48
+msgid "Our Address"
+msgstr "Наша адреса"
+
+#: bws_booking/templates/lists/agencies.php:57
+#: bws_booking/templates/single-agency.php:45
+msgid "Time schedule"
+msgstr "Графік"
+
+#: bws_booking/templates/lists/categories.php:20
+msgid "Categories"
+msgstr "Категорії"
+
+#: bws_booking/templates/lists/products.php:53
+msgid "Book now"
+msgstr "Резервувати зараз"
+
+#: bws_booking/templates/lists/taxonomies.php:33
+msgid "Tags"
+msgstr "Мітки"
+
+#: bws_booking/templates/none.php:14
+msgid "Sorry, we couldn't find any results matching this search"
+msgstr "На жаль, ми не змогли знайти результати, що відповідають цьому пошуку"
+
+#: bws_booking/templates/order-details.php:27
+msgid "Your order"
+msgstr "Ваше замовлення"
+
+#: bws_booking/templates/order-details.php:56
+#: bws_booking/templates/pre-order.php:32
+msgid "Order Subtotal"
+msgstr "Проміжні підсумки замовлення"
+
+#: bws_booking/templates/order-details.php:80
+msgid "No chosen extras"
+msgstr "Ніяких обраних статистів"
+
+#: bws_booking/templates/order-details.php:87
+#: bws_booking/templates/pre-order.php:39
+msgid "Extras Subtotal"
+msgstr "Додаткові Відомості"
+
+#: bws_booking/templates/order-details.php:105
+msgid "Billing Details"
+msgstr "Платіжні реквізити"
+
+#: bws_booking/templates/order-details.php:149
+msgid "There is nothing to order"
+msgstr "Замовляти нема чого"
+
+#: bws_booking/templates/pre-order.php:36
+msgid "No chosen extras yet"
+msgstr "Ще немає вибраних статистів"
+
+#: bws_booking/templates/single-agency.php:52
+msgid "Phone number"
+msgstr "Номер телефону"
+
+#: bws_booking/templates/toolbar.php:19
+msgid "Per page"
+msgstr "На сторінку"
+
+#: bws_booking/templates/toolbar.php:36
+msgid "Sort by"
+msgstr "Сортувати за"
+
+#: bws_booking/templates/toolbar.php:43
+msgid "Sort"
+msgstr "Сортувати"
+
+#: bws_booking/templates/toolbar.php:45
+msgid "Asc"
+msgstr "Asc"
+
+#: bws_booking/templates/toolbar.php:46
+msgid "Desc"
+msgstr "Desc"
+
+#, fuzzy
+#~| msgid "Plugin"
+#~ msgid "Plugins page"
+#~ msgstr "Плагін"
+
+#, fuzzy
+#~| msgid "Activating the plugin"
+#~ msgid "Like the plugin?"
+#~ msgstr "Активація плагіну"
+
+#~ msgid "Learn More"
+#~ msgstr "Детальніше"
+
+#~ msgid "Learn more"
+#~ msgstr "Детальніше"
+
+#, fuzzy
+#~| msgid "Thank you for installing %s theme"
+#~ msgid "Thank you for installing %s plugin!"
+#~ msgstr "Дякуємо за встановлення теми %s"
+
+#~ msgid "Let's get started"
+#~ msgstr "Почніть тут"
+
+#~ msgid "Close notice"
+#~ msgstr "Закрити повідомлення"
+
+#, fuzzy
+#~| msgid "Thank you for installing %s theme"
+#~ msgid "Thank you for installing plugins by BestWebSoft!"
+#~ msgstr "Дякуємо за встановлення теми %s"
+
+#, fuzzy
+#~| msgid "Version %s"
+#~ msgid "version!"
+#~ msgstr "Версія %s"
+
+#, fuzzy
+#~| msgid "Thank you for installing %s theme"
+#~ msgid "Thank you for choosing %s plugin!"
+#~ msgstr "Дякуємо за встановлення теми %s"
+
+#, fuzzy
+#~| msgid "Sidebar Feature"
+#~ msgid "Suggest a Feature"
+#~ msgstr "Сайдбар Особливостей"
+
+#, fuzzy
+#~| msgid "Theme's settings have been changed"
+#~ msgid "The plugin's settings have been changed."
+#~ msgstr "Налаштування теми збережено"
+
+#~ msgid "Are you sure you want to restore default settings?"
+#~ msgstr "Ви впевнені, що хочете відновити налаштування за замовчуванням?"
+
+#, fuzzy
+#~| msgid "Restore settings"
+#~ msgid "Yes, restore all settings"
+#~ msgstr "Відновлення налаштувань"
+
+#~ msgid "Plugin"
+#~ msgstr "Плагін"
+
+#, fuzzy
+#~| msgid "Slider settings"
+#~ msgid "Shortcode settings"
+#~ msgstr "Налаштування слайдера"
+
+#~ msgid "Wrong license key"
+#~ msgstr "Неправильний ліцензійний ключ"
+
+#, fuzzy
+#~| msgid ""
+#~| "Something went wrong. Try again later. If the error will appear again, "
+#~| "please, contact us"
+#~ msgid ""
+#~ "Something went wrong. Please try again later. If the error appears again, "
+#~ "please contact us"
+#~ msgstr ""
+#~ "Щось пішло не так. Спробуйте пізніше. Якщо помилка з'явиться знов - "
+#~ "зв'яжіться з нами"
+
+#, fuzzy
+#~| msgid "We are sorry for inconvenience"
+#~ msgid "We are sorry for inconvenience."
+#~ msgstr "Приносимо вибачення за спричинені незручності"
+
+#, fuzzy
+#~| msgid "Wrong license key"
+#~ msgid "Wrong license key."
+#~ msgstr "Неправильний ліцензійний ключ"
+
+#, fuzzy
+#~| msgid "This license key is bound to another site"
+#~ msgid ""
+#~ "This license key is bound to another site. Change it via personal Client "
+#~ "Area."
+#~ msgstr "Цей ліцензійний ключ прив'язаний до іншого сайту"
+
+#, fuzzy
+#~| msgid ""
+#~| "Unfortunately, you have exceeded the number of available tries per day. "
+#~| "Please upload the plugin manually"
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day."
+#~ msgstr ""
+#~ "На жаль, ви перевищили кількість доступних спроб за день. Будь ласка, "
+#~ "завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid "The plugin is already installed"
+#~ msgid "The license key is valid."
+#~ msgstr "Плагін вже встановлено"
+
+#, fuzzy
+#~| msgid ""
+#~| "Something went wrong. Try again later. If the error will appear again, "
+#~| "please, contact us"
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvenience."
+#~ msgstr ""
+#~ "Щось пішло не так. Спробуйте пізніше. Якщо помилка з'явиться знов - "
+#~ "зв'яжіться з нами"
+
+#, fuzzy
+#~| msgid "Please enter your license key"
+#~ msgid "Please enter your license key."
+#~ msgstr "Будь ласка, введіть ліцензійний ключ"
+
+#, fuzzy
+#~| msgid "Not Installed"
+#~ msgid "Not set"
+#~ msgstr "Не встановлено"
+
+#, fuzzy
+#~| msgid "Image URL"
+#~ msgid "Home URL"
+#~ msgstr "URL зображення"
+
+#, fuzzy
+#~| msgid "Website Url"
+#~ msgid "Website URL"
+#~ msgstr "URL сайта"
+
+#, fuzzy
+#~| msgid "Version %s"
+#~ msgid "WP Version"
+#~ msgstr "Версія %s"
+
+#, fuzzy
+#~| msgid "Activate"
+#~ msgid "Active Theme"
+#~ msgstr "Активувати"
+
+#, fuzzy
+#~| msgid "By %s"
+#~ msgid "by %s"
+#~ msgstr "Від %s"
+
+#, fuzzy
+#~| msgid "Version %s"
+#~ msgid "PHP Version"
+#~ msgstr "Версія %s"
+
+#, fuzzy
+#~| msgid "Message"
+#~ msgid "Memory Usage"
+#~ msgstr "Повідомлення"
+
+#, fuzzy
+#~| msgid "Online support"
+#~ msgid "PHP Exif support"
+#~ msgstr "Онлайн тех. підтримка"
+
+#, fuzzy
+#~| msgid "Activating the plugin"
+#~ msgid "Active Plugins"
+#~ msgstr "Активація плагіну"
+
+#, fuzzy
+#~| msgid "Installing Plugin: %s"
+#~ msgid "Inactive Plugins"
+#~ msgstr "Установка плагіну: %s"
+
+#, fuzzy
+#~| msgid "Please enter an email"
+#~ msgid "Please enter a valid email address."
+#~ msgstr "Будь ласка, введіть емейл"
+
+#, fuzzy
+#~| msgid "Thank you for installing %s theme"
+#~ msgid "Thank you for contacting us."
+#~ msgstr "Дякуємо за встановлення теми %s"
+
+#, fuzzy
+#~| msgid "Plugin"
+#~ msgid "Plugins"
+#~ msgstr "Плагін"
+
+#, fuzzy
+#~| msgid "Theme Settings"
+#~ msgid "Themes"
+#~ msgstr "Налаштування теми"
+
+#, fuzzy
+#~| msgid "Status"
+#~ msgid "System status"
+#~ msgstr "Статус"
+
+#, fuzzy
+#~| msgid "License key"
+#~ msgid "Check license key"
+#~ msgstr "Ліцензійний ключ"
+
+#, fuzzy
+#~| msgid "Please enter your license key"
+#~ msgid "Enter your license key"
+#~ msgstr "Будь ласка, введіть ліцензійний ключ"
+
+#, fuzzy
+#~| msgid "Upload Logo"
+#~ msgid "Upload Plugin"
+#~ msgstr "Завантажити Лого"
+
+#, fuzzy
+#~| msgid "Installing Plugin: %s"
+#~ msgid "Installing Plugin"
+#~ msgstr "Установка плагіну: %s"
+
+#, fuzzy
+#~| msgid ""
+#~| "This license key is valid, but Your license has expired. Please upload "
+#~| "the plugin manually"
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Цей ліцензійний ключ дійсний, але термін дії ліцензії закінчився. Будь "
+#~ "ласка, завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid "Activating the plugin"
+#~ msgid "Installing the plugin"
+#~ msgstr "Активація плагіну"
+
+#, fuzzy
+#~| msgid ""
+#~| "This license key is valid, but Your license has expired. Please upload "
+#~| "the plugin manually"
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Цей ліцензійний ключ дійсний, але термін дії ліцензії закінчився. Будь "
+#~ "ласка, завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid ""
+#~| "This license key is valid, but Your license has expired. Please upload "
+#~| "the plugin manually"
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually"
+#~ msgstr ""
+#~ "Цей ліцензійний ключ дійсний, але термін дії ліцензії закінчився. Будь "
+#~ "ласка, завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid "The plugin is already installed"
+#~ msgid "The plugin %s is successfully installed."
+#~ msgstr "Плагін вже встановлено"
+
+#, fuzzy
+#~| msgid ""
+#~| "This license key is valid, but Your license has expired. Please upload "
+#~| "the plugin manually"
+#~ msgid "UploadDir is not writable. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Цей ліцензійний ключ дійсний, але термін дії ліцензії закінчився. Будь "
+#~ "ласка, завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid "Activating the plugin"
+#~ msgid "Activate Plugin"
+#~ msgstr "Активація плагіну"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgid "Installed"
+#~ msgstr "Встановити"
+
+#~ msgid "Not Installed"
+#~ msgstr "Не встановлено"
+
+#, fuzzy
+#~| msgid "Not Installed"
+#~ msgid "Not installed"
+#~ msgstr "Не встановлено"
+
+#, fuzzy
+#~| msgid "Activating the plugin"
+#~ msgid "Activate this plugin"
+#~ msgstr "Активація плагіну"
+
+#, fuzzy
+#~| msgid "Installing Plugin: %s"
+#~ msgid "Install this plugin"
+#~ msgstr "Установка плагіну: %s"
+
+#~ msgid "By %s"
+#~ msgstr "Від %s"
+
+#, fuzzy
+#~| msgid "Not Installed"
+#~ msgid "Already Installed"
+#~ msgstr "Не встановлено"
+
+#, fuzzy
+#~| msgid "Renty-Support"
+#~ msgid "Send to support"
+#~ msgstr "Тех. підтримка Renty"
+
+#, fuzzy
+#~| msgctxt "only 1 plugin"
+#~| msgid "activated"
+#~ msgid "Inactive"
+#~ msgstr "активовано"
+
+#, fuzzy
+#~| msgid "Activate"
+#~ msgid "Active"
+#~ msgstr "Активувати"
+
+#, fuzzy
+#~| msgid "License key"
+#~ msgid "License"
+#~ msgstr "Ліцензійний ключ"
+
+#, fuzzy
+#~| msgid "Version %s"
+#~ msgid "Version"
+#~ msgstr "Версія %s"
+
+#, fuzzy
+#~| msgid "Default settings were restored"
+#~ msgid "All plugin settings were restored."
+#~ msgstr "Налаштування за замовчуванням було відновлено"
+
+#, fuzzy
+#~| msgid "Sorry, you are not allowed to deactivate plugins for this site"
+#~ msgid ""
+#~ "You do not have sufficient permissions to edit plugins for this site."
+#~ msgstr ""
+#~ "На жаль, у вас недостатньо прав для деактивації плагінів на цьому сайті"
+
+#, fuzzy
+#~| msgid "Learn more "
+#~ msgid "Learn more about %s"
+#~ msgstr "Дізнатися більше"
+
+#, fuzzy
+#~| msgid "Facebook Settings"
+#~ msgid "Miscellaneous Settings"
+#~ msgstr "Настройки Facebook"
+
+#, fuzzy
+#~| msgid "Theme Settings"
+#~ msgid "Default Settings"
+#~ msgstr "Налаштування теми"
+
+#, fuzzy
+#~| msgid "Restore settings"
+#~ msgid "Restore Settings"
+#~ msgstr "Відновлення налаштувань"
+
+#, fuzzy
+#~| msgid "Plugin activated successfully"
+#~ msgid "Congratulations! %s license is activated successfully."
+#~ msgstr "Плагін успішно активовано"
+
+#, fuzzy
+#~| msgid "Settings saved"
+#~ msgid "Settings page"
+#~ msgstr "Налаштування збережені"
+
+#, fuzzy
+#~| msgid ""
+#~| "Unfortunately, you have exceeded the number of available tries per day. "
+#~| "Please upload the plugin manually"
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "На жаль, ви перевищили кількість доступних спроб за день. Будь ласка, "
+#~ "завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid "Facebook Settings"
+#~ msgid "Manage License Settings"
+#~ msgstr "Настройки Facebook"
+
+#, fuzzy
+#~| msgid "This license key is bound to another site"
+#~ msgid "This license key is bound to another site."
+#~ msgstr "Цей ліцензійний ключ прив'язаний до іншого сайту"
+
+#, fuzzy
+#~| msgid ""
+#~| "This license key is valid, but Your license has expired. Please upload "
+#~| "the plugin manually"
+#~ msgid ""
+#~ "This license key is valid, but Your license has expired. If you want to "
+#~ "update our plugin in future, you should extend the license."
+#~ msgstr ""
+#~ "Цей ліцензійний ключ дійсний, але термін дії ліцензії закінчився. Будь "
+#~ "ласка, завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid ""
+#~| "Unfortunately, you have exceeded the number of available tries per day. "
+#~| "Please upload the plugin manually"
+#~ msgid "Unfortunately, you have exceeded the number of available tries."
+#~ msgstr ""
+#~ "На жаль, ви перевищили кількість доступних спроб за день. Будь ласка, "
+#~ "завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid ""
+#~| "This license key is valid, but Your license has expired. Please upload "
+#~| "the plugin manually"
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually."
+#~ msgstr ""
+#~ "Цей ліцензійний ключ дійсний, але термін дії ліцензії закінчився. Будь "
+#~ "ласка, завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid ""
+#~| "This license key is valid, but Your license has expired. Please upload "
+#~| "the plugin manually"
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually."
+#~ msgstr ""
+#~ "Цей ліцензійний ключ дійсний, але термін дії ліцензії закінчився. Будь "
+#~ "ласка, завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid ""
+#~| "This license key is valid, but Your license has expired. Please upload "
+#~| "the plugin manually"
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually."
+#~ msgstr ""
+#~ "Цей ліцензійний ключ дійсний, але термін дії ліцензії закінчився. Будь "
+#~ "ласка, завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid ""
+#~| "This license key is valid, but Your license has expired. Please upload "
+#~| "the plugin manually"
+#~ msgid "UploadDir is not writable. Please, upload the plugin manually."
+#~ msgstr ""
+#~ "Цей ліцензійний ключ дійсний, але термін дії ліцензії закінчився. Будь "
+#~ "ласка, завантажте плагін вручну"
+
+#, fuzzy
+#~| msgid "Please enter your license key"
+#~ msgid "Please, enter Your license key"
+#~ msgstr "Будь ласка, введіть ліцензійний ключ"
+
+#, fuzzy
+#~| msgid "Renty-Support"
+#~ msgid "Contact Support"
+#~ msgstr "Тех. підтримка Renty"
+
+#, fuzzy
+#~| msgid "The plugin is already installed"
+#~ msgid "The plugin is not working"
+#~ msgstr "Плагін вже встановлено"
+
+#, fuzzy
+#~| msgid "The plugin is already installed"
+#~ msgid "The plugin broke my site"
+#~ msgstr "Плагін вже встановлено"
+
+#, fuzzy
+#~| msgid "Deactivate"
+#~ msgid "Submit and Deactivate"
+#~ msgstr "Деактивувати"
+
+#, fuzzy
+#~| msgid "Deactivate"
+#~ msgid "Skip and Deactivate"
+#~ msgstr "Деактивувати"
+
+#, fuzzy
+#~| msgid "Status"
+#~ msgid "System Status"
+#~ msgstr "Статус"
+
+#, fuzzy
+#~| msgid "Please enter your license key"
+#~ msgid "Please, enter your license key"
+#~ msgstr "Будь ласка, введіть ліцензійний ключ"
+
+#, fuzzy
+#~| msgid "This license key is bound to another site"
+#~ msgid "License key can be found in the"
+#~ msgstr "Цей ліцензійний ключ прив'язаний до іншого сайту"
+
+#, fuzzy
+#~| msgid "Slide settings saved"
+#~ msgid "the setting page"
+#~ msgstr "Налаштування слайда збережені"
+
+#~ msgid "Restore settings"
+#~ msgstr "Відновлення налаштувань"
+
+#, fuzzy
+#~| msgid "Plugin activated successfully"
+#~ msgid "File %s edited successfully."
+#~ msgstr "Плагін успішно активовано"
+
+#, fuzzy
+#~| msgid "Edit"
+#~ msgid "Editing"
+#~ msgstr "Редагувати"
+
+#, fuzzy
+#~| msgid "Activating the plugin"
+#~ msgid "version of the plugin."
+#~ msgstr "Активація плагіну"
+
+#, fuzzy
+#~| msgid "Continue"
+#~ msgid "Content"
+#~ msgstr "Продовжити"
+
+#, fuzzy
+#~| msgid "Primary Navigation"
+#~ msgid "Navigation"
+#~ msgstr "Меню навігації"
+
+#, fuzzy
+#~| msgid "Recent Comments"
+#~ msgid "Recommended"
+#~ msgstr "Свежие Комментарии"
+
+#~ msgid "Invalid username"
+#~ msgstr "Неправильне ім'я користувача"
+
+#~ msgid "Please enter a password"
+#~ msgstr "Будь ласка, введіть пароль"
+
+#~ msgid "Enter an e-mail address"
+#~ msgstr "Введіть e-mail адресу"
+
+#~ msgid "There is no user registered with that email address"
+#~ msgstr "Немає зареєстрованих користувачів з такою email адресою"
+
+#~ msgid "Check your email for new password"
+#~ msgstr "Перевірте новий пароль на своїй email адресі"
+
+#~ msgid "Registration complete. Please check your email"
+#~ msgstr "Реєстрацію завершено. Будь ласка, перевірте свій email"
+
+#~ msgid "Sign In"
+#~ msgstr "Увійти"
+
+#~ msgid "Login or Email"
+#~ msgstr "Логін або Email"
+
+#~ msgid "Remember me next time"
+#~ msgstr "Запам'ятати мене"
+
+#~ msgid "Forgot password?"
+#~ msgstr "Забули пароль?"
+
+#~ msgid "Your new password will be sent to the specified e-mail address"
+#~ msgstr "Новий пароль буде відправлений на вказану адресу електронної пошти"
+
+#~ msgid "Already registered?"
+#~ msgstr "Вже зареєстровані?"
+
+#~ msgid "Forgot Password?"
+#~ msgstr "Забули пароль?"
+
+#~ msgid "We will send you the password in few minutes"
+#~ msgstr "Пароль буде відправлений протягом декількох хвилин"
+
+#~ msgid "Main Sidebar"
+#~ msgstr "Головний Сайдбар"
+
+#~ msgid "Main sidebar is displayed on the right side"
+#~ msgstr "Основний сайдбар відображається в правій частині сайту"
+
+#~ msgid "Sidebar Post"
+#~ msgstr "Сайдбар Записи"
+
+#~ msgid ""
+#~ "Sidebar for the Post Widgets is displayed on templates pages \"Home v.1\" "
+#~ "and \"Home v.2\""
+#~ msgstr ""
+#~ "Сайдбар Віджетів Записів, відображається на сторінках шаблонів \"Home "
+#~ "v.1\" і \"Home v.2\""
+
+#~ msgid ""
+#~ "Sidebar for the Feature Single Widgets is displayed on templates pages "
+#~ "\"Home v.1\", \"Home v.2\" and \"Home v.3\""
+#~ msgstr ""
+#~ "Сайдбар для Віджетів Особливості, відображається на сторінках шаблонів "
+#~ "\"Home v.1\", \"Home v.2\" і \"Home v.3\""
+
+#~ msgid "Sidebar Subscribe"
+#~ msgstr "Сайдбар для Підписки"
+
+#~ msgid ""
+#~ "Sidebar for the Subscribe Widget is displayed at bottom before the footer"
+#~ msgstr ""
+#~ "Сайдбар для віджетів Підписка, відображається в нижній частині перед "
+#~ "футером"
+
+#~ msgid "Left Sidebar"
+#~ msgstr "Лівий Сайдбар"
+
+#~ msgid "Sidebar is displayed on the left bottom side"
+#~ msgstr "Сайдбар відображається в лівій нижній частині сайту"
+
+#~ msgid "Middle Sidebar"
+#~ msgstr "Середній сайдбар"
+
+#~ msgid "Sidebar is displayed on the middle bottom side"
+#~ msgstr "Сайдбар відображається в середній нижній частині сайту"
+
+#~ msgid "Right Sidebar"
+#~ msgstr "Правий Сайдбар"
+
+#~ msgid "Sidebar is displayed on the right bottom side"
+#~ msgstr "Сайдбар відображається в правій нижній частині сайту"
+
+#~ msgid "Footer Sidebar"
+#~ msgstr "Сайдбар Підвалу"
+
+#~ msgid "Sidebar is displayed in the Footer"
+#~ msgstr "Сайдбар відображається в Футері"
+
+#~ msgid "Site Logo"
+#~ msgstr "Логотип сайту"
+
+#~ msgid "Page %s"
+#~ msgstr "Сторінка %s"
+
+#~ msgid "Pingback: "
+#~ msgstr "Повідомлення:"
+
+#~ msgid "said"
+#~ msgstr "написав"
+
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s в %2$s"
+
+#~ msgid "Your comment is awaiting moderation"
+#~ msgstr "Ваш коментар очікує модерації"
+
+#~ msgid "Reply"
+#~ msgstr "Відповісти"
+
+#~ msgid "Required plugins"
+#~ msgstr "Необхідні плагіни"
+
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view any comments"
+#~ msgstr ""
+#~ "Це повідомлення захищене паролем. Введіть пароль для перегляду коментарів"
+
+#~ msgid "One thought on &ldquo;%2$s&rdquo;"
+#~ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+#~ msgstr[0] "%1$s коментар до &ldquo;%2$s&rdquo;"
+#~ msgstr[1] "%1$s коментаря до &ldquo;%2$s&rdquo;"
+#~ msgstr[2] "%1$s коментарів до &ldquo;%2$s&rdquo;"
+
+#~ msgid "Older Comments"
+#~ msgstr "Попередні Коментарі"
+
+#~ msgid "Newer Comments"
+#~ msgstr "Наступні коментарі"
+
+#~ msgid "input search keyword"
+#~ msgstr "Введіть пошуковий запит"
+
+#~ msgid "Previous image"
+#~ msgstr "Попереднє зображення"
+
+#~ msgid "in"
+#~ msgstr "в"
+
+#~ msgid "See in full size"
+#~ msgstr "Подивитися повнорозмірне зображення"
+
+#~ msgid "full size of "
+#~ msgstr "повнорозмірне зображення"
+
+#~ msgctxt "Parent post link"
+#~ msgid "Published in"
+#~ msgstr "Опубліковано в"
+
+#~ msgid "Next"
+#~ msgstr "Наступний"
+
+#~ msgid "Next post"
+#~ msgstr "Наступний пост"
+
+#~ msgid "Previous"
+#~ msgstr "Попередній"
+
+#~ msgid "Previous post"
+#~ msgstr "Попередній пост"
+
+#~ msgid "Page Not Found ERROR 404"
+#~ msgstr "Сторінку не знайдено Помилка 404"
+
+#~ msgid ""
+#~ "It seems we can't find what you're looking for. Perhaps searching can "
+#~ "help."
+#~ msgstr ""
+#~ "Здається, ми не можемо знайти те, що ви шукаєте. Можливо пошук на сайті "
+#~ "зможе допомогти."
+
+#~ msgid "Sign out"
+#~ msgstr "Вийти"
+
+#~ msgid "Sign in"
+#~ msgstr "Увійти"
+
+#~ msgid "Archives"
+#~ msgstr "Архіви"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "Результати пошуку для: %s"
+
+#~ msgid "%s&nbsp;thought"
+#~ msgid_plural "%s&nbsp;thoughts"
+#~ msgstr[0] "%s&nbsp;коментар"
+#~ msgstr[1] "%s&nbsp;коментаря"
+#~ msgstr[2] "%s&nbsp;коментарів"
+
+#~ msgid "Ready to publish your first post?"
+#~ msgstr "Готові опублікувати ваш перший пост?"
+
+#~ msgid "Get started here"
+#~ msgstr "Почніть тут"
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search criteria. Please try again with "
+#~ "some different keywords"
+#~ msgstr ""
+#~ "Шкода, але нічого не відповідає критеріям Вашого запиту. Будь ласка, "
+#~ "спробуйте ще раз з іншими ключовими словами"
+
+#~ msgid "Recent posts"
+#~ msgstr "Свіжі записи"
+
+#~ msgid "Most Used Categories"
+#~ msgstr "Часто використовувані категорії"
+
+#~ msgid "Popular tags"
+#~ msgstr "Популярні мітки"
+
+#~ msgid ""
+#~ "Apologies, but no results were found for the requested archive. Perhaps "
+#~ "searching will help find a related post"
+#~ msgstr ""
+#~ "Вибачте, але за запитаним архівом нічого не знайдено. Можливо пошук "
+#~ "допоможе знайти потрібний пост"
+
+#~ msgid "Widget for displaying text"
+#~ msgstr "Віджет для відображення тексту"
+
+#~ msgid "Change Image"
+#~ msgstr "Змінити зображення"
+
+#~ msgid "Widget Title Image URL"
+#~ msgstr "URL зображення заголовка віджета"
+
+#~ msgid "Widget Title"
+#~ msgstr "Заголовок віджета"
+
+#~ msgid "Widget Text"
+#~ msgstr "Текст віджета"
+
+#~ msgid "Renty taxonomies"
+#~ msgstr "Renty таксономії"
+
+#~ msgid "Widget for displaying the terms of the selected taxonomy"
+#~ msgstr "Віджет для відображення термінів обраної таксономії"
+
+#~ msgid "Select taxonomy for displaying"
+#~ msgstr "Виберіть таксономию для відображення"
+
+#~ msgid "The number of terms"
+#~ msgstr "Кількість термінів"
+
+#~ msgid "Widget for displaying single feature"
+#~ msgstr "Віджет для відображення окремої особливості"
+
+#~ msgid "Renty advertising"
+#~ msgstr "Renty реклама"
+
+#~ msgid "Widget for displaying advertising"
+#~ msgstr "Віджет для відображення реклами"
+
+#~ msgid "Images Link"
+#~ msgstr "Посилання зображення"
+
+#~ msgid "Renty post content"
+#~ msgstr "Renty контент поста"
+
+#~ msgid "Widget for displaying post content"
+#~ msgstr "Віджет для відображення контенту поста"
+
+#~ msgid "Widget Link"
+#~ msgstr "Посилання віджета"
+
+#~ msgid "Widget for displaying support"
+#~ msgstr "Віджет для відображення тех. підтримки"
+
+#~ msgid "Online support phone"
+#~ msgstr "Телефон тех. підтримки онлайн"
+
+#~ msgid "Renty latest news"
+#~ msgstr "Renty останні новини"
+
+#~ msgid "Widget for displaying latest news"
+#~ msgstr "Віджет для відображення останніх новин"
+
+#~ msgid "posted on"
+#~ msgstr "опубліковано"
+
+#~ msgid "Install demo-data to create slides with images and content"
+#~ msgstr ""
+#~ "Встановіть демо дані для створення слайдів із зображеннями і вмістом"
+
+#~ msgid "Delete demo-data and restore old slider settings"
+#~ msgstr ""
+#~ "Видалити демо дані і відновити налаштування слайдера за замовчуванням"
+
+#~ msgid "Demo data have already been installed"
+#~ msgstr "Демо дані вже встановлені"
+
+#~ msgid "Installation of demo data with some errors occurred. See User Guide"
+#~ msgstr ""
+#~ "Установка демо даних завершена з помилкою. Будь ласка, подивіться мануал "
+#~ "користувача"
+
+#~ msgid "Removing demo data with some errors occurred. See User Guide"
+#~ msgstr ""
+#~ "Видалення демо даних пройшло з помилками. Будь ласка, подивіться мануал "
+#~ "користувача"
+
+#~ msgctxt "more than 1 plugin"
+#~ msgid "activated"
+#~ msgstr "активовані"
+
+#~ msgctxt "only 1 plugin"
+#~ msgid "deactivated"
+#~ msgstr "деактивовано"
+
+#~ msgctxt "more than 1 plugin"
+#~ msgid "deactivated"
+#~ msgstr "деактивовані"
+
+#~ msgid "Sorry, you are not allowed to install plugins on this site"
+#~ msgstr ""
+#~ "На жаль, у вас недостатньо прав для встановлення плагінів на цьому сайті"
+
+#~ msgid "Sorry, you are not allowed to activate plugins for this site"
+#~ msgstr ""
+#~ "На жаль, у вас недостатньо прав для активації плагінів на цьому сайті"
+
+#~ msgid "Some plugin is required for the full functionality of the %s theme"
+#~ msgstr "Для повного функціонування теми потрібен плагін %s"
+
+#~ msgid "Begin installing plugins"
+#~ msgstr "Почати встановлення плагінів"
+
+#~ msgid "The plugin %1$s has been %2$s due to an error: %3$s"
+#~ msgstr "Плагін %1$s був %2$s  через помилку: %3$s"
+
+#~ msgid "Free"
+#~ msgstr "Безкоштовні"
+
+#~ msgid "Pro"
+#~ msgstr "Pro"
+
+#~ msgid "Installation aborted"
+#~ msgstr "Установку перервано"
+
+#~ msgid "Return to Required plugins"
+#~ msgstr "Повернутися до необхідних плагінів"
+
+#~ msgid "Plugin activation aborted"
+#~ msgstr "Активацію плагіну  перервано"
+
+#~ msgid "plugin"
+#~ msgstr "плагін"
+
+#~ msgid "plugins"
+#~ msgstr "плагіни"
+
+#~ msgid "Visit plugin site"
+#~ msgstr "Відвідати сторінку плагіна"
+
+#~ msgid "Activated"
+#~ msgstr "Активний"
+
+#~ msgid "Error while deleting theme settings"
+#~ msgstr "Помилка при видаленні налаштувань теми"
+
+#~ msgid "Error while deleting slider settings"
+#~ msgstr "Помилка при видаленні налаштувань слайдера"
+
+#~ msgid "Default settings has been already installed"
+#~ msgstr "Стандартне налаштування вже встановлено"
+
+#~ msgid "Footer Text"
+#~ msgstr "Текст футера"
+
+#~ msgid "Enter footer text"
+#~ msgstr "Введіть текст футера"
+
+#~ msgid "The text will be displayed in the footer"
+#~ msgstr "Текст буде відображатися в футері"
+
+#~ msgid "Restore default theme settings"
+#~ msgstr "Відновити стандартні налаштування теми"
+
+#~ msgid "Theme settings were restored to default"
+#~ msgstr "Налаштування теми було скинуто до стандартних"
+
+#~ msgid "Default settings have been already installed"
+#~ msgstr "Налаштування за замовчуванням вже встановлені"
+
+#~ msgid "Please choose new image for slide"
+#~ msgstr "Будь ласка, виберіть нове зображення для слайда"
+
+#~ msgid "Enable in order to display the slider"
+#~ msgstr "Увімкніть для відображення слайдера"
+
+#~ msgid "Mobile"
+#~ msgstr "Мобільні"
+
+#~ msgid "Enable in order to display the slider on mobile devices"
+#~ msgstr "Увімкніть для відображення слайдеру на мобільних пристроях"
+
+#~ msgid "This slide has no title"
+#~ msgstr "Слайд не має заголовка"
+
+#~ msgid "This slide has no image"
+#~ msgstr "Слайд не має зображення"
+
+#~ msgid "Slide Title"
+#~ msgstr "Заголовок слайда"
+
+#~ msgid "Slide Description"
+#~ msgstr "Опис слайда"
+
+#~ msgid "Slide Link"
+#~ msgstr "Посилання слайда"
+
+#~ msgid "%s plugin is required for the full functionality of the theme"
+#~ msgstr "Для повного функціонування теми, будь ласка, встановіть %s плагін"
+
+#~ msgid "Go to"
+#~ msgstr "Перейти до"
+
+#~ msgid "ERROR"
+#~ msgstr "ПОМИЛКА"
+
+#~ msgid "NOTICE"
+#~ msgstr "УВАГА"
+
+#~ msgid "Tags: "
+#~ msgstr "Мітки:"
+
+#~ msgid "Username is too short. At least 4 characters is required"
+#~ msgstr "Ім'я користувача занадто коротке. Необхідно не менше 4 символів"
+
+#~ msgid "Email is not valid"
+#~ msgstr "Невірний Email"
+
+#~ msgid "Email is already in use"
+#~ msgstr "Email вже використовується"
+
+#~ msgid "Your registration details on the website"
+#~ msgstr "Ваші реєстраційні дані на веб сайті"
+
+#~ msgid "Login:"
+#~ msgstr "Логін:"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid ""
+#~ "Are you sure you want to restore all settings by default?\n"
+#~ "Before you reset theme settings we strongly recommend you to make the "
+#~ "backup of your database.\n"
+#~ "See user guide for more info."
+#~ msgstr ""
+#~ "Ви впевнені, що ви хочете встановити стандартні налаштування теми?\n"
+#~ "Перед тим, як скинути налаштування теми, ми наполегливо рекомендуємо вам "
+#~ "зробити бекап бази даних.\n"
+#~ "Зверніться до інструкції для отримання додаткової інформації."
+
+#~ msgid "Footer Settings"
+#~ msgstr "Налаштування футера"
+
+#~ msgid ""
+#~ "If you want to set a slider, please go to \"Car Rental\" plugin settings "
+#~ "page"
+#~ msgstr ""
+#~ "Якщо ви хочете налаштувати повзунок, будь ласка, перейдіть на сторінку "
+#~ "налаштувань плагіна \"Car Rental\""
+
+#~ msgid "Please go to the settings page to configure the theme"
+#~ msgstr ""
+#~ "Будь ласка, перейдіть на сторінку налаштувань для встановлення необхідних "
+#~ "параметрів теми"
+
+#~ msgid "Calendar"
+#~ msgstr "Календар"
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with some "
+#~ "different keywords."
+#~ msgstr ""
+#~ "Шкода, але нічого не відповідає критеріям Вашого запиту (або умовам "
+#~ "пошуку). Будь ласка, спробуйте ще раз з іншими ключовими словами."
+
+#~ msgid "Newer posts"
+#~ msgstr "Нові пости"
+
+#~ msgid "Catigories"
+#~ msgstr "Категорії"
+
+#~ msgid "Sidebar Main"
+#~ msgstr "Основной сайдбар"
+
+#~ msgid "Sidebar Left"
+#~ msgstr "Левый сайдбар"
+
+#~ msgid "Sidebar Middle"
+#~ msgstr "Средний сайдбар"
+
+#~ msgid "Sidebar Right"
+#~ msgstr "Правый сайдбар"
+
+#~ msgid "Sidebar Footer"
+#~ msgstr "Сайдбар в Футере"
+
+#~ msgid "Settings theme Renty"
+#~ msgstr "Настройки темы Renty"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Архив за день: %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Архив за месяц: %s"
+
+#~ msgctxt "monthly archives date format"
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Архив за год: %s"
+
+#~ msgctxt "yearly archives date format"
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Tag Archives: %s"
+#~ msgstr "Метки архива: %s"
+
+#~ msgid "Category Archives: %s"
+#~ msgstr "Архив категорий: %s"
+
+#~ msgid "Author&#8217;s Archive: %s"
+#~ msgstr "Архив автора: %s"
+
+#~ msgid "Widget Title Image:"
+#~ msgstr "Изображение заголовка виджета:"
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching, or one of the links below, can help."
+#~ msgstr ""
+#~ "Кажется, мы не можем найти то, что вы ищете. Возможно поиск по сайту или "
+#~ "одна из ссылок смогут помочь."
+
+#~ msgid "Sidebar Homev1"
+#~ msgstr "Сайдбар Homev1"
+
+#~ msgid "Sidebar is displayed on template pages \"Home v.1\"."
+#~ msgstr "Сайдбар отображается на страницах шаблона \"Home v.1\"."
+
+#~ msgid "Sidebar Homev2"
+#~ msgstr "Сайдбар Homev2"
+
+#~ msgid "Sidebar Homev3"
+#~ msgstr "Сайдбар Homev3"
+
+#~ msgid "Sidebar is displayed on template pages \"FAQ\"."
+#~ msgstr "Сайдбар отображается на страницах шаблона \"FAQ\"."
+
+#~ msgid "px"
+#~ msgstr "Пикселей"
+
+#~ msgid "FAQ display help "
+#~ msgstr "Настройки FAQ"
+
+#~ msgid "Title:"
+#~ msgstr "Заголовок"
+
+#~ msgid "FAQ question"
+#~ msgstr "FAQ Вопрос"
+
+#~ msgid "Description:"
+#~ msgstr "Описание"
+
+#~ msgid "FAQ answer"
+#~ msgstr "FAQ Ответ"
+
+#~ msgid "Renty Facebook Settings"
+#~ msgstr "Renty Facebook настройки"
+
+#~ msgid "App ID"
+#~ msgstr "Ваш ID"
+
+#~ msgid "Enter App ID"
+#~ msgstr "Введите Ваш ID"
+
+#~ msgid "Enter Site URL"
+#~ msgstr "Введите URL сайта"
+
+#~ msgid "Consumer Key"
+#~ msgstr "Потребительский ключ"
+
+#~ msgid "Consumer Secret"
+#~ msgstr "Секретный код"
+
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#~ msgid "Widget Images: "
+#~ msgstr "Изображение виджета:"
+
+#~ msgid "Widget for displaying renty-categories."
+#~ msgstr "Виджет для отображения renty-категорий."
+
+#~ msgid "Renty-Comments"
+#~ msgstr "Renty Комментарии"
+
+#~ msgid "Widget for displaying comments."
+#~ msgstr "Виджет для отображения комментариев."
+
+#~ msgid "Renty subscribe for email"
+#~ msgstr "Renty подписка на электронную почту"
+
+#~ msgid "Widget for displaying subscribe-for-email."
+#~ msgstr "Виджет для отображения подписки на электронную почту."
+
+#~ msgid "Widget for displaying renty-text."
+#~ msgstr "Виджет для отображения renty-текста."
+
+#~ msgid "Hide Slides List"
+#~ msgstr "Скрыть список слайдов"
+
+#~ msgid "Sidebar is displayed on template pages \"Choose Extras\"."
+#~ msgstr "Сайдбар отображается на страницах шаблона \"Choose Extras\"."
+
+#, fuzzy
+#~ msgid "Sidebar Choose Car"
+#~ msgstr "Правый сайдбар"
+
+#~ msgid "Sidebar is displayed on template pages \"Choose Car\"."
+#~ msgstr "Сайдбар отображается на страницах шаблона \"Choose Car\"."
+
+#~ msgid "Renty social network"
+#~ msgstr "Renty социальные сети"
+
+#~ msgid "Widget for displaying social network."
+#~ msgstr "Виджет для отображения социальных сетей."
+
+#~ msgid "Renty Twitter Widget"
+#~ msgstr "Renty Twitter Виджет"
+
+#~ msgid "Tweets Number: "
+#~ msgstr "Количество Твитов: "
+
+#, fuzzy
+#~ msgid "Sidebar Page"
+#~ msgstr "Правый сайдбар"
+
+#~ msgid "%s thought"
+#~ msgid_plural "%s thoughts"
+#~ msgstr[0] "%s комментарий"
+#~ msgstr[1] "%s комментария"
+#~ msgstr[2] "%s комментариев"
+
+#~ msgid "Leave a comment"
+#~ msgstr "Написать комментарий"
+
+#~ msgid "1 Comment"
+#~ msgstr "1 Комментарий"
+
+#~ msgid "% Comments"
+#~ msgstr "% Комментариев"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Комментарии закрыты."
+
+#~ msgid "Slider Content Settings"
+#~ msgstr "Настройки контента слайдера"
+
+#~ msgid " - No slider content settings yet - "
+#~ msgstr "- Нет параметров содержимого слайдера -"
+
+#~ msgid "Slide content title"
+#~ msgstr "Заголовок контента слайдера"
+
+#~ msgid "Content slide descriptin"
+#~ msgstr "Описание контента слайдера"
+
+#~ msgid "slider content link"
+#~ msgstr "Заголовок контента слайдера"
+
+#~ msgid "1 Reply"
+#~ msgstr "1 Комментарий"
+
+#~ msgid "% Replies"
+#~ msgstr "% Коментариев"
+
+#~ msgid "&larr; Previous Page"
+#~ msgstr "&larr; Предыдущая страница."
+
+#~ msgid " Next Page &rarr;"
+#~ msgstr "Следующая страница &rarr;"
+
+#~ msgid "Name service features"
+#~ msgstr "Имя функции сервиса"
+
+#~ msgid "Description service features"
+#~ msgstr "Описание функции сервиса"
+
+#~ msgid "Save all changes"
+#~ msgstr "Сохранить все настройки"
+
+#~ msgid "Edit slide"
+#~ msgstr "Редактировать слайд"

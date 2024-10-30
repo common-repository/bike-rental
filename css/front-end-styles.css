@@ -1,0 +1,77 @@
+/**
+ * Styles for search form in BWS Slider
+ */
+/* General */
+.bws_bkng_search_form_wrap {
+	margin-top: -50px;
+	position: relative;
+	z-index: 1;
+}
+.bws_bkng_search_form form {
+	background: #fff;
+}
+.bws_bkng_search_form .bkng_error_wrap {
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.5);
+}
+.bws_bkng_form_img {
+	display: inline-block;
+	max-width: calc( 50% - 40px );
+	margin-top: 107px;
+}
+.bws_bkng_form_img img {
+	max-width: 100%;
+	height: auto;
+}
+.bws_bkng_search_form #bws-bkng-none {
+	padding: 3px 0 2px 0 ! important;
+	border-radius: 10px;
+	border: outset 2px;
+	font-weight: bold;
+	text-align: center;
+}
+/* Form left align */
+.bws_bkng_search_form_align_left {
+	padding: 0 20px;
+}
+.bws_bkng_search_form_align_left .bws_bkng_search_form {
+	float: left;
+	width: 50%;
+}
+.bws_bkng_search_form_align_left .bws_bkng_form_img {
+	float: right;
+}
+.bws_bkng_search_form_align_left .bws_bkng_form_img img {
+	transform: scale(-1, 1);
+}
+/* Form cenetered align */
+.bws_bkng_search_form_align_center .bws_bkng_search_form {
+	max-width: 75%;
+	margin: 0 auto;
+}
+/* Form right align */
+.bws_bkng_search_form_align_right {
+	padding: 0 20px;
+}
+.bws_bkng_search_form_align_right .bws_bkng_search_form {
+	float: right;
+	width: 50%;
+}
+.bws_bkng_search_form_align_right .bws_bkng_form_img {
+	float: left;
+}
+.button-secondary {
+	margin: 5px 0 0 5px;
+}
+
+@media only screen and ( max-width: 782px ) {
+	.bws_bkng_search_form_wrap .bws_bkng_form_img {
+		display: none;
+	}
+	.bws_bkng_search_form_wrap .bws_bkng_search_form {
+		float: none;
+		max-width: 90%;
+		width: 90%;
+		margin: 0 auto;
+	}
+}

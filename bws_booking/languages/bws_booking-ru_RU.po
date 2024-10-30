@@ -1,0 +1,5213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BWS Booking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-25 07:12+0300\n"
+"PO-Revision-Date: 2021-05-25 07:22+0300\n"
+"Last-Translator: bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language-Team: bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : "
+"((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/admin/bws_bkng_admin.php:113
+msgid "Upgrade to Pro"
+msgstr "Обновить до Pro"
+
+#: classes/admin/bws_bkng_admin.php:134
+#: classes/admin/bws_bkng_categories_metabox.php:87
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:145
+#: classes/helpers/bws_bkng_helper.php:502
+msgid "Featured Image"
+msgstr "Миниатюра"
+
+# Показать дополнительные товары
+# ->
+# Показать дополнения
+#: classes/admin/bws_bkng_admin.php:170
+msgid "Show extras"
+msgstr "Показать дополнения"
+
+# Скрыть дополнительные товары
+# ->
+# Скрыть дополнения
+#: classes/admin/bws_bkng_admin.php:171
+msgid "Hide extras"
+msgstr "Скрыть дополнения"
+
+# Вы уверены, что хотите это сделать? Аттрибут "%s" будет полностью удален без возможности восстановления
+#  ->
+# Вы уверены, что хотите это сделать? Характеристика "%s" будет полностью удалена без возможности восстановления
+#: classes/admin/bws_bkng_admin.php:183
+#, php-format
+msgid ""
+"Are you sure you want to do it? Attribute \"%s\" will be completely removed "
+"from the products data without the possibility to recover them"
+msgstr ""
+"Вы уверены, что хотите это сделать? Характеристика \"%s\" будет полностью "
+"удалена без возможности восстановления"
+
+# Вы уверены, что хотите удалить выбранные заказы?
+# ->
+# Вы уверены, что хотите удалить выбранные заказы
+# (удалить знак вопроса, т.к. их получается 2)
+#: classes/admin/bws_bkng_admin.php:184
+msgid "Are you sure you want to delete chosen orders"
+msgstr "Вы уверены, что хотите удалить выбранные заказы"
+
+#: classes/admin/bws_bkng_admin.php:278 classes/admin/bws_bkng_admin.php:303
+msgid "Availble shortcodes"
+msgstr "Доступные шорткоды"
+
+#: classes/admin/bws_bkng_admin.php:315
+msgid "Items per Page"
+msgstr "Элементов на странице"
+
+#: classes/admin/bws_bkng_agencies_metabox.php:111
+#: classes/admin/bws_bkng_agencies_metabox.php:112
+msgid "Clone"
+msgstr "Копировать"
+
+#: classes/admin/bws_bkng_agencies_metabox.php:152
+#: classes/admin/bws_bkng_post_metabox.php:753
+msgid "Copy"
+msgstr "Копировать"
+
+#: classes/admin/bws_bkng_agencies_metabox.php:243
+msgid "Term is not cloned"
+msgstr "Термин не скопирован"
+
+#: classes/admin/bws_bkng_agencies_metabox.php:244
+msgid "Term is cloned"
+msgstr "Термин скопирован"
+
+# Термин не скопирован с ошибками. Проверьте настройки термина
+# ->
+# Термин скопирован с ошибками. Проверьте настройки термина
+# (удалить "не")
+#: classes/admin/bws_bkng_agencies_metabox.php:245
+msgid "Term is cloned with some errors. Check term options"
+msgstr "Термин скопирован с ошибками. Проверьте настройки термина"
+
+#: classes/admin/bws_bkng_agencies_metabox.php:461 tags/agencies.php:91
+msgid "Holiday"
+msgstr "Выходной"
+
+#: classes/admin/bws_bkng_agencies_metabox.php:462
+msgid "Workday"
+msgstr "Рабочий день"
+
+#: classes/admin/bws_bkng_agencies_metabox.php:465
+#: classes/general/bws_bkng_mailer.php:477 templates/order-details.php:29
+msgid "from"
+msgstr "от"
+
+#: classes/admin/bws_bkng_agencies_metabox.php:466
+msgid "till"
+msgstr "до"
+
+#: classes/admin/bws_bkng_agencies_metabox.php:472
+msgid "Notes"
+msgstr "Примечания"
+
+# аттрибут
+# ->
+# характеристика
+#: classes/admin/bws_bkng_attributes_page.php:134
+msgid "attribute"
+msgstr "характеристика"
+
+# аттрибуты
+# ->
+# характеристики
+#: classes/admin/bws_bkng_attributes_page.php:135
+msgid "attributes"
+msgstr "характеристики"
+
+# Аттрибуты не найдены
+# ->
+# Характеристики не найдены
+#: classes/admin/bws_bkng_attributes_page.php:150
+msgid "No attributes found"
+msgstr "Характеристики не найдены"
+
+#: classes/admin/bws_bkng_attributes_page.php:164
+#: classes/admin/bws_bkng_attributes_page.php:756
+#: classes/admin/bws_bkng_locations_page.php:164
+#: classes/admin/bws_bkng_locations_page.php:573
+#: classes/admin/bws_bkng_single_order_page.php:145
+msgid "Name"
+msgstr "Имя"
+
+#: classes/admin/bws_bkng_attributes_page.php:165
+#: classes/admin/bws_bkng_attributes_page.php:762
+#: classes/admin/settings/bws_bkng_settings_products.php:127
+msgid "Slug"
+msgstr "Слаг"
+
+#: classes/admin/bws_bkng_attributes_page.php:166
+#: classes/admin/bws_bkng_attributes_page.php:768
+msgid "Type"
+msgstr "Тип"
+
+#: classes/admin/bws_bkng_attributes_page.php:167
+#: classes/admin/bws_bkng_attributes_page.php:881
+#: classes/front-end/bws_bkng_content_filter.php:109
+msgid "Description"
+msgstr "Описание"
+
+#: classes/admin/bws_bkng_attributes_page.php:236
+#: classes/admin/bws_bkng_locations_page.php:236
+#: classes/admin/bws_bkng_orders_page.php:252
+msgid "Edit"
+msgstr "Изменить"
+
+#: classes/admin/bws_bkng_attributes_page.php:238
+#: classes/admin/bws_bkng_attributes_page.php:281
+#: classes/admin/bws_bkng_attributes_page.php:851
+#: classes/admin/bws_bkng_locations_page.php:238
+#: classes/admin/bws_bkng_locations_page.php:281
+#: classes/admin/bws_bkng_orders_page.php:253
+#: classes/admin/bws_bkng_orders_page.php:325
+#: classes/admin/bws_bkng_post_metabox.php:762
+#: classes/admin/bws_bkng_single_order_page.php:207
+msgid "Delete"
+msgstr "Удалить"
+
+#: classes/admin/bws_bkng_attributes_page.php:406
+#: classes/admin/bws_bkng_locations_page.php:370
+msgid "Field name is empty."
+msgstr "Поле имя пустое."
+
+#: classes/admin/bws_bkng_attributes_page.php:413
+#: classes/admin/bws_bkng_attributes_page.php:419
+msgid "Select at least one available value."
+msgstr "Выберите хотя бы одно доступное значение."
+
+#: classes/admin/bws_bkng_attributes_page.php:416
+msgid "Select at least two available values."
+msgstr "Выберите как минимум два доступных значения."
+
+#: classes/admin/bws_bkng_attributes_page.php:426
+msgid "The field has been updated"
+msgstr "Поле обновлено"
+
+#: classes/admin/bws_bkng_attributes_page.php:441
+msgid "The field has been created"
+msgstr "Поле создано"
+
+# Добавить Новый
+# ->
+# Добавить новый
+#: classes/admin/bws_bkng_attributes_page.php:659
+#: classes/admin/bws_bkng_attributes_page.php:749
+#: classes/admin/bws_bkng_locations_page.php:498
+#: classes/admin/bws_bkng_locations_page.php:566
+#: classes/admin/bws_bkng_post_metabox.php:1551
+msgid "Add New"
+msgstr "Добавить новый"
+
+# Характеристики
+#: classes/admin/bws_bkng_attributes_page.php:688
+msgid "Edit Attribute"
+msgstr "Изменить атрибут"
+
+# ->Add New Car
+# ->Добавить новый автомобиль
+#: classes/admin/bws_bkng_attributes_page.php:727
+msgid "Add New Attribute"
+msgstr "Добавить новый атрибут"
+
+#: classes/admin/bws_bkng_attributes_page.php:778
+msgid "Max Length"
+msgstr "Максимальная длина"
+
+#: classes/admin/bws_bkng_attributes_page.php:781
+msgid ""
+"Specify field max length (for text field and textarea type) or max number "
+"(for number field type)."
+msgstr ""
+"Укажите максимальную длину поля (для текстового поля и типа текстового поля) "
+"или максимальное число (для числового типа поля)."
+
+#: classes/admin/bws_bkng_attributes_page.php:785
+msgid "Field width in characters"
+msgstr "Ширина поля в символах"
+
+#: classes/admin/bws_bkng_attributes_page.php:791
+msgid "The height of the field in the text lines"
+msgstr "Высота поля в текстовых строках"
+
+#: classes/admin/bws_bkng_attributes_page.php:797
+#: classes/admin/bws_bkng_attributes_page.php:800
+#: classes/admin/settings/bws_bkng_settings_general.php:266
+msgid "Date Format"
+msgstr "Формат даты"
+
+#: classes/admin/bws_bkng_attributes_page.php:813
+#: classes/admin/bws_bkng_attributes_page.php:837
+msgid "Custom:"
+msgstr "Пользовательский:"
+
+#: classes/admin/bws_bkng_attributes_page.php:813
+msgid "enter a custom date format in the following field"
+msgstr "введите произвольный формат даты в поле"
+
+#: classes/admin/bws_bkng_attributes_page.php:814
+msgid "Custom date format:"
+msgstr "Пользовательский формат даты:"
+
+#: classes/admin/bws_bkng_attributes_page.php:815
+#: classes/admin/bws_bkng_attributes_page.php:838
+msgid "example:"
+msgstr "пример:"
+
+#: classes/admin/bws_bkng_attributes_page.php:816
+#: classes/admin/bws_bkng_attributes_page.php:839
+msgid "Documentation on date and time formatting."
+msgstr "Документация по форматированию даты и времени."
+
+#: classes/admin/bws_bkng_attributes_page.php:821
+#: classes/admin/bws_bkng_attributes_page.php:824
+msgid "Time Format"
+msgstr "Формат времени"
+
+#: classes/admin/bws_bkng_attributes_page.php:837
+msgid "enter a custom time format in the following field"
+msgstr "введите произвольный формат времени в поле"
+
+#: classes/admin/bws_bkng_attributes_page.php:838
+msgid "Custom time format:"
+msgstr "Пользовательский формат времени:"
+
+#: classes/admin/bws_bkng_attributes_page.php:844
+msgid "Available Values"
+msgstr "Доступные значения"
+
+#: classes/admin/bws_bkng_attributes_page.php:848
+#: classes/admin/bws_bkng_attributes_page.php:860
+#: classes/admin/bws_bkng_attributes_page.php:870
+msgid "Name of value"
+msgstr "Название значения"
+
+#: classes/admin/bws_bkng_attributes_page.php:875
+msgid "Add"
+msgstr "Добавить"
+
+#: classes/admin/bws_bkng_attributes_page.php:876
+msgid "Click save button to add more values"
+msgstr "Нажмите кнопку «Сохранить», чтобы добавить другие значения"
+
+#: classes/admin/bws_bkng_attributes_page.php:891
+#: classes/admin/bws_bkng_locations_page.php:631
+#: classes/admin/bws_bkng_single_order_page.php:102
+#: classes/admin/bws_bkng_single_order_page.php:193
+#: classes/helpers/bws_bkng_settings_helper.php:39
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: classes/admin/bws_bkng_attributes_page.php:1002
+msgid "Not enough data"
+msgstr "Недостаточно данных"
+
+# Слаг аттрибута пустой или неправильный
+# ->
+# Слаг характеристики пустой или неправильный
+#: classes/admin/bws_bkng_attributes_page.php:1022
+msgid "Attribute slug is wrong or empty"
+msgstr "Слаг характеристики пустой или неправильный"
+
+#: classes/admin/bws_bkng_attributes_page.php:1024
+msgid "Taxonomy with such slug already exists"
+msgstr "Таксономия с таким слагом уже существует"
+
+# Аттрибут удален
+# ->
+# Характеристика удалена
+#: classes/admin/bws_bkng_attributes_page.php:1116
+#, php-format
+msgid "One attribute deleted"
+msgid_plural "%s attributes deleted"
+msgstr[0] "Характеристика удалена"
+msgstr[1] "%s характеристики удалено"
+msgstr[2] "%s характеристик удалено"
+msgstr[3] "%s характеристика удалена"
+
+# Аттрибут обновлен
+# ->
+# Характеристика обновлена
+#: classes/admin/bws_bkng_attributes_page.php:1125
+msgid "Attribute updated"
+msgstr "Характеристика обновлена"
+
+#: classes/admin/bws_bkng_categories_metabox.php:31
+msgid "Uncategorized"
+msgstr "Без категории"
+
+#: classes/admin/bws_bkng_categories_metabox.php:91
+msgid "Default Rent Interval"
+msgstr "Период аренды по умолчанию"
+
+#: classes/admin/bws_bkng_categories_metabox.php:95
+msgid "Exclude From Search"
+msgstr "Исключить из поиска"
+
+# По умолчанию
+# ->
+# Установить по умолчанию
+#: classes/admin/bws_bkng_default_term.php:149
+#: classes/admin/bws_bkng_default_term.php:150
+msgid "Set as default"
+msgstr "Установить по умолчанию"
+
+#: classes/admin/bws_bkng_default_term.php:169
+msgid "Default term is changed"
+msgstr "Термин по умолчанию изменен"
+
+#: classes/admin/bws_bkng_default_term.php:238
+#: classes/admin/bws_bkng_orders_page.php:304
+#: classes/admin/profile/bws_bkng_profile_history.php:277
+msgid "All"
+msgstr "Все"
+
+#: classes/admin/bws_bkng_demo_data_loader.php:768
+msgid "Can't add terms"
+msgstr "Невозможно добавить термин"
+
+#: classes/admin/bws_bkng_demo_data_loader.php:771
+msgid "Can't add posts"
+msgstr "Невозможно добавить запись"
+
+#: classes/admin/bws_bkng_demo_data_loader.php:774
+msgid "Can't add thumbnail"
+msgstr "Невозможно добавить миниатюру"
+
+# если один: Term doesn't exist - Термин не существует
+# /
+# если много: Terms don't exist - Термины не существуют
+#: classes/admin/bws_bkng_demo_data_loader.php:777
+msgid "Terms don't exists"
+msgstr "Термины не существуют"
+
+#: classes/admin/bws_bkng_demo_data_loader.php:780
+msgid "Can't remove terms"
+msgstr "Невозможно удалить термины"
+
+#: classes/admin/bws_bkng_demo_data_loader.php:783
+msgid "Can't remove posts"
+msgstr "Невозможно удалить записи"
+
+#: classes/admin/bws_bkng_demo_data_loader.php:786
+msgid "Can't remove thumbnail"
+msgstr "Невозможно удалить миниатюры"
+
+#: classes/admin/bws_bkng_locations_metabox.php:42
+#: classes/general/bws_bkng_user.php:395
+#: classes/helpers/bws_bkng_helper.php:499 tags/general.php:472
+#: templates/single-agency.php:38
+msgid "Location"
+msgstr "Расположение"
+
+#: classes/admin/bws_bkng_locations_metabox.php:104
+msgid "Please enable JavaScript to add new location"
+msgstr "Пожалуйста, включите JavaScript, чтобы добавить новое местоположение"
+
+#: classes/admin/bws_bkng_locations_metabox.php:114
+#: classes/admin/bws_bkng_locations_page.php:165
+#: classes/admin/bws_bkng_locations_page.php:592
+msgid "Address"
+msgstr "Адрес"
+
+#: classes/admin/bws_bkng_locations_metabox.php:122
+#: classes/admin/bws_bkng_locations_page.php:585
+#: classes/admin/bws_bkng_post_metabox.php:1588
+#: classes/admin/settings/bws_bkng_settings_general.php:528
+msgid "Find by address"
+msgstr "Найти по адресу"
+
+#: classes/admin/bws_bkng_locations_metabox.php:129
+#: classes/admin/bws_bkng_locations_page.php:608
+#: classes/admin/bws_bkng_post_metabox.php:1589
+#: classes/admin/settings/bws_bkng_settings_general.php:550
+msgid "Find by coordinates"
+msgstr "Найти по координатам"
+
+#: classes/admin/bws_bkng_locations_metabox.php:133
+#: classes/admin/bws_bkng_locations_page.php:166
+#: classes/admin/bws_bkng_locations_page.php:612
+#: classes/admin/bws_bkng_post_metabox.php:1582
+#: classes/admin/settings/bws_bkng_settings_general.php:554
+msgid "Latitude"
+msgstr "Широта"
+
+#: classes/admin/bws_bkng_locations_metabox.php:134
+#: classes/admin/bws_bkng_locations_page.php:167
+#: classes/admin/bws_bkng_locations_page.php:613
+#: classes/admin/bws_bkng_post_metabox.php:1583
+#: classes/admin/settings/bws_bkng_settings_general.php:555
+msgid "Longitude"
+msgstr "Долгота"
+
+#: classes/admin/bws_bkng_locations_page.php:134
+msgid "location"
+msgstr "расположение"
+
+#: classes/admin/bws_bkng_locations_page.php:135
+msgid "locations"
+msgstr "расположение"
+
+#: classes/admin/bws_bkng_locations_page.php:150
+msgid "No locations found"
+msgstr "Ничего не найдено"
+
+#: classes/admin/bws_bkng_locations_page.php:373
+msgid "Field address is empty."
+msgstr "Поле адреса пустое."
+
+#: classes/admin/bws_bkng_locations_page.php:393
+msgid "The location has been updated"
+msgstr "Местоположение обновлено"
+
+#: classes/admin/bws_bkng_locations_page.php:395
+msgid "The location has been created"
+msgstr "Локация создана"
+
+#: classes/admin/bws_bkng_locations_page.php:527
+msgid "Edit Location"
+msgstr "Изменить местоположение"
+
+#: classes/admin/bws_bkng_locations_page.php:544
+msgid "Add New Location"
+msgstr "Добавить новое местоположение"
+
+#: classes/admin/bws_bkng_locations_page.php:625
+#, fuzzy
+#| msgid "Default Coordinates"
+msgid "Coordinates"
+msgstr "Координаты по умолчанию"
+
+# Аттрибут удален
+# ->
+# Характеристика удалена
+#: classes/admin/bws_bkng_locations_page.php:676
+#, fuzzy, php-format
+#| msgid "One attribute deleted"
+#| msgid_plural "%s attributes deleted"
+msgid "One location deleted"
+msgid_plural "%s locations deleted"
+msgstr[0] "Характеристика удалена"
+msgstr[1] "%s характеристики удалено"
+msgstr[2] "%s характеристик удалено"
+msgstr[3] "%s характеристика удалена"
+
+#: classes/admin/bws_bkng_locations_page.php:685
+msgid "Location updated"
+msgstr "Местоположение обновлено"
+
+#: classes/admin/bws_bkng_orders_page.php:133
+#: classes/admin/profile/bws_bkng_profile_history.php:111
+msgid "order"
+msgstr "заказ"
+
+#: classes/admin/bws_bkng_orders_page.php:134
+#: classes/admin/profile/bws_bkng_profile_history.php:112
+msgid "orders"
+msgstr "заказы"
+
+# Заказу -> Заказы
+#: classes/admin/bws_bkng_orders_page.php:158
+msgid "No orders found"
+msgstr "Заказы не найдены"
+
+#: classes/admin/bws_bkng_orders_page.php:172
+#: classes/admin/bws_bkng_single_order_page.php:94
+#: classes/admin/profile/bws_bkng_profile_history.php:139
+msgid "Order"
+msgstr "Заказ"
+
+#: classes/admin/bws_bkng_orders_page.php:173
+#: classes/general/bws_bkng_data_loader.php:46
+msgid "Customer"
+msgstr "Клиент"
+
+#: classes/admin/bws_bkng_orders_page.php:174
+#: classes/admin/bws_bkng_single_order_page.php:124
+#: classes/admin/profile/bws_bkng_profile_history.php:141
+msgid "Status"
+msgstr "Статус"
+
+#: classes/admin/bws_bkng_orders_page.php:175
+#: classes/admin/bws_bkng_single_order_page.php:182
+msgid "Customer Note"
+msgstr "Заметка от клиента"
+
+#: classes/admin/bws_bkng_orders_page.php:176
+#: classes/admin/bws_bkng_single_order_products_list.php:275
+#: classes/admin/profile/bws_bkng_profile_history.php:142
+#: classes/general/bws_bkng_order_table.php:181 templates/order-details.php:91
+msgid "Total"
+msgstr "Сумма"
+
+#: classes/admin/bws_bkng_orders_page.php:177
+#: classes/admin/bws_bkng_single_order_page.php:118
+#: classes/admin/profile/bws_bkng_profile_history.php:143
+#: classes/general/bws_bkng_data_loader.php:591
+#: classes/helpers/bws_bkng_helper.php:384
+msgid "Date"
+msgstr "Дата"
+
+#: classes/admin/bws_bkng_orders_page.php:262
+#: classes/admin/bws_bkng_post_metabox.php:1113
+#: classes/admin/profile/bws_bkng_profile_history.php:212
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:234
+msgid "Price on Request"
+msgstr "Цена по запросу"
+
+#: classes/admin/bws_bkng_orders_page.php:350
+msgid "All dates"
+msgstr "Все даты"
+
+# Все Клиенты
+# ->
+# Все клиенты
+#: classes/admin/bws_bkng_orders_page.php:360
+msgid "All Customers"
+msgstr "Все клиенты"
+
+#: classes/admin/bws_bkng_orders_page.php:364
+msgid "Filter"
+msgstr "Фильтр"
+
+#: classes/admin/bws_bkng_orders_page.php:417
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:329
+#: classes/general/bws_bkng_order.php:427
+#: classes/general/bws_bkng_order.php:710
+#: classes/general/bws_bkng_order.php:724
+#: classes/general/bws_bkng_order.php:803
+msgid "Oops, something went wrong"
+msgstr "Опаньки, что-то пошло не так"
+
+#: classes/admin/bws_bkng_orders_page.php:484
+#: classes/admin/profile/bws_bkng_profile_history.php:464
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:392 tags/search.php:471
+msgid "Search"
+msgstr "Поиск"
+
+#: classes/admin/bws_bkng_orders_page.php:601
+#, php-format
+msgid "One order has been removed"
+msgid_plural "%s orders have been removed"
+msgstr[0] "Заказ был удален"
+msgstr[1] "%s  заказа было удалено"
+msgstr[2] "%s  заказов было удалено"
+msgstr[3] "%s  заказ был удален"
+
+#: classes/admin/bws_bkng_orders_page.php:651
+#: classes/admin/profile/bws_bkng_profile_history.php:520
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: classes/admin/bws_bkng_post_metabox.php:456
+msgid "Cannot get the parent post"
+msgstr "Невозможно получить родительскую запись"
+
+#: classes/admin/bws_bkng_post_metabox.php:472
+msgid "Cannot create the variation"
+msgstr "Невозможно создать вариацию"
+
+#: classes/admin/bws_bkng_post_metabox.php:563
+#: classes/admin/bws_bkng_post_metabox.php:569
+msgid "There were some errors during the copying of the product"
+msgstr "Произошли ошибки при копировании продукта"
+
+#: classes/admin/bws_bkng_post_metabox.php:566
+msgid "There were some errors during the removing of the product"
+msgstr "Произошли ошибки при удалении продукта"
+
+#: classes/admin/bws_bkng_post_metabox.php:582
+#, fuzzy
+#| msgid "Car variation has been added successfully"
+msgid "variation has been added successfully"
+msgstr "Вариация успешно добавлена"
+
+#: classes/admin/bws_bkng_post_metabox.php:585
+#, fuzzy
+#| msgid "Car variation has been removed successfully"
+msgid "variation has been removed successfully"
+msgstr "Вариация успешно удалена"
+
+#: classes/admin/bws_bkng_post_metabox.php:588
+#, fuzzy
+#| msgid "Car variation has been copied successfully"
+msgid "variation has been copied successfully"
+msgstr "Вариация успешно скопирована"
+
+#: classes/admin/bws_bkng_post_metabox.php:625
+msgid "Preferences"
+msgstr "Настройки"
+
+#: classes/admin/bws_bkng_post_metabox.php:635
+#: classes/admin/profile/bws_bkng_profile_settings.php:35
+#: classes/helpers/bws_bkng_helper.php:503 templates/single-agency.php:59
+msgid "Gallery"
+msgstr "Галерея"
+
+#: classes/admin/bws_bkng_post_metabox.php:695
+#: classes/admin/bws_bkng_post_metabox.php:705
+msgid "Cannot get product's data"
+msgstr "Невозможно получить данные продукта"
+
+#: classes/admin/bws_bkng_post_metabox.php:775
+msgid "Add new variation"
+msgstr "Добавить вариацию"
+
+#: classes/admin/bws_bkng_post_metabox.php:815
+#: classes/admin/settings/bws_bkng_settings_cart.php:26
+#: classes/admin/settings/bws_bkng_settings_checkout.php:26
+#: classes/admin/settings/bws_bkng_settings_general.php:50
+#: classes/admin/settings/bws_bkng_settings_page.php:96
+#: classes/admin/settings/bws_bkng_settings_products.php:26
+msgid "General"
+msgstr "Основные"
+
+#: classes/admin/bws_bkng_post_metabox.php:821
+#: classes/admin/bws_bkng_post_metabox.php:1131
+#: classes/admin/bws_bkng_post_metabox.php:1165
+#: classes/admin/bws_bkng_post_metabox.php:1207
+#: classes/admin/bws_bkng_single_order_products_list.php:134
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:147
+#: classes/front-end/bws_bkng_cart.php:355
+#: classes/general/bws_bkng_ajax.php:361 classes/general/bws_bkng_order.php:914
+#: classes/helpers/bws_bkng_helper.php:383 templates/order-details.php:38
+#: templates/pre-order.php:23
+msgid "Price"
+msgstr "Цена"
+
+# Характеристики
+#: classes/admin/bws_bkng_post_metabox.php:826
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:148
+msgid "Attributes"
+msgstr "Характеристики"
+
+#: classes/admin/bws_bkng_post_metabox.php:834
+#, fuzzy
+#| msgid "Location"
+msgid "Locations"
+msgstr "Расположение"
+
+#: classes/admin/bws_bkng_post_metabox.php:844
+#, fuzzy
+#| msgid "Please enable JavaScript to manage the product data"
+msgid "Please enable JavaScript to manage the data."
+msgstr ""
+"Пожалуйста, включите JavaScript для того, чтобы редактировать данные продукта"
+
+#: classes/admin/bws_bkng_post_metabox.php:1059
+#: templates/lists/taxonomies.php:24
+msgid "Category"
+msgstr "Категория"
+
+#: classes/admin/bws_bkng_post_metabox.php:1142
+#, fuzzy
+#| msgid "Price per Day"
+msgid "Price by days"
+msgstr "Цена за день"
+
+#: classes/admin/bws_bkng_post_metabox.php:1165
+#: classes/general/bws_bkng_ajax.php:361
+#, fuzzy
+#| msgid "From"
+msgid "Day From"
+msgstr "От"
+
+#: classes/admin/bws_bkng_post_metabox.php:1165
+#: classes/general/bws_bkng_ajax.php:361
+msgid "Day To"
+msgstr "День до"
+
+#: classes/admin/bws_bkng_post_metabox.php:1189
+#, fuzzy
+#| msgid "Add New Extra"
+msgid "Add New Interval"
+msgstr "Добавить Новое Дополнение"
+
+#: classes/admin/bws_bkng_post_metabox.php:1196
+msgid "Winter Season"
+msgstr "Зимний сезон"
+
+#: classes/admin/bws_bkng_post_metabox.php:1197
+msgid "Spring Season"
+msgstr "Весенний сезон"
+
+#: classes/admin/bws_bkng_post_metabox.php:1198
+msgid "Summer Season"
+msgstr "Летний сезон"
+
+#: classes/admin/bws_bkng_post_metabox.php:1199
+msgid "Autumn Season"
+msgstr "Осенний сезон"
+
+#: classes/admin/bws_bkng_post_metabox.php:1227 templates/forms/extras.php:30
+#: templates/order-details.php:60 templates/pre-order.php:34
+msgid "Extras"
+msgstr "Дополнения"
+
+#: classes/admin/bws_bkng_post_metabox.php:1227
+msgid ""
+"Select products that will be offered as extras for the currently edited one."
+msgstr ""
+"Выберите продукты, которые будут предложены пользователю в качестве "
+"дополнений к текущему"
+
+#: classes/admin/bws_bkng_post_metabox.php:1377
+#, fuzzy
+#| msgid "Single Location"
+msgid "Select location"
+msgstr "Одиночная локация"
+
+# страницу управления аттрибутами
+# ->
+# страницу управления характеристиками
+#: classes/admin/bws_bkng_post_metabox.php:1461
+msgid "the manage attribute page"
+msgstr "страницу управления характеристиками"
+
+#: classes/admin/bws_bkng_post_metabox.php:1463
+msgid "The list is empty. To edit it, please go to"
+msgstr "Список пуст. Для редактирования перейдите на"
+
+#: classes/admin/bws_bkng_products_tree.php:104
+#: classes/admin/bws_bkng_products_tree.php:374
+msgid "Loading"
+msgstr "Загрузка"
+
+#: classes/admin/bws_bkng_products_tree.php:107
+msgid "Oops, something went wrong. Check, please"
+msgstr "Что-то пошло не так. Пожалуйста, проверьте"
+
+#: classes/admin/bws_bkng_products_tree.php:560
+msgid "Saved"
+msgstr "Сохранено"
+
+#: classes/admin/bws_bkng_single_order_page.php:102
+msgid "Notice"
+msgstr "Внимание"
+
+#: classes/admin/bws_bkng_single_order_page.php:102
+msgid "The order's data have been changed."
+msgstr "Данные заказа были изменены."
+
+# Данные заказа
+# Подробности заказа
+# или
+# Детали заказа
+#: classes/admin/bws_bkng_single_order_page.php:110
+#: classes/widgets/bws_bkng_pre_order_widget.php:30
+msgid "Order Details"
+msgstr "Детали заказа"
+
+#: classes/admin/bws_bkng_single_order_page.php:115
+msgid "ID"
+msgstr "ID"
+
+# Данные клиента
+# или
+# Информация о клиенте
+#: classes/admin/bws_bkng_single_order_page.php:132
+#, fuzzy
+msgid "Customer Details"
+msgstr "Данные Клиента"
+
+#: classes/admin/bws_bkng_single_order_page.php:147
+#: classes/general/bws_bkng_mailer.php:257 templates/forms/checkout.php:44
+#: templates/order-details.php:127
+msgid "Email"
+msgstr "Email"
+
+#: classes/admin/bws_bkng_single_order_page.php:157
+msgid "Additional Info"
+msgstr "Дополнительная информация"
+
+#: classes/admin/bws_bkng_single_order_page.php:164
+#: classes/general/bws_bkng_mailer.php:479 templates/order-details.php:43
+#: templates/pre-order.php:27
+msgid "Pick-up drop-off dates"
+msgstr "Дата подачи и возврата"
+
+#: classes/admin/bws_bkng_single_order_page.php:184
+msgid "There are no notes from the customer"
+msgstr "Пользователь не оставил никаких сообщений"
+
+# Действия
+# ->
+# Выбор действия
+# (http://prntscr.com/m25cfh)
+#: classes/admin/bws_bkng_single_order_page.php:189
+msgid "Order Actions"
+msgstr "Выбор действия"
+
+#: classes/admin/bws_bkng_single_order_page.php:194
+msgid "Re-send"
+msgstr "Переслать клиенту"
+
+#: classes/admin/bws_bkng_single_order_page.php:214
+msgid "Submit"
+msgstr "Отправить"
+
+#: classes/admin/bws_bkng_single_order_page.php:342
+msgid "Order re-sent successfully"
+msgstr "Заказ успешно переслан"
+
+#: classes/admin/bws_bkng_single_order_page.php:345
+msgid "Order saved successfully"
+msgstr "Заказ успешно сохранен"
+
+#: classes/admin/bws_bkng_single_order_page.php:348
+msgid "Order status saved successfully"
+msgstr "Статус заказа успешно сохранен"
+
+# product -> car
+# продукт -> автомобиль
+#: classes/admin/bws_bkng_single_order_products_list.php:82
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:117
+#, fuzzy
+msgid "product"
+msgstr "продукт"
+
+# products -> cars
+# продукты -> автомобили
+#: classes/admin/bws_bkng_single_order_products_list.php:83
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:118
+#, fuzzy
+msgid "products"
+msgstr "продукты"
+
+# No products found -> No cars found
+# Продукты не найдены -> Автомобили не найдены
+#: classes/admin/bws_bkng_single_order_products_list.php:120
+#: classes/admin/profile/bws_bkng_profile_history.php:125
+msgid "No products found"
+msgstr "Автомобили не найдены"
+
+# ->Car
+# ->Автомобиль
+#: classes/admin/bws_bkng_single_order_products_list.php:133
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:146
+#: classes/general/bws_bkng_order.php:912 templates/order-details.php:33
+msgid "Product"
+msgstr "Автомобиль"
+
+#: classes/admin/bws_bkng_single_order_products_list.php:135
+#: classes/front-end/bws_bkng_cart.php:356
+#: classes/general/bws_bkng_order.php:915 templates/forms/extras.php:25
+#: templates/order-details.php:50 templates/pre-order.php:30
+msgid "Quantity"
+msgstr "Kоличество"
+
+# Итог
+#: classes/admin/bws_bkng_single_order_products_list.php:136
+#: classes/general/bws_bkng_order.php:926
+msgid "Summary"
+msgstr "Итог"
+
+#: classes/admin/bws_bkng_single_order_products_list.php:230
+#: templates/price.php:18
+msgid "Price on request"
+msgstr "Цена по запросу"
+
+#: classes/admin/bws_bkng_single_order_products_list.php:271
+#: classes/front-end/bws_bkng_cart.php:357
+#: classes/general/bws_bkng_order_table.php:175 templates/order-details.php:89
+#: templates/pre-order.php:41
+msgid "Subtotal"
+msgstr "Стоимость"
+
+# The price of some products was not shown to the user ->
+# The price of some cars was not shown to the user
+# /
+# Цена некотрых продуктов не была отображена пользователю ->
+# Цена некотрых автомобилей не была отображена пользователю
+#: classes/admin/bws_bkng_single_order_products_list.php:278
+#, fuzzy
+msgid "The price of some product was not shown to the user."
+msgstr "Цена некотрых продуктов не была отображена пользователю"
+
+# Products -> Cars
+# продукты -> автомобили
+#: classes/admin/profile/bws_bkng_profile_history.php:140
+#, fuzzy
+#| msgid "Sort Products"
+msgid "Amount of Products"
+msgstr "Сортировать автомобили"
+
+#: classes/admin/profile/bws_bkng_profile_history.php:203
+#, fuzzy
+#| msgid "View Car"
+msgid "View"
+msgstr "Просмотреть автомобиль"
+
+#: classes/admin/profile/bws_bkng_profile_history.php:368
+#, fuzzy
+#| msgid "Quantity"
+msgid "Quantity:"
+msgstr "Kоличество"
+
+#: classes/admin/profile/bws_bkng_profile_history.php:371
+#, fuzzy
+#| msgid "Price"
+msgid "Price:"
+msgstr "Цена"
+
+#: classes/admin/profile/bws_bkng_profile_history.php:393
+msgid "Total:"
+msgstr "Сумма:"
+
+#: classes/admin/profile/bws_bkng_profile_history.php:398
+msgid "Close"
+msgstr "Закрыть"
+
+#: classes/admin/profile/bws_bkng_profile_history.php:401
+msgid "Rent again"
+msgstr "Арендовать снова"
+
+#: classes/admin/profile/bws_bkng_profile_page.php:43
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/admin/profile/bws_bkng_profile_page.php:46
+msgid "History"
+msgstr "История"
+
+#: classes/admin/profile/bws_bkng_profile_page.php:49
+msgid "Wishlist"
+msgstr "Список желаний"
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:34
+#, fuzzy
+#| msgid "Personal Information"
+msgid "Personal Info"
+msgstr "Персональная информация"
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:74
+msgid "Your new password does not match."
+msgstr "Ваш новый пароль не совпадает."
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:77
+msgid "Invalid password."
+msgstr "Неправильный пароль."
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:80
+msgid "Your password has been successfully changed. Please, reload the page."
+msgstr "Ваш пароль был успешно изменен. Пожалуйста, перезагрузите страницу."
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:100
+#, fuzzy
+#| msgid "Gallery"
+msgid "Your Gallery"
+msgstr "Галерея"
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:118
+#, fuzzy
+#| msgid "Personal Information"
+msgid "Your Personal Info"
+msgstr "Персональная информация"
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:132
+msgid "Profile Picture"
+msgstr "Изображение профиля"
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:154
+msgid "Date of Birth"
+msgstr "Дата рождения"
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:162
+#, fuzzy
+#| msgid "Billing Details"
+msgid "Billing Data"
+msgstr "Реквизиты пользователя"
+
+#: classes/admin/profile/bws_bkng_profile_settings.php:172
+msgid "Change Password"
+msgstr "Сменить пароль"
+
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:131
+msgid "No items in your wishlist"
+msgstr "В вашем списке желаний нет товаров"
+
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:223
+msgid "Rent"
+msgstr "Аренда"
+
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:225
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:273
+#, fuzzy
+#| msgid "Remove Status"
+msgid "Remove"
+msgstr "Удалить статус"
+
+# Текущая категория товаров не требует аттрибутов
+# ->
+# Нет характеристик для выбранной категории
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:256
+#, fuzzy
+#| msgid "There are no attributes for the given category"
+msgid "There is no attributes for this product"
+msgstr "Нет характеристик для выбранной категории"
+
+#: classes/admin/profile/bws_bkng_profile_wishlist.php:437
+#, fuzzy, php-format
+#| msgid "Demo data will be completely removed from your site"
+msgid "One item has been removed from your wishlist"
+msgid_plural "%s items have been removed from your wishlist"
+msgstr[0] "Демо-данные будут полностью удалены с Вашего сайта"
+msgstr[1] "Демо-данные будут полностью удалены с Вашего сайта"
+msgstr[2] "Демо-данные будут полностью удалены с Вашего сайта"
+msgstr[3] "Демо-данные будут полностью удалены с Вашего сайта"
+
+#: classes/admin/settings/bws_bkng_settings_agencies.php:26
+#: classes/admin/settings/bws_bkng_settings_agents.php:26
+#: classes/admin/settings/bws_bkng_settings_users.php:26
+msgid "Display"
+msgstr "Отображение"
+
+#: classes/admin/settings/bws_bkng_settings_agencies.php:70
+msgid "Enable"
+msgstr "Включить"
+
+#: classes/admin/settings/bws_bkng_settings_agencies.php:76
+msgid "Agencies Page"
+msgstr "Страница агенств"
+
+#: classes/admin/settings/bws_bkng_settings_agencies.php:91
+msgid "Additional Fields"
+msgstr "Дополнительные поля"
+
+#: classes/admin/settings/bws_bkng_settings_agents.php:58
+msgid "Agents page"
+msgstr "Страница агентов"
+
+#: classes/admin/settings/bws_bkng_settings_cart.php:60
+msgid "Cart page"
+msgstr "Страница корзины"
+
+#: classes/admin/settings/bws_bkng_settings_cart.php:67
+msgid "days"
+msgstr "дней"
+
+#: classes/admin/settings/bws_bkng_settings_cart.php:69
+msgid ""
+"The user's cart will be automatically erased after the end of goods shelf "
+"life in it"
+msgstr ""
+"Корзина пользователя будет автоматически очищена по истечении срока хранения "
+"товаров в ней."
+
+#: classes/admin/settings/bws_bkng_settings_cart.php:71
+msgid "Keep goods in the cart"
+msgstr "Хранить товары в корзине"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:97
+msgid "Checkout Page"
+msgstr "Страница оформления заказа"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:102
+msgid "page"
+msgstr "страница"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:103
+msgid "Redirect after Placing an Order to"
+msgstr "Перенаправлять после оформления заказа"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:111
+msgid "Only for registered users"
+msgstr "Только для зарегистрированных пользователей"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:112
+msgid "Available for anyone"
+msgstr "Доступно всем"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:113
+msgid "The customer can be registered during placing the order"
+msgstr "Клиент будет автоматически зарегистрирован при оформлении заказа"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:113
+msgid ""
+"The registration will be enabled but not required. Also, please make sure "
+"that users registration is enabled on \"Dashboard\" -> \"Settings\" -> "
+"\"General\" page"
+msgstr ""
+"Регистрация будет включена, но не будет обязательной. Пожалуйста, убедитесь, "
+"что регистрация пользователей включена на странице \"Консоль\" ->  "
+"\"Настройки\" -> \"Общие\""
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:124
+msgid "Placing Orders"
+msgstr "Оформление заказа"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:130
+msgid ""
+"To avoid the displaying of the \"Agree...\" checkbox, just leave this field "
+"empty"
+msgstr ""
+"Для предотвращения отображения чекбокса \"Согласиться...\" просто оставьте "
+"это поле пустым"
+
+# Условия и Соглашения
+# ->
+# Условия и соглашения
+#: classes/admin/settings/bws_bkng_settings_checkout.php:131
+msgid "Terms and Conditions"
+msgstr "Условия и соглашения"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:156
+#: classes/front-end/bws_bkng_paypal.php:168
+msgid "PayPal does not support this currency."
+msgstr "PayPal не поддерживает эту валюту."
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:159
+msgid "Enable to add the PayPal payment feature."
+msgstr "Включите, чтобы добавить функцию оплаты PayPal."
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:159
+msgid "Get the necessary API keys and enter them below. "
+msgstr "Получите необходимые API ключи и введите их ниже."
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:159
+#, fuzzy
+#| msgid "Get a Key"
+msgid "Get the API Keys"
+msgstr "Получить ключ"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:169
+msgid "PayPal "
+msgstr "PayPal "
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:171
+msgid "Client ID of your PayPal App."
+msgstr "Идентификатор клиента вашего приложения PayPal."
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:179
+msgid "PayPal Client ID"
+msgstr "Идентификатор клиента PayPal"
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:181
+msgid "Secret of your PayPal App."
+msgstr "\"Секрет\" вашего приложения PayPal."
+
+#: classes/admin/settings/bws_bkng_settings_checkout.php:189
+msgid "PayPal Secret"
+msgstr "PayPal \"секрет\""
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:45
+#: classes/admin/settings/bws_bkng_settings_emails.php:141
+msgid "Customer Notifications"
+msgstr "Уведомления клиентов"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:46
+#: classes/admin/settings/bws_bkng_settings_emails.php:197
+msgid "Agent Notifications"
+msgstr "Уведомления агентов"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:51
+#: classes/admin/settings/bws_bkng_settings_emails.php:57
+msgid "New Order"
+msgstr "Новый заказ"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:51
+msgid ""
+"Enable to notify customers of their order being placed or marked as \"On Hold"
+"\""
+msgstr ""
+"Включите, чтобы уведомить клиентов о том, что их заказ размещен или помечен "
+"как «В ожидании»"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:52
+#: classes/admin/settings/bws_bkng_settings_emails.php:58
+msgid "Processed Order"
+msgstr "Заказ в процессе выполнения"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:52
+msgid "Enable to notify customers of their order being processed"
+msgstr ""
+"Включите, чтобы уведомить клиентов о том, что заказ в процессе выполнения"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:53
+#: classes/admin/settings/bws_bkng_settings_emails.php:59
+msgid "Completed Order"
+msgstr "Выполненный заказ"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:53
+msgid "Enable to notify customers of their order being completed"
+msgstr "Включите, чтобы уведомить клиентов о выполнении их заказа"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:54
+#: classes/admin/settings/bws_bkng_settings_emails.php:60
+msgid "Canceled Order"
+msgstr "Отменённый заказ"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:54
+msgid "Enable to notify customers of their order being canceled"
+msgstr "Включите, чтобы уведомить клиентов об отмене их заказа"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:57
+msgid ""
+"Enable to notify agents of a new order being placed or marked as \"On Hold\""
+msgstr ""
+"Включите, чтобы уведомить агентов о том, что новый заказ размещен или "
+"помечен как «В ожидании»"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:58
+msgid "Enable to notify agents of an order being marked as \"Processed\""
+msgstr ""
+"Включите, чтобы уведомить агентов о том, что заказ помечен как «В процессе "
+"выполнения»"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:59
+msgid "Enable to notify agents of an order being marked as \"Completed\""
+msgstr ""
+"Включите, чтобы уведомить агентов о том, что заказ помечен как «Выполненный»"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:60
+msgid "Enable to notify agents of order cancellation"
+msgstr "Включите, чтобы уведомить агентов об отмене заказа"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:157
+msgid ""
+"No users allowed to send notifications to clients. Please check the users' "
+"capabilities on your site."
+msgstr ""
+"Отсутствуют пользователи, имеющие право  отправлять уведомления клиентам. "
+"Пожалуйста, проверьте права пользователей на Вашем сайте"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:161
+msgid "Select the user on whose behalf customers will receive notifications"
+msgstr "Выберите пользователя, от чьего имени будут отправляться письма"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:171
+msgid "name"
+msgstr "имя"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:176
+msgid "email"
+msgstr "email"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:178
+msgid "Enter custom data for \"From\" field"
+msgstr "Введите данные для поля \"От\""
+
+# -> Отправлять от имени
+#: classes/admin/settings/bws_bkng_settings_emails.php:181
+msgid "Send from"
+msgstr "Отправлять от имени"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:206
+msgid ""
+"Enter additional comma-separated emails of users who will receive "
+"notifications"
+msgstr ""
+"Введите дополнительные адреса электронной почты  (через запятую), на которые "
+"будут отправляться оповещения"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:223
+msgid "Choose the agent(s) that will receive service notifications"
+msgstr "Выберите агентов, которые будут получать оповещения"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:228
+msgid "Send to"
+msgstr "Отправлять"
+
+#: classes/admin/settings/bws_bkng_settings_emails.php:253
+msgid "Cannot get emails info"
+msgstr "Невозможно получить данные сообщения"
+
+# ->Введите темУ сообщения
+#: classes/admin/settings/bws_bkng_settings_emails.php:269
+msgid "Enter subject"
+msgstr "Введите тему сообщения"
+
+# ->ДопOлнительно
+#: classes/admin/settings/bws_bkng_settings_general.php:51
+#: classes/admin/settings/bws_bkng_settings_general.php:58
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:52
+msgid "Custom Code"
+msgstr "Пользовательский код"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:56
+msgid "Images"
+msgstr "Изображения"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:57
+msgid "Slider"
+msgstr "Слайдер"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:59
+msgid "Misc"
+msgstr "Разное"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:60
+msgid "Import / Export"
+msgstr "Импорт / Экспорт"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:61
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:105
+msgid "Thousands and decimal separators can't be the same"
+msgstr "Тысячный и десятичный разделители не могут совпадать"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:110
+msgid "Thousands separator mustn't contain numbers"
+msgstr ""
+"Тысячный разделитель не должен \n"
+"содержать чисел"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:114
+msgid "Decimal separator  mustn't contain numbers"
+msgstr "Десятичный разделитель не должен содержать чисел"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:166
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:176
+msgid "Currency"
+msgstr "Валюта"
+
+# До цифр
+# ->
+# Перед цифрами
+#: classes/admin/settings/bws_bkng_settings_general.php:184
+msgid "Before numerals"
+msgstr "Перед цифрами"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:190
+msgid "After numerals"
+msgstr "После цифр"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:195
+msgid "Currency Position"
+msgstr "Расположение символа валюты"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:209
+msgid "Basic price"
+msgstr "Базовая цена"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:215
+msgid "Seasons price"
+msgstr "Сезонная цена"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:220
+#, fuzzy
+#| msgctxt "taxonomy singular name"
+#| msgid "Vehicle Type"
+msgid "Price Type"
+msgstr "Тип кузова"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:232
+msgid "Thousands Separator"
+msgstr "Тысячный разделитель"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:244
+msgid "Decimal Separator"
+msgstr "Десятичный разделитель"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:256
+msgid "Number of Decimal Places"
+msgstr "Количество десятичных знаков"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:285
+msgid "Install Now"
+msgstr "Установить"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:292
+msgid "Activate"
+msgstr "Активировать"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:297
+#, php-format
+msgid "Enable to use %s with %s"
+msgstr "Включите, чтобы использовать %s совместно с %s"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:303
+#, php-format
+msgid "Your %s plugin is outdated. Update it to the latest version"
+msgstr ""
+"Вы используете устаревшую версию плагина %s. Пожалуйста, обновитесь до "
+"последней версии"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:321
+msgid "Images Settings"
+msgstr "Настройки изображений"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:327
+msgid "Catalog Images Size"
+msgstr "Размер изображений в каталоге"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:328
+msgid "Gallery Images Size"
+msgstr "Размер изображений в галерее"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:355
+msgid ""
+"Enable to crop images when loading. Disable to resize images automatically "
+"using their aspect ratio."
+msgstr ""
+"Включите, чтобы обрезать изображения при загрузке. Отключите, чтобы изменить "
+"размер изображения автоматически, используя их пропорции."
+
+#: classes/admin/settings/bws_bkng_settings_general.php:356
+msgid "Crop Images"
+msgstr "Обрезать изображения"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:375
+msgid "Select the base crop position (the default is center)."
+msgstr "Выберите базовую позицию обрезки (по умолчанию - центр)."
+
+#: classes/admin/settings/bws_bkng_settings_general.php:376
+msgid "Crop position"
+msgstr "Позиция обрезки"
+
+# Включить Лайтбокс
+# ->
+# Включить лайтбокс
+#: classes/admin/settings/bws_bkng_settings_general.php:386
+msgid "Enable Lightbox"
+msgstr "Включить лайтбокс"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:399
+#, fuzzy
+#| msgid "Back to Slider Settings"
+msgid "Slider Settings"
+msgstr "Вернуться к настройкам слайдера"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:410
+#, fuzzy
+#| msgid "Enable Slider for"
+msgid "Enable Slider for Home Page"
+msgstr "Включить слайдер для"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:417
+#: classes/general/bws_bkng_related_plugins.php:280
+msgid "No"
+msgstr "Нет"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:418
+#: classes/general/bws_bkng_related_plugins.php:281
+msgid "Centered"
+msgstr "По центру"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:419
+#: classes/general/bws_bkng_related_plugins.php:282
+msgid "Align Left"
+msgstr "С левой стороны"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:420
+#: classes/general/bws_bkng_related_plugins.php:283
+msgid "Align Right"
+msgstr "С правой стороны"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:425
+#, fuzzy
+#| msgid "Add Cars Search Form"
+msgid "Add Search Form"
+msgstr "Добавить форму поиска автомобилей"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:447
+msgid "Post Type in Slider"
+msgstr "Тип сообщения в слайдере"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:460
+msgid "Advanced Settings"
+msgstr "Дополнительные настройки"
+
+# Настройки Google карт
+# ->
+# Настройки карт Google /
+# Настройки Google Maps
+#: classes/admin/settings/bws_bkng_settings_general.php:463
+msgid "Google Map Options"
+msgstr "Настройки Google Maps"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:472
+msgid "Key"
+msgstr "Ключ"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:479
+msgid "Auto (using WordPress locale)"
+msgstr "Автоматически (используя локаль WordPress)"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:496
+msgid "Language"
+msgstr "Язык"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:506
+#, php-format
+msgid ""
+"For more info see %s. To allow automatic region detection, just leave it "
+"empty"
+msgstr ""
+"Для более подробной информации смотрите  %s. Для автоматического выбора "
+"региона просто оставьте это поле пустым"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:509
+msgid "Region localization"
+msgstr "Локализация региона"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:516
+msgid "Region Identifier"
+msgstr "Идентификатор региона"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:534
+msgid "Default Address"
+msgstr "Адрес по умолчанию"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:567
+msgid "Default Coordinates"
+msgstr "Координаты по умолчанию"
+
+# Удалить все продукты
+# ->
+# Удалить все автомобили
+#: classes/admin/settings/bws_bkng_settings_general.php:571
+msgid "Remove all products"
+msgstr "Удалить все автомобили"
+
+# Удалить все аттрибуты
+# ->
+# Удалить все характеристики
+#: classes/admin/settings/bws_bkng_settings_general.php:572
+msgid "Remove all attributes"
+msgstr "Удалить все характеристики"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:573
+msgid "Remove all orders"
+msgstr "Удалить все заказы"
+
+#: classes/admin/settings/bws_bkng_settings_general.php:582
+msgid "Uninstall Settings"
+msgstr "Настройки удаления"
+
+# Products -> Cars
+# Продукты -> Автомобили
+#: classes/admin/settings/bws_bkng_settings_page.php:84
+#, fuzzy
+msgid "Products"
+msgstr "Продукты"
+
+# Оформить заказ -> Заказы
+# (http://prntscr.com/m25vll)
+#: classes/admin/settings/bws_bkng_settings_page.php:102
+#: data/default_settings.php:92 templates/forms/extras.php:101
+#: templates/forms/to-checkout-button.php:16
+msgid "Checkout"
+msgstr "Заказы"
+
+#: classes/admin/settings/bws_bkng_settings_page.php:110
+#: data/default_general_settings.php:119
+#, fuzzy
+#| msgid "Cart page"
+msgid "Cart"
+msgstr "Страница корзины"
+
+#: classes/admin/settings/bws_bkng_settings_page.php:123
+msgid "Notifications"
+msgstr "Уведомления"
+
+# продукта -> автомобиля
+#: classes/admin/settings/bws_bkng_settings_page.php:174
+msgid "New products status has been added successfully"
+msgstr "Новый статус автомобиля был добавлен"
+
+#: classes/admin/settings/bws_bkng_settings_page.php:236
+#, fuzzy
+#| msgid ""
+#| "Ability to manage the plugin settings is not available any more. Please "
+#| "upgrade the plugin core and re-create all your cars"
+msgid ""
+"Ability to manage the plugin settings is not available any more. Please "
+"upgrade the plugin core and re-create all your products"
+msgstr ""
+"Возможность управлять \n"
+"настройками плагина более \n"
+"недоступна. Пожалуйста, обновите \n"
+"ядро плагина и пересоздайте все \n"
+"Ваши автомобили."
+
+# ->Обовить ядро плагина
+# /
+# ->Обовите ядро плагина
+#: classes/admin/settings/bws_bkng_settings_page.php:238
+msgid "Update the plugin core"
+msgstr "Обовите ядро плагина"
+
+# products -> cars
+# продуктов -> автомобилей
+#: classes/admin/settings/bws_bkng_settings_page.php:280
+msgid "Select new status for products that are marked as"
+msgstr "Выберите новый статус для автомобилей, помеченных как"
+
+#: classes/admin/settings/bws_bkng_settings_page.php:285
+#, fuzzy
+#| msgid "New cars will be created that you can manage the way you want"
+msgid "New products will be created that you can manage the way you want"
+msgstr ""
+"Будут созданы новые автомобили, которыми Вы можете управлять необходимым Вам "
+"образом"
+
+#: classes/admin/settings/bws_bkng_settings_page.php:290
+msgid "Demo data will be completely removed from your site"
+msgstr "Демо-данные будут полностью удалены с Вашего сайта"
+
+#: classes/admin/settings/bws_bkng_settings_page.php:306
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: classes/admin/settings/bws_bkng_settings_page.php:321
+msgid "Cancel"
+msgstr "Отменить"
+
+# Статус продукта был удален -> Статус был успешно удален
+#: classes/admin/settings/bws_bkng_settings_page.php:368
+msgid "Status has been removed successfully"
+msgstr "Статус был успешно удален"
+
+#: classes/admin/settings/bws_bkng_settings_page.php:371
+msgid "Demo data successfully installed"
+msgstr "Демо-данные успешно установлены"
+
+#: classes/admin/settings/bws_bkng_settings_page.php:374
+msgid "Demo data deleted successfully"
+msgstr "Демо-данные успешно удалены"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:112
+msgid "Enable Variations"
+msgstr "Включить вариации"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:119
+msgid "Add to the search filters"
+msgstr "Добавить в фильтр поиска"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:124
+#, fuzzy
+#| msgid "Status"
+msgid "Statuses"
+msgstr "Статус"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:128
+msgid "Label"
+msgstr "Подпись"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:154
+msgid "Remove Status"
+msgstr "Удалить статус"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:163
+msgid "Enter the new status slug"
+msgstr "Введите слаг нового статуса"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:167
+msgid "Enter the new status label"
+msgstr "Введите название нового статуса"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:173
+msgid "Save Status"
+msgstr "Сохранить статус"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:187
+#, fuzzy
+#| msgid "Pages"
+msgid "Page"
+msgstr "Страницы"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:198
+#, fuzzy, php-format
+#| msgid "Sort by"
+msgid "Sort %s by"
+msgstr "Сортировать по"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:201
+msgid "Ascending (e.g., 1, 2, 3; a, b, c)"
+msgstr "По возрастанию (например: 1, 2, 3; а, б, в)"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:202
+msgid "Descending (e.g., 3, 2, 1; c, b, a)"
+msgstr "По убыванию (например: 1, 2, 3; а, б, в)"
+
+#: classes/admin/settings/bws_bkng_settings_products.php:210
+#, fuzzy, php-format
+#| msgid "Sort Cars"
+msgid "Sort %s"
+msgstr "Сортировать автомобили"
+
+#: classes/admin/settings/bws_bkng_settings_tabs.php:105
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+# Демо данные -> Демо-данные
+#: classes/admin/settings/bws_bkng_settings_tabs.php:138
+msgid "Demo Data"
+msgstr "Демо-данные"
+
+# Удалить Демо Данные -> Удалить демо-данные
+#: classes/admin/settings/bws_bkng_settings_tabs.php:142
+msgid "Remove Demo Data"
+msgstr "Удалить Демо-данные"
+
+#: classes/admin/settings/bws_bkng_settings_tabs.php:143
+#, fuzzy
+#| msgid ""
+#| "Not recommended in case you have changed and use demo data (cars, "
+#| "attributes, etc.)."
+msgid ""
+"Not recommended in case you have changed and use demo data (products, "
+"attributes, etc.)."
+msgstr ""
+"Не рекомендуется, если Вы изменили и используете демо-данные (автомобили, "
+"характеристики и т.д. )."
+
+# ->Установить демо-данные
+#: classes/admin/settings/bws_bkng_settings_tabs.php:146
+msgid "Install Demo Data"
+msgstr "Установить Демо-данные"
+
+#: classes/admin/settings/bws_bkng_settings_tabs.php:147
+#, fuzzy
+#| msgid ""
+#| "Install demo data to add demo cars and demo extras with images, details, "
+#| "manufacturers, body types, and car classes."
+msgid ""
+"Install demo data to add demo products and demo extras with images, details, "
+"manufacturers, body types, and others."
+msgstr ""
+"Установите демонстрационные данные, чтобы добавить демонстрационные "
+"автомобили и демонстрационные дополнения с изображениями, подробностями, "
+"производителями, типами кузова и классами автомобилей."
+
+#: classes/admin/settings/bws_bkng_settings_users.php:65
+msgid "Display Settings"
+msgstr "Настройки отображения"
+
+# ???
+# Страница учетных записей
+# /
+# Учетные записи пользователей
+# /
+# Страница учетных записей пользователей
+#: classes/admin/settings/bws_bkng_settings_users.php:71
+msgid "User Account Page"
+msgstr "Страница учетных записей"
+
+#: classes/admin/settings/bws_bkng_settings_users.php:81
+msgid "Enable registration"
+msgstr "Включить регистрацию"
+
+# ->Конечные точки аккаунта
+#: classes/admin/settings/bws_bkng_settings_users.php:84
+msgid "Account Endpoints"
+msgstr "Конечные точки аккаунта"
+
+#: classes/admin/settings/bws_bkng_settings_users.php:84
+msgid ""
+"Postfixes to links used on user accounts pages to perform certain actions. "
+"They must be unique and not contain spaces or other characters that are not "
+"allowed for use in the links."
+msgstr ""
+"Постфиксы к ссылкам, используемым на страницах учетных записей для "
+"выполнения определенных действий. Они должны быть уникальными и не содержать "
+"пробелов или других символов, которые нельзя использовать в ссылках."
+
+# ->Not enough data to add car(-s) to the cart
+# ->Недостаточно данных для добавления автомобиля(-ей) в корзину
+#: classes/front-end/bws_bkng_cart.php:202
+#, fuzzy
+msgid "Not enough data to add product(-s) to the cart"
+msgstr "Недостаточно данных для добавления продукта(-ов) в корзину"
+
+# The product is already in the cart -> The car is already in the cart
+# Products are already in the cart -> Cars are already in the cart
+# Продукт уже в корзине -> Автомобиль уже в корзине
+# Продукты уже в корзине -> Автомобили уже в корзине
+#: classes/front-end/bws_bkng_cart.php:205
+msgid "The product is already in the cart"
+msgid_plural "Products are already in the cart"
+msgstr[0] "Автомобиль уже в корзине"
+msgstr[1] "Автомобили уже в корзине"
+msgstr[2] "Автомобили уже в корзине"
+msgstr[3] "Автомобили уже в корзине"
+
+#: classes/front-end/bws_bkng_cart.php:351
+#: classes/helpers/bws_bkng_helper.php:385
+#: classes/widgets/bws_bkng_pre_order_widget.php:80
+#: classes/widgets/bws_bkng_search_filter_widget.php:72
+msgid "Title"
+msgstr "Название"
+
+#: classes/front-end/bws_bkng_cart.php:352
+#: classes/general/bws_bkng_order.php:913
+msgid "SKU"
+msgstr "Артикул"
+
+#: classes/front-end/bws_bkng_cart.php:353
+msgid "Pick-Up Date"
+msgstr "Дата подачи"
+
+#: classes/front-end/bws_bkng_cart.php:354
+msgid "Drop-Off Date"
+msgstr "Дата возврата"
+
+#: classes/front-end/bws_bkng_cart.php:358
+msgid "Cost"
+msgstr "Стоимость"
+
+#: classes/front-end/bws_bkng_cart.php:443
+#: classes/general/bws_bkng_ajax.php:299
+msgid "Cannot add extras to the cart"
+msgstr "Невозможно добавить дополнения в корзину"
+
+# ->Car order is available only for registered users / Car order is available only for registered users
+# ->Заказ автомобиля доступен только для зарегистрированных пользователей / Прокат автомобиля доступен только для зарегистрированных пользователей
+#: classes/front-end/bws_bkng_content_filter.php:175
+#, fuzzy
+msgid "Product ordering is available only for registered users"
+msgstr "Заказ продуктов доступен только для зарегистрированных пользователей"
+
+#: classes/front-end/bws_bkng_front.php:371
+msgid "Please set correct date range"
+msgstr "Пожалуйста, выберите корректный период аренды"
+
+# ->Вы не можете выбрать прошедшую дату
+#: classes/front-end/bws_bkng_front.php:372
+msgid "You can't select a past date"
+msgstr "Вы не можете выбрать прошедшую дату"
+
+#: classes/front-end/bws_bkng_front.php:373
+msgid "Please select the category"
+msgstr "Пожалуйста, выберите категорию"
+
+#: classes/front-end/bws_bkng_front.php:374
+msgid "Please enter a destination to start searching"
+msgstr "Пожалуйста, введите пункт назначения, чтобы начать поиск"
+
+# Пожалуйста, выберите некоторые дополнительные товары
+# ->
+# Пожалуйста, выберите дополнения
+#: classes/front-end/bws_bkng_front.php:375
+msgid "Please choose some extras"
+msgstr "Пожалуйста, выберите дополнения"
+
+#: classes/front-end/bws_bkng_paypal.php:46
+#, fuzzy
+#| msgid "Slide was successfully deleted"
+msgid "Payment successfully completed"
+msgstr "Слайд успешно удален"
+
+#: classes/front-end/bws_bkng_paypal.php:47
+msgid "You have not entered the required data"
+msgstr "Вы не ввели необходимые данные"
+
+#: classes/front-end/bws_bkng_paypal.php:136
+msgid "Not paid"
+msgstr "Не оплачено"
+
+#: classes/front-end/bws_bkng_paypal.php:172
+msgid ""
+"For the payment system to work correctly, you need to introduce correct "
+"Client ID and Secret."
+msgstr ""
+"Для корректной работы платежной системы вам необходимо ввести правильный "
+"Client ID и Secret."
+
+#: classes/general/bws_bkng.php:343
+#, fuzzy
+#| msgid "The period of keeping cars in the cart"
+msgid "The period of keeping products in the cart"
+msgstr "Период хранения автомобилей в корзине"
+
+#: classes/general/bws_bkng.php:481
+msgid "Cannot find the address on the map"
+msgstr "Невозможно найти адрес на карте"
+
+#: classes/general/bws_bkng_ajax.php:85
+msgid "Please enter the valid term slug"
+msgstr "Пожалуйста, введите корректный слаг термина"
+
+# ->Возникли некоторые ошибки. Невозможно получить данные о характеристике
+#: classes/general/bws_bkng_ajax.php:99
+msgid "There are some errors occurred. Cannot get the attribute data"
+msgstr "Возникли некоторые ошибки. Невозможно получить данные о характеристике"
+
+#: classes/general/bws_bkng_ajax.php:237 tags/general.php:215
+#, fuzzy
+#| msgid "Add to cart"
+msgid "Add to Wishlist"
+msgstr "Добавить в корзину"
+
+#: classes/general/bws_bkng_ajax.php:240 tags/general.php:213
+msgid "Remove from Wishlist"
+msgstr "Удалить из списка желаний"
+
+#: classes/general/bws_bkng_ajax.php:275
+msgid "View more"
+msgstr "Подробнее"
+
+# One product -> One car
+# product -> cars
+# //
+# Продукт -> Автомобиль
+# продукта -> автомобиля
+# продуктов -> автомобилей
+# продукт -> автомобиль
+#: classes/general/bws_bkng_ajax.php:343
+#, fuzzy, php-format
+msgid "One product is added to the cart"
+msgid_plural "%s products are added to the cart"
+msgstr[0] "Продукт добавлен в корзину"
+msgstr[1] "%s  продукта добавлено в корзину"
+msgstr[2] "%s  продуктов добавлено в корзину"
+msgstr[3] "%s  продукт добавлен в корзину"
+
+#: classes/general/bws_bkng_ajax.php:484
+msgid "Image could not be processed. Please go back and try again."
+msgstr ""
+"Изображение не может быть обработано. Пожалуйста вернитесь и попробуйте "
+"снова."
+
+#: classes/general/bws_bkng_data_loader.php:55
+msgid "Agent"
+msgstr "Агент"
+
+#: classes/general/bws_bkng_data_loader.php:586
+msgid "Text field"
+msgstr "Текстовое поле"
+
+#: classes/general/bws_bkng_data_loader.php:587
+#, fuzzy
+#| msgid "Text"
+msgid "Textarea"
+msgstr "Текст"
+
+# Оформить заказ -> Заказы
+# (http://prntscr.com/m25vll)
+#: classes/general/bws_bkng_data_loader.php:588
+#: classes/helpers/bws_bkng_helper.php:274
+#, fuzzy
+#| msgid "Checkout"
+msgid "Checkbox"
+msgstr "Заказы"
+
+#: classes/general/bws_bkng_data_loader.php:589
+msgid "Radio button"
+msgstr "Переключатель"
+
+#: classes/general/bws_bkng_data_loader.php:590
+#, fuzzy
+#| msgid "Drop Down List"
+msgid "Drop down list"
+msgstr "Выпадающий список"
+
+#: classes/general/bws_bkng_data_loader.php:592
+msgid "Time"
+msgstr "Время"
+
+#: classes/general/bws_bkng_data_loader.php:593
+#, fuzzy
+#| msgid "Date"
+msgid "Datetime"
+msgstr "Дата"
+
+#: classes/general/bws_bkng_data_loader.php:594
+#: classes/helpers/bws_bkng_helper.php:271
+msgid "Number"
+msgstr "Число"
+
+#: classes/general/bws_bkng_image_gallery.php:130
+msgid "Delete media"
+msgstr "Удалить изображение"
+
+#: classes/general/bws_bkng_image_gallery.php:140
+#: classes/general/bws_bkng_image_gallery.php:230
+msgid "Set featured image"
+msgstr "Установить миниатюру"
+
+#: classes/general/bws_bkng_image_gallery.php:140
+#: classes/general/bws_bkng_image_gallery.php:231
+msgid "Update featured image"
+msgstr "Обновить миниатюру"
+
+#: classes/general/bws_bkng_image_gallery.php:141
+msgid "Select featured image"
+msgstr "Выберите миниатюру"
+
+#: classes/general/bws_bkng_image_gallery.php:142
+#: classes/helpers/bws_bkng_helper.php:272
+msgid "Select"
+msgstr "Выбрать"
+
+#: classes/general/bws_bkng_image_gallery.php:144
+msgid "Add images"
+msgstr "Добавить изображения"
+
+#: classes/general/bws_bkng_image_gallery.php:145
+msgid "Select images"
+msgstr "Выбрать изображения"
+
+#: classes/general/bws_bkng_image_gallery.php:146
+msgid "Insert"
+msgstr "Вставить"
+
+#: classes/general/bws_bkng_image_gallery.php:157
+msgid "Please enable JavaScript to manage images"
+msgstr "Пожалуйста, включите JavaScript для редактирования изображений"
+
+#: classes/general/bws_bkng_mailer.php:61
+msgid "Adds the site title"
+msgstr "Добавляет название сайта"
+
+#: classes/general/bws_bkng_mailer.php:65
+msgid "Adds the order ID"
+msgstr "Добавляет ID (номер) заказа"
+
+#: classes/general/bws_bkng_mailer.php:69
+msgid "Adds the order creation date"
+msgstr "Добавляет дату оформления заказа"
+
+# products -> cars
+# продуктов -> автомобилей
+#: classes/general/bws_bkng_mailer.php:73
+msgid "Adds the ordered products rent interval"
+msgstr "Добавляет период аренды автомобилей"
+
+# ->Adds the list of ordered cars data with the price summaries
+# ->Добавляет список данных заказанных автомобилей со сводками цен
+# ??м/б убрать и там, и там слово "данные"
+#: classes/general/bws_bkng_mailer.php:77
+#, fuzzy
+msgid "Adds the list of ordered products data with the price summaries"
+msgstr "Добавляет список заказанных продуктов с ценовыми сводками"
+
+#: classes/general/bws_bkng_mailer.php:81
+msgid "Adds customer data entered during placing the order"
+msgstr "Добавляет данные клиента, введенные при оформлении заказа"
+
+#: classes/general/bws_bkng_mailer.php:85
+msgid "Adds customer's full name entered during placing the order"
+msgstr "Добавляет полное имя клиента клиента, введенное при оформлении заказа"
+
+#: classes/general/bws_bkng_mailer.php:89
+msgid "Adds the order status"
+msgstr "Добавляет статус заказа"
+
+#: classes/general/bws_bkng_mailer.php:254
+#: classes/general/bws_bkng_user.php:315 templates/forms/checkout.php:27
+#: templates/order-details.php:110
+msgid "First Name"
+msgstr "Имя"
+
+#: classes/general/bws_bkng_mailer.php:255
+#: classes/general/bws_bkng_user.php:319 templates/forms/checkout.php:32
+#: templates/order-details.php:115
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: classes/general/bws_bkng_mailer.php:256
+#: classes/helpers/bws_bkng_helper.php:500 templates/forms/checkout.php:39
+#: templates/order-details.php:122
+msgid "Phone"
+msgstr "Телефон"
+
+#: classes/general/bws_bkng_mailer.php:258 templates/order-details.php:132
+msgid "Message"
+msgstr "Сообщение"
+
+#: classes/general/bws_bkng_mailer.php:320
+msgid "Can't get order data"
+msgstr "Невозможно получить данные заказа"
+
+#: classes/general/bws_bkng_mailer.php:323
+msgid "Can't get email recipient data"
+msgstr "Невозможно получить данные получателя сообщений"
+
+#: classes/general/bws_bkng_mailer.php:326
+msgid "Can't get email data"
+msgstr "Невозможно получить данные сообщения"
+
+#: classes/general/bws_bkng_mailer.php:477
+msgid "Order number"
+msgstr "Номер заказа"
+
+#: classes/general/bws_bkng_mailer.php:478
+msgid "Order status"
+msgstr "Статус заказа"
+
+#: classes/general/bws_bkng_mailer.php:480
+msgid "Ordered products"
+msgstr "Заказанные продукты"
+
+# ->Платежные реквизиты
+#: classes/general/bws_bkng_mailer.php:482
+msgid "Billing details"
+msgstr "Платежные реквизиты"
+
+# product -> car
+# продукт -> автомобиль
+#: classes/general/bws_bkng_order.php:157
+#, fuzzy
+msgid "product removed"
+msgstr "продукт удален"
+
+#: classes/general/bws_bkng_order.php:612
+msgid "Please fill in all required fields"
+msgstr "Пожалуйста, заполните обязательные поля"
+
+#: classes/general/bws_bkng_order.php:615
+msgid "Please enter the correct phone number"
+msgstr "Пожалуйста, введите правильный номер телефона"
+
+#: classes/general/bws_bkng_order.php:618
+msgid "Please enter the correct email"
+msgstr "Пожалуйста, введите правильный электронный адрес"
+
+#: classes/general/bws_bkng_order.php:621
+msgid "Emails don't match. Please check"
+msgstr "Электронные адреса не совпадают. Пожалуйста, проверьте"
+
+# -> Пожалуйста, примите условия и соглашения / Пожалуйста, примите Условия и соглашения
+#: classes/general/bws_bkng_order.php:624
+msgid "Please accept Terms and Conditions"
+msgstr "Пожалуйста, примите Условия и cоглашения"
+
+#: classes/general/bws_bkng_order.php:627
+msgid "Cannot place order. Please try again later"
+msgstr "Невозможно оформить заказ. Пожалуйста, попробуйте позднее"
+
+#: classes/general/bws_bkng_order.php:630
+#, fuzzy
+#| msgid ""
+#| "It seems that there is nothing to order. Please choose a car to make an "
+#| "order"
+msgid ""
+"It seems that there is nothing to order. Please choose a product to make an "
+"order"
+msgstr ""
+"Похоже, что заказывать нечего. Пожалуйста, выберите автомобиль, чтобы "
+"сделать заказ"
+
+# ??
+# -> Хотите ли вы %s
+#: classes/general/bws_bkng_order.php:634
+#, php-format
+msgid "User with such email is already registered. Would you like to %s"
+msgstr ""
+"Пользователь с таким электронным адресом уже существует. Хотите ли вы %s"
+
+# залогиниться -> авторизоваться
+# /
+# войти
+#: classes/general/bws_bkng_order.php:635
+msgid "login"
+msgstr "авторизоваться"
+
+#: classes/general/bws_bkng_order.php:639
+msgid "Cannot register new user. Please try again later"
+msgstr ""
+"Невозможно зарегистрировать нового пользователя. Пожалуйста, попробуйте "
+"позднее"
+
+#: classes/general/bws_bkng_order.php:642
+msgid "Cannot authenticate user"
+msgstr "Невозможно идентифицировать пользователя"
+
+#: classes/general/bws_bkng_order.php:645
+msgid "Cannot update order data"
+msgstr "Невозможно обновить данные заказа"
+
+#: classes/general/bws_bkng_order.php:648
+msgid "Cannot update products list"
+msgstr "Невозможно обновить список продуктов"
+
+#: classes/general/bws_bkng_related_plugins.php:256
+#, php-format
+msgid "%s is outdated. Update it to the latest version"
+msgstr ""
+"Вы используете устаревшую версию плагина %s. Пожалуйста, обновитесь до "
+"последней версии"
+
+#: classes/general/bws_bkng_related_plugins.php:266
+msgid "Enable Slider for"
+msgstr "Включить слайдер для"
+
+# Products -> Cars
+# продуктов -> автомобилей
+#: classes/general/bws_bkng_related_plugins.php:277
+#, fuzzy
+#| msgid "Add Products Search Form"
+msgid "Add Product Search Form"
+msgstr "Добавить форму поиска автомобилей"
+
+#: classes/general/bws_bkng_user.php:302
+msgid "Columns"
+msgstr "Столбцы"
+
+#: classes/general/bws_bkng_user.php:309
+msgid ""
+"The amount of columns that will be displayed in gallery on Your profile page"
+msgstr ""
+"Количество столбцов, которые будут отображаться в галерее на странице вашего "
+"профиля"
+
+#: classes/general/bws_bkng_user.php:323 classes/general/bws_bkng_user.php:361
+#, fuzzy
+#| msgid "name"
+msgid "Nickname"
+msgstr "имя"
+
+#: classes/general/bws_bkng_user.php:329
+#, fuzzy
+#| msgid "Default Address"
+msgid "Email Address"
+msgstr "Адрес по умолчанию"
+
+#: classes/general/bws_bkng_user.php:334
+msgid "About Me"
+msgstr "Обо мне"
+
+#: classes/general/bws_bkng_user.php:341
+#, fuzzy
+#| msgid "Currency Position"
+msgid "Current Password"
+msgstr "Расположение символа валюты"
+
+#: classes/general/bws_bkng_user.php:347
+#, fuzzy
+#| msgid "New Car"
+msgid "New Password"
+msgstr "Новый автомобиль"
+
+#: classes/general/bws_bkng_user.php:353
+msgid "Confirm New Password"
+msgstr "Подтвердите новый пароль"
+
+#: classes/general/bws_bkng_user.php:368 classes/general/bws_bkng_user.php:435
+#, fuzzy
+#| msgid "month"
+msgid "Month"
+msgstr "месяц"
+
+#: classes/general/bws_bkng_user.php:374
+#, fuzzy
+#| msgid "day"
+msgid "Day"
+msgstr "день"
+
+#: classes/general/bws_bkng_user.php:380 classes/general/bws_bkng_user.php:441
+msgid "Year"
+msgstr "Год"
+
+#: classes/general/bws_bkng_user.php:386
+msgid "Visibility"
+msgstr "Видимость"
+
+#: classes/general/bws_bkng_user.php:388
+msgid "Do not show the date of birth to other users."
+msgstr "Не показывать дату рождения другим пользователям."
+
+#: classes/general/bws_bkng_user.php:401
+#, fuzzy
+#| msgid "Custom Code"
+msgid "Postal Code"
+msgstr "Пользовательский код"
+
+# ->Платежные реквизиты
+#: classes/general/bws_bkng_user.php:406
+#, fuzzy
+#| msgid "Billing details"
+msgid "Billing Address"
+msgstr "Платежные реквизиты"
+
+# ->Платежные реквизиты
+#: classes/general/bws_bkng_user.php:411
+#, fuzzy
+#| msgid "Billing details"
+msgid "Billing Address 2"
+msgstr "Платежные реквизиты"
+
+#: classes/general/bws_bkng_user.php:418
+#, fuzzy
+#| msgid "Number"
+msgid "Card Number"
+msgstr "Число"
+
+#: classes/general/bws_bkng_user.php:420
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore"
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore"
+
+#: classes/general/bws_bkng_user.php:429
+#, fuzzy
+#| msgid "Choose Country"
+msgid "Country"
+msgstr "Выбор страны"
+
+#: classes/general/bws_bkng_user.php:447
+msgid "CCV"
+msgstr "CCV"
+
+#: classes/general/bws_bkng_user.php:531
+#, fuzzy
+#| msgid "Select images"
+msgid "Select image"
+msgstr "Выбрать изображения"
+
+#: classes/general/bws_bkng_user.php:532
+#, fuzzy
+#| msgid "Select Category"
+msgid "Select and Crop"
+msgstr "Выберите категорию"
+
+#: classes/general/bws_bkng_user.php:533
+#, fuzzy
+#| msgid "Select images"
+msgid "Set Image"
+msgstr "Выбрать изображения"
+
+# Удалить Демо Данные -> Удалить демо-данные
+#: classes/general/bws_bkng_user.php:549
+#, fuzzy
+#| msgid "Remove Demo Data"
+msgid "Remove Image"
+msgstr "Удалить Демо-данные"
+
+#: classes/helpers/bws_bkng_helper.php:247
+msgid "On hold"
+msgstr "В ожидании"
+
+#: classes/helpers/bws_bkng_helper.php:248
+msgid "Processed"
+msgstr "В процессе выполнения"
+
+#: classes/helpers/bws_bkng_helper.php:249
+msgid "Completed"
+msgstr "Выполненный"
+
+#: classes/helpers/bws_bkng_helper.php:250
+msgid "Canceled"
+msgstr "Отменённый"
+
+#: classes/helpers/bws_bkng_helper.php:266
+msgid "Drop Down List"
+msgstr "Выпадающий список"
+
+#: classes/helpers/bws_bkng_helper.php:267
+msgid "List with Checkboxes"
+msgstr "Список с чекбоксами"
+
+#: classes/helpers/bws_bkng_helper.php:268
+msgid "List with Radioboxes"
+msgstr "Список с радиобоксами"
+
+#: classes/helpers/bws_bkng_helper.php:269
+msgid "List of Locations"
+msgstr "Список локаций"
+
+#: classes/helpers/bws_bkng_helper.php:270
+msgid "Single Location"
+msgstr "Одиночная локация"
+
+#: classes/helpers/bws_bkng_helper.php:273
+msgid "Text"
+msgstr "Текст"
+
+#: classes/helpers/bws_bkng_helper.php:310
+msgid "sun"
+msgstr "вс"
+
+#: classes/helpers/bws_bkng_helper.php:311
+msgid "mon"
+msgstr "пн"
+
+#: classes/helpers/bws_bkng_helper.php:312
+msgid "tue"
+msgstr "вт"
+
+#: classes/helpers/bws_bkng_helper.php:313
+msgid "wed"
+msgstr "ср"
+
+#: classes/helpers/bws_bkng_helper.php:314
+msgid "thu"
+msgstr "чт"
+
+#: classes/helpers/bws_bkng_helper.php:315
+msgid "fri"
+msgstr "пт"
+
+#: classes/helpers/bws_bkng_helper.php:316
+msgid "sat"
+msgstr "сб"
+
+#: classes/helpers/bws_bkng_helper.php:320
+msgid "Sunday"
+msgstr "воскресенье"
+
+#: classes/helpers/bws_bkng_helper.php:321
+msgid "Monday"
+msgstr "понедельник"
+
+#: classes/helpers/bws_bkng_helper.php:322
+msgid "Tuesday"
+msgstr "вторник"
+
+#: classes/helpers/bws_bkng_helper.php:323
+msgid "Wednesday"
+msgstr "среда"
+
+#: classes/helpers/bws_bkng_helper.php:324
+msgid "Thursday"
+msgstr "четверг"
+
+#: classes/helpers/bws_bkng_helper.php:325
+msgid "Friday"
+msgstr "пятница"
+
+#: classes/helpers/bws_bkng_helper.php:326
+msgid "Saturday"
+msgstr "суббота"
+
+#: classes/helpers/bws_bkng_helper.php:343
+msgid "none"
+msgstr "нет"
+
+#: classes/helpers/bws_bkng_helper.php:344
+msgid "hour"
+msgstr "час"
+
+#: classes/helpers/bws_bkng_helper.php:345
+msgid "day"
+msgstr "день"
+
+#: classes/helpers/bws_bkng_helper.php:346
+#, fuzzy
+#| msgid "Align Right"
+msgid "night"
+msgstr "С правой стороны"
+
+#: classes/helpers/bws_bkng_helper.php:347
+msgid "week"
+msgstr "неделя"
+
+#: classes/helpers/bws_bkng_helper.php:348
+msgid "month"
+msgstr "месяц"
+
+#: classes/helpers/bws_bkng_helper.php:349
+msgid "year"
+msgstr "год"
+
+#: classes/helpers/bws_bkng_helper.php:501
+msgid "Working Hours"
+msgstr "Расписание"
+
+#: classes/helpers/bws_bkng_html_helper.php:36 tags/categories.php:71
+msgid "No image"
+msgstr "Нет изображения"
+
+#: classes/helpers/bws_bkng_html_helper.php:437
+msgid "More details"
+msgstr "Подробнее"
+
+#: classes/widgets/bws_bkng_search_filter_widget.php:30
+msgid "Search Filter"
+msgstr "Поисковый фильтр"
+
+#: data/currencies.php:12
+msgid "Albania Lek"
+msgstr "Албанский лек"
+
+#: data/currencies.php:13
+msgid "Afghanistan Afghani"
+msgstr "Афганский афгани"
+
+#: data/currencies.php:14
+msgid "Argentina Peso"
+msgstr "Аргентинский песо"
+
+#: data/currencies.php:15
+msgid "Aruba Guilder"
+msgstr "Арубанский гульден"
+
+#: data/currencies.php:16
+msgid "Australia Dollar"
+msgstr "Австралийский доллар"
+
+#: data/currencies.php:17
+msgid "Azerbaijan New Manat"
+msgstr "Азербайджанский манат"
+
+#: data/currencies.php:18
+msgid "Bahamas Dollar"
+msgstr "Багамский доллар"
+
+#: data/currencies.php:19
+msgid "Barbados Dollar"
+msgstr "Барбадосский доллар"
+
+# Балерусский рубль
+# ->
+# Белорусский рубль
+#: data/currencies.php:20
+msgid "Belarus Ruble"
+msgstr "Балорусский рубль"
+
+#: data/currencies.php:21
+msgid "Belize Dollar"
+msgstr "Белизский доллар"
+
+#: data/currencies.php:22
+msgid "Bermuda Dollar"
+msgstr "Бермудский доллар"
+
+#: data/currencies.php:23
+msgid "Bolivia Boliviano"
+msgstr "Боливийский боливиано"
+
+#: data/currencies.php:24
+msgid "Bosnia and Herzegovina Convertible Mark"
+msgstr "Конвертируемая Марка Боснии и Герцеговины"
+
+#: data/currencies.php:25
+msgid "Botswana Pula"
+msgstr "Ботсванская пула"
+
+#: data/currencies.php:26
+msgid "Bulgaria Lev"
+msgstr "Болгарский лев"
+
+# риал
+# ->
+# реал
+#: data/currencies.php:27
+msgid "Brazil Real"
+msgstr "Бразильский реал"
+
+#: data/currencies.php:28
+msgid "Brunei Darussalam Dollar"
+msgstr "Брунейский доллар"
+
+# риал
+# ->
+# риель
+#: data/currencies.php:29
+msgid "Cambodia Riel"
+msgstr "Камбоджийский риель"
+
+#: data/currencies.php:30
+msgid "Canada Dollar"
+msgstr "Канадский доллар"
+
+# Сиамский доллар
+# ->
+# Доллар Каймановых островов
+#: data/currencies.php:31
+msgid "Cayman Islands Dollar"
+msgstr "Доллар Каймановых островов"
+
+#: data/currencies.php:32
+msgid "Chile Peso"
+msgstr "Чилийский песо"
+
+#: data/currencies.php:33
+msgid "China Yuan Renminbi"
+msgstr "Китайский юань"
+
+#: data/currencies.php:34
+msgid "Colombia Peso"
+msgstr "Колумбийский песо"
+
+# Коста-риканский колон
+# ->
+# Костариканский колон
+#: data/currencies.php:35
+msgid "Costa Rica Colon"
+msgstr "Костариканский колон"
+
+#: data/currencies.php:36
+msgid "Croatia Kuna"
+msgstr "Хорватская куна"
+
+#: data/currencies.php:37
+msgid "Cuba Peso"
+msgstr "Кубинский песо"
+
+#: data/currencies.php:38
+msgid "Czech Republic Koruna"
+msgstr "Чешская крона"
+
+#: data/currencies.php:39
+msgid "Denmark Krone"
+msgstr "Датская крона"
+
+#: data/currencies.php:40
+msgid "Dominican Republic Peso"
+msgstr "Доминикаский песо"
+
+#: data/currencies.php:41
+msgid "East Caribbean Dollar"
+msgstr "Восточно-карибский доллар"
+
+#: data/currencies.php:42
+msgid "Egypt Pound"
+msgstr "Египетский фунт"
+
+#: data/currencies.php:43
+msgid "El Salvador Colon"
+msgstr "Сальвадорский колон"
+
+#: data/currencies.php:44
+msgid "Estonia Kroon"
+msgstr "Эстонская крона"
+
+#: data/currencies.php:45
+msgid "European Union Euro"
+msgstr "Евро"
+
+#: data/currencies.php:46
+msgid "Falkland Islands (Malvinas) Pound"
+msgstr "Фунт Фолклендских островов"
+
+#: data/currencies.php:47
+msgid "Fiji Dollar"
+msgstr "Фуджийский доллар"
+
+#: data/currencies.php:48
+msgid "Ghana Cedi"
+msgstr "Ганский седи"
+
+#: data/currencies.php:49
+msgid "Gibraltar Pound"
+msgstr "Гибралтарский фунт"
+
+#: data/currencies.php:50
+msgid "Guatemala Quetzal"
+msgstr "Гватемальский кетсаль"
+
+#: data/currencies.php:51
+msgid "Guernsey Pound"
+msgstr "Гернсийский фунт"
+
+#: data/currencies.php:52
+msgid "Guyana Dollar"
+msgstr "Гайанский доллар"
+
+#: data/currencies.php:53
+msgid "Honduras Lempira"
+msgstr "Гондурасская лемпира"
+
+#: data/currencies.php:54
+msgid "Hong Kong Dollar"
+msgstr "Гонконгский доллар"
+
+#: data/currencies.php:55
+msgid "Hungary Forint"
+msgstr "Венгерский форинт"
+
+#: data/currencies.php:56
+msgid "Iceland Krona"
+msgstr "Исландская крона"
+
+#: data/currencies.php:57
+msgid "India Rupee"
+msgstr "Индийская рупия"
+
+#: data/currencies.php:58
+msgid "Indonesia Rupiah"
+msgstr "Индонезийская рупия"
+
+#: data/currencies.php:59
+msgid "Iran Rial"
+msgstr "Иранский риал"
+
+#: data/currencies.php:60
+msgid "Isle of Man Pound"
+msgstr "Фунт острова Мэн"
+
+#: data/currencies.php:61
+msgid "Israel Shekel"
+msgstr "Израильский шекель"
+
+#: data/currencies.php:62
+msgid "Jamaica Dollar"
+msgstr "Ямайский доллар"
+
+#: data/currencies.php:63
+msgid "Japan Yen"
+msgstr "Японская иена"
+
+#: data/currencies.php:64
+msgid "Jersey Pound"
+msgstr "Джерсийский фунт"
+
+#: data/currencies.php:65
+msgid "Kazakhstan Tenge"
+msgstr "Казахстанский тенге"
+
+#: data/currencies.php:66 data/currencies.php:86
+msgid "Korea (North) Won"
+msgstr "Северокорейская вона"
+
+#: data/currencies.php:67 data/currencies.php:106
+msgid "Korea (South) Won"
+msgstr "Южнокорейская вона"
+
+#: data/currencies.php:68
+msgid "Kyrgyzstan Som"
+msgstr "Киргизский сом"
+
+#: data/currencies.php:69
+msgid "Laos Kip"
+msgstr "Лаосский кип"
+
+# Датвийский лат
+# ->
+# Латвийский лат
+#: data/currencies.php:70
+msgid "Latvia Lat"
+msgstr "Латвийский лат"
+
+#: data/currencies.php:71
+msgid "Lebanon Pound"
+msgstr "Ливанский фунт"
+
+#: data/currencies.php:72
+msgid "Liberia Dollar"
+msgstr "Либерийский доллар"
+
+#: data/currencies.php:73
+msgid "Lithuania Litas"
+msgstr "Литовский лит"
+
+# Македонский динар
+# ->
+# Македонский денар
+#: data/currencies.php:74
+msgid "Macedonia Denar"
+msgstr "Македонский денар"
+
+#: data/currencies.php:75
+msgid "Malaysia Ringgit"
+msgstr "Малазийский ринггит"
+
+#: data/currencies.php:76
+msgid "Mauritius Rupee"
+msgstr "Мавританская рупия"
+
+#: data/currencies.php:77
+msgid "Mexico Peso"
+msgstr "Мексикансий песо"
+
+# МонгольКСий тугрик
+# ->
+# Монгольский тугрик
+#: data/currencies.php:78
+msgid "Mongolia Tughrik"
+msgstr "Монгольский тугрик"
+
+#: data/currencies.php:79
+msgid "Mozambique Metical"
+msgstr "Мозамбикский метикал"
+
+#: data/currencies.php:80
+msgid "Namibia Dollar"
+msgstr "Намибийский доллар"
+
+#: data/currencies.php:81
+msgid "Nepal Rupee"
+msgstr "Непальская рупия"
+
+#: data/currencies.php:82
+msgid "Netherlands Guilder"
+msgstr "Нидерландский гульден"
+
+#: data/currencies.php:83
+msgid "New Zealand Dollar"
+msgstr "Новозеландский доллар"
+
+#: data/currencies.php:84
+msgid "Nicaragua Cordoba"
+msgstr "Никарагуанская кордоба"
+
+#: data/currencies.php:85
+msgid "Nigeria Naira"
+msgstr "Нигерийская найра"
+
+#: data/currencies.php:87
+msgid "Norway Krone"
+msgstr "Норвежская крона"
+
+#: data/currencies.php:88
+msgid "Oman Rial"
+msgstr "Оманский риал"
+
+#: data/currencies.php:89
+msgid "Pakistan Rupee"
+msgstr "Пакистанская рупия"
+
+#: data/currencies.php:90
+msgid "Panama Balboa"
+msgstr "Панамский бальбоа"
+
+#: data/currencies.php:91
+msgid "Paraguay Guarani"
+msgstr "Парагвайский гуарани"
+
+#: data/currencies.php:92
+msgid "Peru Nuevo Sol"
+msgstr "Перуанский новый соль"
+
+#: data/currencies.php:93
+msgid "Philippines Peso"
+msgstr "Филиппинский песо"
+
+#: data/currencies.php:94
+msgid "Poland Zloty"
+msgstr "Польский злотый"
+
+#: data/currencies.php:95
+msgid "Qatar Riyal"
+msgstr "Катарский риал"
+
+# Румынская новая лея
+# ->
+# Румынский новый лей
+#: data/currencies.php:96
+msgid "Romania New Leu"
+msgstr "Румынский новый лей"
+
+#: data/currencies.php:97
+msgid "Russia Ruble"
+msgstr "Российский рубль"
+
+#: data/currencies.php:98
+msgid "Saint Helena Pound"
+msgstr "Фунт острова Св.Елены"
+
+#: data/currencies.php:99
+msgid "Saudi Arabia Riyal"
+msgstr "Саудовский риал"
+
+#: data/currencies.php:100
+msgid "Serbia Dinar"
+msgstr "Сербсикй динар"
+
+#: data/currencies.php:101
+msgid "Seychelles Rupee"
+msgstr "Сейшельская рупия"
+
+#: data/currencies.php:102
+msgid "Singapore Dollar"
+msgstr "Сингапурский доллар"
+
+#: data/currencies.php:103
+msgid "Solomon Islands Dollar"
+msgstr "Доллар Соломоновых островов"
+
+#: data/currencies.php:104
+msgid "Somalia Shilling"
+msgstr "Сомалийский шиллинг"
+
+#: data/currencies.php:105
+msgid "South Africa Rand"
+msgstr "Южноафриканский рэнд"
+
+#: data/currencies.php:107
+msgid "Sri Lanka Rupee"
+msgstr "Рупия острова Шри-Ланка"
+
+#: data/currencies.php:108
+msgid "Sweden Krona"
+msgstr "Шведская крона"
+
+#: data/currencies.php:109
+msgid "Switzerland Franc"
+msgstr "Швейцарский франк"
+
+#: data/currencies.php:110
+msgid "Suriname Dollar"
+msgstr "Суринамский доллар"
+
+#: data/currencies.php:111
+msgid "Syria Pound"
+msgstr "Сирийский фунт"
+
+#: data/currencies.php:112
+msgid "Taiwan New Dollar"
+msgstr "Тайваньский новый доллар"
+
+# Тайландский бат
+# ->
+# Тайский бат
+#: data/currencies.php:113
+msgid "Thailand Baht"
+msgstr "Тайский бат"
+
+#: data/currencies.php:114
+msgid "Trinidad and Tobago Dollar"
+msgstr "Доллар Тринидада и Тобаго"
+
+#: data/currencies.php:115
+msgid "Turkey Lira"
+msgstr "Турецкая лира"
+
+#: data/currencies.php:116
+msgid "Tuvalu Dollar"
+msgstr "Доллар Тувалу"
+
+#: data/currencies.php:117
+msgid "Ukraine Hryvnia"
+msgstr "Украинская гривна"
+
+# Фунт Соединенного Королевства
+# ->
+# Британский фунт стерлингов
+#: data/currencies.php:118
+msgid "United Kingdom Pound"
+msgstr "Британский фунт стерлингов"
+
+#: data/currencies.php:119
+msgid "United States Dollar"
+msgstr "Доллар США"
+
+#: data/currencies.php:120
+msgid "Uruguay Peso"
+msgstr "Уругвайский песо"
+
+# Узбекистанский сом
+# ->
+# Узбекский сум
+#: data/currencies.php:121
+msgid "Uzbekistan Som"
+msgstr "Узбекский сум"
+
+#: data/currencies.php:122
+msgid "Venezuela Bolivar"
+msgstr "Венесуэльский боливар"
+
+#: data/currencies.php:123
+msgid "Viet Nam Dong"
+msgstr "Вьетнамский донг"
+
+#: data/currencies.php:124
+msgid "Yemen Rial"
+msgstr "Йеменский риал"
+
+# Зимбабвийский доллар
+# ->
+# Доллар Зимбабве
+#: data/currencies.php:125
+msgid "Zimbabwe Dollar"
+msgstr "Доллар Зимбабве"
+
+#: data/default_settings.php:38
+#, fuzzy
+msgid "Available"
+msgstr "Доступен"
+
+#: data/default_settings.php:39
+#, fuzzy
+msgid "Not Available"
+msgstr "Не доступен"
+
+#: data/default_settings.php:40
+#, fuzzy
+msgid "Reserved"
+msgstr "Резерв"
+
+#: data/default_settings.php:41
+#, fuzzy
+msgid "In Use"
+msgstr "В использовании"
+
+#: data/default_settings.php:93
+msgid "Thank you"
+msgstr "Спасибо"
+
+#: data/default_settings.php:94
+msgid "Agencies"
+msgstr "Агенства"
+
+#: data/map_languages.php:13
+msgid "Arabic"
+msgstr "Арабский"
+
+#: data/map_languages.php:14
+msgid "Bulgarian"
+msgstr "Болгарский"
+
+#: data/map_languages.php:15
+msgid "Bengali"
+msgstr "Бенгальский"
+
+#: data/map_languages.php:16
+msgid "Catalan"
+msgstr "Каталонский"
+
+#: data/map_languages.php:17
+msgid "Czech"
+msgstr "Чешский"
+
+#: data/map_languages.php:18
+msgid "Danish"
+msgstr "Датский"
+
+#: data/map_languages.php:19
+msgid "German"
+msgstr "Немецкий"
+
+#: data/map_languages.php:20
+msgid "Greek"
+msgstr "Греческий"
+
+#: data/map_languages.php:21
+msgid "English"
+msgstr "Английский"
+
+#: data/map_languages.php:22
+msgid "English (Australian)"
+msgstr "Английский (Австралия)"
+
+#: data/map_languages.php:23
+msgid "English (Great Britain)"
+msgstr "Английский (Великобритания)"
+
+#: data/map_languages.php:24
+msgid "Spanish"
+msgstr "Испанский"
+
+#: data/map_languages.php:25 data/map_languages.php:26
+msgid "Basque"
+msgstr "Баскский"
+
+#: data/map_languages.php:27
+msgid "Farsi"
+msgstr "Фарси"
+
+#: data/map_languages.php:28
+msgid "Finnish"
+msgstr "Финский"
+
+#: data/map_languages.php:29
+msgid "Filipino"
+msgstr "Филиппинский"
+
+#: data/map_languages.php:30
+msgid "French"
+msgstr "Французский"
+
+#: data/map_languages.php:31
+msgid "Galician"
+msgstr "Галисийский"
+
+#: data/map_languages.php:32
+msgid "Gujarati"
+msgstr "Гуджарати"
+
+#: data/map_languages.php:33
+msgid "Hindi"
+msgstr "Хинди"
+
+#: data/map_languages.php:34
+msgid "Croatian"
+msgstr "Хорватский"
+
+#: data/map_languages.php:35
+msgid "Hungarian"
+msgstr "Венгерский"
+
+#: data/map_languages.php:36
+msgid "Indonesian"
+msgstr "Индонезийский"
+
+#: data/map_languages.php:37
+msgid "Italian"
+msgstr "Итальянский"
+
+#: data/map_languages.php:38
+msgid "Hebrew"
+msgstr "Иврит"
+
+#: data/map_languages.php:39
+msgid "Japanese"
+msgstr "Японский"
+
+#: data/map_languages.php:40
+msgid "Korean"
+msgstr "Корейский"
+
+#: data/map_languages.php:41
+msgid "Lithuanian"
+msgstr "Литовский"
+
+#: data/map_languages.php:42
+msgid "Latvian"
+msgstr "Латышский"
+
+#: data/map_languages.php:43
+msgid "Malayalam"
+msgstr "Малаялам"
+
+#: data/map_languages.php:44
+msgid "Marathi"
+msgstr "Маратхи"
+
+#: data/map_languages.php:45
+msgid "Dutch"
+msgstr "Голландский"
+
+#: data/map_languages.php:46
+msgid "Norwegian"
+msgstr "Норвежский"
+
+#: data/map_languages.php:47
+msgid "Polish"
+msgstr "Польский"
+
+#: data/map_languages.php:48
+msgid "Portuguese"
+msgstr "Португальский"
+
+#: data/map_languages.php:49
+msgid "Portuguese (Brazil)"
+msgstr "Португальский (Бразилия)"
+
+#: data/map_languages.php:50
+msgid "Portuguese (Portugal)"
+msgstr "Португальский (Португалия)"
+
+#: data/map_languages.php:51
+msgid "Romanian"
+msgstr "Румынский"
+
+#: data/map_languages.php:52
+msgid "Russian"
+msgstr "Русский"
+
+#: data/map_languages.php:53
+msgid "Slovak"
+msgstr "Словацкий"
+
+#: data/map_languages.php:54
+msgid "Slovenian"
+msgstr "Словенский"
+
+#: data/map_languages.php:55
+msgid "Serbian"
+msgstr "Сербский"
+
+#: data/map_languages.php:56
+msgid "Swedish"
+msgstr "Шведский"
+
+#: data/map_languages.php:57
+msgid "Tamil"
+msgstr "Тамильский"
+
+#: data/map_languages.php:58
+msgid "Telugu"
+msgstr "Телугу"
+
+#: data/map_languages.php:59
+msgid "Thai"
+msgstr "Тайский"
+
+#: data/map_languages.php:60
+msgid "Tagalog"
+msgstr "Тагальский"
+
+#: data/map_languages.php:61
+msgid "Turkish"
+msgstr "Турецкий"
+
+#: data/map_languages.php:62
+msgid "Ukrainian"
+msgstr "Украинский"
+
+#: data/map_languages.php:63
+msgid "Vietnamese"
+msgstr "Вьетнамский"
+
+#: data/map_languages.php:64
+msgid "Chinese (Simplified)"
+msgstr "Китайский (упрощенный)"
+
+#: data/map_languages.php:65
+msgid "Chinese (Traditional)"
+msgstr "Китайский (традиционный)"
+
+#: tags/agencies.php:109
+msgid "Note"
+msgstr "Примечание"
+
+#: tags/cart.php:36
+msgid "Add to cart"
+msgstr "Добавить в корзину"
+
+# Добавить дополнительные товары в корзину
+# ->
+# Добавить дополнения в корзину
+#: tags/cart.php:90
+msgid "Add extras to cart"
+msgstr "Добавить дополнения в корзину"
+
+#: tags/categories.php:112
+msgid "Select Category"
+msgstr "Выберите категорию"
+
+#: tags/general.php:167
+msgid "Back to search"
+msgstr "Назад к поиску"
+
+#: tags/general.php:490
+msgid "Show on map"
+msgstr "Показать на карте"
+
+#: tags/general.php:490
+msgid "Hide map"
+msgstr "Скрыть карту"
+
+#: tags/search.php:76
+msgid "Grid view"
+msgstr "Сетка"
+
+#: tags/search.php:77
+msgid "List view"
+msgstr "Список"
+
+#: tags/search.php:309
+#, fuzzy
+#| msgid "Pick-Up Date"
+msgid "Pick-up Date"
+msgstr "Дата подачи"
+
+#: tags/search.php:310
+msgid "Drop-off Date and Time"
+msgstr "Дата и время возврата"
+
+#: tags/search.php:413
+msgid "Choose an item"
+msgstr "Выберите элемент"
+
+#: tags/search.php:478
+msgid "Reset"
+msgstr "Сброс"
+
+#: templates/forms/cart.php:25
+msgid "Update Cart"
+msgstr "Обновить корзину"
+
+#: templates/forms/cart.php:28 templates/forms/checkout.php:86
+msgid "Place Order"
+msgstr "Оформить заказ"
+
+# Back to products -> Back to Cars
+# /
+# Назад к списку продуктов -> Назад к списку автомобилей
+#: templates/forms/cart.php:30
+msgid "Back to products"
+msgstr "Назад к списку автомобилей"
+
+#: templates/forms/cart.php:43
+msgid "There is nothing in the cart"
+msgstr "В корзине ничего нет"
+
+#: templates/forms/checkout.php:49
+msgid "Confirm Email"
+msgstr "Подтвердите адрес email"
+
+#: templates/forms/checkout.php:56
+msgid "Enter your message"
+msgstr "Введите ваше сообщение"
+
+#: templates/forms/checkout.php:68
+msgid "I agree with"
+msgstr "Я согласен с"
+
+#: templates/forms/checkout.php:68
+msgid "terms and conditions"
+msgstr "условиями и соглашениями"
+
+#: templates/forms/checkout.php:78
+msgid "Register me"
+msgstr "Зарегистрировать меня"
+
+#: templates/forms/extras.php:21
+msgid "Rent Interval"
+msgstr "Период аренды"
+
+#: templates/lists/agencies.php:48
+msgid "Our Address"
+msgstr "Наш адрес"
+
+#: templates/lists/agencies.php:57 templates/single-agency.php:45
+msgid "Time schedule"
+msgstr "Расписание"
+
+#: templates/lists/categories.php:20
+msgid "Categories"
+msgstr "Категории"
+
+#: templates/lists/products.php:53
+msgid "Book now"
+msgstr "Заказать"
+
+#: templates/lists/taxonomies.php:33
+msgid "Tags"
+msgstr "Теги"
+
+#: templates/none.php:14
+msgid "Sorry, we couldn't find any results matching this search"
+msgstr ""
+"К сожалению, мы не смогли найти \n"
+"результаты, соответствующие этому \n"
+"запросу"
+
+#: templates/order-details.php:27
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: templates/order-details.php:56 templates/pre-order.php:32
+msgid "Order Subtotal"
+msgstr "Промежуточная стоимость заказа"
+
+#: templates/order-details.php:80
+msgid "No chosen extras"
+msgstr "Дополнения не выбраны"
+
+# ??
+# Стоимость дополнений->Промежуточная стоимость дополнений
+#: templates/order-details.php:87 templates/pre-order.php:39
+msgid "Extras Subtotal"
+msgstr "Промежуточная стоимость дополнений"
+
+#: templates/order-details.php:105
+msgid "Billing Details"
+msgstr "Реквизиты пользователя"
+
+# ->Заказывать нечего
+# /
+# ("нечего заказывать" звучит немного двусмысленно, по типу :"НЕЧЕГО тут ЗАКАЗЫВАТЬ, пойдём отсюда")
+#: templates/order-details.php:149
+msgid "There is nothing to order"
+msgstr "Заказывать нечего"
+
+#: templates/pre-order.php:36
+msgid "No chosen extras yet"
+msgstr "Дополнения не выбраны"
+
+#: templates/single-agency.php:52
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: templates/toolbar.php:19
+msgid "Per page"
+msgstr "На странице"
+
+#: templates/toolbar.php:36
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: templates/toolbar.php:43
+msgid "Sort"
+msgstr "Сортировать"
+
+#: templates/toolbar.php:45
+msgid "Asc"
+msgstr "По возрастанию"
+
+#: templates/toolbar.php:46
+msgid "Desc"
+msgstr "По убыванию"
+
+#~ msgid "Orders"
+#~ msgstr "Заказы"
+
+#~ msgid "Manage List"
+#~ msgstr "Редактировать список"
+
+#~ msgid "All Categories"
+#~ msgstr "Все категории"
+
+#~ msgid "Warning"
+#~ msgstr "Внимание"
+
+#~ msgid ""
+#~ "Changing the attribute type may lead to changes in the corresponding "
+#~ "cars' data or their loss"
+#~ msgstr ""
+#~ "Изменение типа характеристики может повлечь за собой изменение или потерю "
+#~ "данных соответствующих автомобилей"
+
+#~ msgid "Unit of measurement"
+#~ msgstr "Единица измерения"
+
+#~ msgid "No car categories available"
+#~ msgstr "Нет доступных категорий автомобилей"
+
+#~ msgid "Number of decimals"
+#~ msgstr "Количество десятичных знаков"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Update"
+#~ msgstr "Обновить"
+
+#~ msgid "Car Status"
+#~ msgstr "Статус автомобиля"
+
+#~ msgid "Ability to Choose Quantity"
+#~ msgstr "Возможность выбора количества"
+
+# Добавить новый
+#~ msgid "Add new"
+#~ msgstr "Добавить новый"
+
+#~ msgid "car"
+#~ msgstr "автомобиль"
+
+#~ msgid "cars"
+#~ msgstr "автомобили"
+
+#~ msgid "Cars"
+#~ msgstr "Автомобили"
+
+#~ msgid "The price of some cars was not shown to the user"
+#~ msgstr "Цена некотрых автомобилей не была отображена пользователю"
+
+#~ msgid "Select new status for cars that are marked as"
+#~ msgstr "Выберите новый статус для автомобилей, помеченных как"
+
+#~ msgid "Car Statuses"
+#~ msgstr "Статусы автомобилей"
+
+#~ msgid "Car Page"
+#~ msgstr "Страница автомобилей"
+
+#~ msgid "Sort Cars by"
+#~ msgstr "Сортировать автомобили по"
+
+#~ msgid "Not enough data to add car(-s) to the cart"
+#~ msgstr "Недостаточно данных для добавления автомобиля(-ей) в корзину"
+
+#~ msgid "The car is already in the cart"
+#~ msgid_plural "Cars are already in the cart"
+#~ msgstr[0] "Автомобиль уже в корзине"
+#~ msgstr[1] "Автомобили уже в корзине"
+#~ msgstr[2] "Автомобили уже в корзине"
+#~ msgstr[3] "Автомобили уже в корзине"
+
+#~ msgid "Car ordering is available only for registered users"
+#~ msgstr ""
+#~ "Заказ автомобиля доступен только для зарегистрированных пользователей"
+
+#~ msgid "One car is added to the cart"
+#~ msgid_plural "%s cars are added to the cart"
+#~ msgstr[0] "Автомобиль добавлен в корзину"
+#~ msgstr[1] "%s автомобиля добавлено в корзину"
+#~ msgstr[2] "%s автомобилей добавлено в корзину"
+#~ msgstr[3] "%s автомобиль добавлен в корзину"
+
+#~ msgid "Car"
+#~ msgstr "Автомобиль"
+
+#~ msgid "Add New Car"
+#~ msgstr "Добавить новый автомобиль"
+
+#~ msgid "Edit Car"
+#~ msgstr "Редактировать автомобиль"
+
+#~ msgid "Search Cars"
+#~ msgstr "Поиск автомобилей"
+
+#~ msgid "Add New Category"
+#~ msgstr "Добавить новую категорию"
+
+#~ msgid "Edit Category"
+#~ msgstr "Редактировать категорию"
+
+#~ msgid "New Category"
+#~ msgstr "Новая категория"
+
+# -> Просмотреть категорию
+#~ msgid "View Category"
+#~ msgstr "Просмотреть категорию"
+
+# -> Поиск категорий
+#~ msgid "Search Categories"
+#~ msgstr "Поиск категорий"
+
+#~ msgid "No Categories found"
+#~ msgstr "Категории не найдены"
+
+#~ msgid "Agency"
+#~ msgstr "Агенство"
+
+#~ msgid "Add New Agency"
+#~ msgstr "Добавить новое агенство"
+
+#~ msgid "Edit Agency"
+#~ msgstr "Редактировать агенство"
+
+#~ msgid "New Agency"
+#~ msgstr "Новое агенство"
+
+#~ msgid "View Agency"
+#~ msgstr "Просмотреть агенство"
+
+#~ msgid "Search Agencies"
+#~ msgstr "Поиск агенств"
+
+#~ msgid "No Agencies found"
+#~ msgstr "Агенства не найдены"
+
+#~ msgid "Adds the ordered cars rent interval"
+#~ msgstr "Добавляет период аренды автомобилей"
+
+#~ msgid "Adds the list of ordered cars data with the price summaries"
+#~ msgstr ""
+#~ "Добавляет список данных \n"
+#~ "заказанных автомобилей со \n"
+#~ "сводками цен"
+
+#~ msgid "car removed"
+#~ msgstr "автомобиль удален"
+
+#~ msgid "per"
+#~ msgstr "в"
+
+#~ msgid "Pick-up Date and Time"
+#~ msgstr "Дата и время подачи"
+
+#~ msgid "Back to cars"
+#~ msgstr " Назад к списку автомобилей"
+
+# There are no available products categories -> No car categories available
+# Нет доступных категорий продуктов -> Нет доступных категорий автомобилей
+#, fuzzy
+#~ msgid "There are no available products categories"
+#~ msgstr "Нет доступных категорий продуктов"
+
+# -> Changing the attribute type may lead to changes in the corresponding cars' data or their loss
+# -> Изменение типа характеристики может повлечь за собой изменение или потерю данных соответствующих автомобилей
+#, fuzzy
+#~ msgid ""
+#~ "Changing of the attribute type may cause the change of the corresponding "
+#~ "products data or their loss"
+#~ msgstr ""
+#~ "Изменение типа аттрибута может повлечь за собой изменение соответствующих "
+#~ "данных продуктов или их потерю"
+
+#~ msgid ""
+#~ "Select products that will be offered as extras for the currently edited "
+#~ "one"
+#~ msgstr ""
+#~ "Выберите продукты, которые будут предложены пользователю в качестве "
+#~ "дополнений к текущему"
+
+#~ msgid "Enable to notify customers of their order being pocessed"
+#~ msgstr ""
+#~ "Включите, чтобы уведомить клиентов о том, что их заказ находится в "
+#~ "процессе выполнения"
+
+#~ msgid ""
+#~ "Enter additional coma separated users emails that will receive "
+#~ "notifications"
+#~ msgstr ""
+#~ "Введите дополнительные адреса электронной почты  (через запятую), на "
+#~ "которые будут отправляться оповещения"
+
+#~ msgid "New cars status has been added successfully"
+#~ msgstr "Новый статус автомобиля был добавлен"
+
+# ->Ability to manage the plugin settings is not available any more. Please upgrade the plugin core and re-create all your cars (без точки и одним предложением)
+# ->Возможность управлять настройками плагина более недоступна. Пожалуйста, обновите ядро плагина и пересоздайте все Ваши автомобили.
+#~ msgid ""
+#~ "Ability to manage the plugin settings is not available any more. Please "
+#~ "upgrade the plugin core. And re-create all your cars."
+#~ msgstr ""
+#~ "Возможность управлять настройками плагина более недоступна. Пожалуйста, "
+#~ "обновите ядро плагина и пересоздайте все Ваши автомобили."
+
+#~ msgid "Select new status for car that are marked as"
+#~ msgstr "Выберите новый статус для автомобилей, помеченных как"
+
+#~ msgid "Cars Page"
+#~ msgstr "Страница автомобилей"
+
+#~ msgid ""
+#~ "Postfixes to links used on user accounts pages to perform certain "
+#~ "actions. They must be unique and not contain spaces or other characters "
+#~ "that are not allowed for use in the links"
+#~ msgstr ""
+#~ "Постфиксы к ссылкам, используемым на страницах учетных записей для "
+#~ "выполнения определенных действий. Они должны быть уникальными и не "
+#~ "содержать пробелов или других символов, которые нельзя"
+
+#~ msgid "Cars ordering is available only for registered users"
+#~ msgstr ""
+#~ "Заказ автомобилей доступен только для зарегистрированых пользователей"
+
+#~ msgid "No Cars found"
+#~ msgstr "Автомобили не найдены"
+
+#~ msgid "Adds the list with ordered cars data with the price summaries"
+#~ msgstr "Добавляет список данных заказанных автомобилей со сводками цен"
+
+#~ msgid "Back to Cars"
+#~ msgstr "Назад к списку автомобилей"
+
+# ASC -> Asc
+#, fuzzy
+#~ msgid "ASC"
+#~ msgstr "По возрастанию"
+
+# ->Order Subtotal (/Car Subtotal)
+# ->Промежуточная стоимость заказа (/Промежуточная стоимость автомобиля)
+#, fuzzy
+#~ msgid "Product Subtotal"
+#~ msgstr "Стоимость за продукт"
+
+# //trying to looking for - однозначно под замену//
+#  ->Sorry, we couldn't find any results matching this search
+# /
+# ->К сожалению, мы не смогли найти результаты, соответствующие этому запросу
+#, fuzzy
+#~ msgid "It looks like there aren't any items you are trying to looking for"
+#~ msgstr "Похоже, что ничего не найдено по Вашему запросу"
+
+# Euro Member Countries
+# ->
+# European Union Euro
+# /EU Euro
+#, fuzzy
+#~ msgid "Euro Member Countries"
+#~ msgstr "Евро"
+
+# Marka -> Mark
+# ("konvertibilna marka", но "convertible mark")
+#, fuzzy
+#~ msgid "Bosnia and Herzegovina Convertible Marka"
+#~ msgstr "Конвертируемая Марка Боснии и Герцеговины"
+
+# Sunday
+#, fuzzy
+#~ msgid "sunday"
+#~ msgstr "воскресенье"
+
+# Monday
+#, fuzzy
+#~ msgid "monday"
+#~ msgstr "понедельник"
+
+# Tuesday
+#, fuzzy
+#~ msgid "tuesday"
+#~ msgstr "вторник"
+
+# Wednesday
+#, fuzzy
+#~ msgid "wednesday"
+#~ msgstr "среда"
+
+# Thursday
+#, fuzzy
+#~ msgid "thursday"
+#~ msgstr "четверг"
+
+# Friday
+#, fuzzy
+#~ msgid "friday"
+#~ msgstr "пятница"
+
+# Saturday
+#, fuzzy
+#~ msgid "saturday"
+#~ msgstr "суббота"
+
+# точно "Nope", а не "No"?
+# если точно, тогда перевод: "Неа"
+#, fuzzy
+#~ msgid "Nope"
+#~ msgstr "Нет"
+
+# не нашел. нужно найти и по контексту:
+# Centered
+# или
+# Align Center
+# или просто
+# Center
+#, fuzzy
+#~ msgid "In Center"
+#~ msgstr "По центру"
+
+# не нашел. необходимо уточнить согласование по контексту:
+# On the Left Side / Align Left / To the Left Side / From the Left Side
+#, fuzzy
+#~ msgid "On The Left Side"
+#~ msgstr "С левой стороны"
+
+# не нашел. необходимо уточнить согласование по контексту:
+# On the Right Side / Align Right / To the Right Side / From the Right Side
+#, fuzzy
+#~ msgid "On The Right Side"
+#~ msgstr "С правой стороны"
+
+# Can not -> Cannot (слитное написание, чтобы везде совпадало)
+#, fuzzy
+#~ msgid "Can not register new user. Please try again later"
+#~ msgstr ""
+#~ "Невозможно зарегистрировать нового пользователя. Пожалуйста, попробуйте "
+#~ "позднее"
+
+# ->It seems that there is nothing to order. Please choose a car to make an order
+# ->Похоже, что заказывать нечего. Пожалуйста, выберите автомобиль, чтобы сделать заказ
+# /нечего заказывать -> заказывать нечего
+# (т.к. звучит немного двусмысленно, по типу :"НЕЧЕГО тут ЗАКАЗЫВАТЬ, пойдём отсюда")
+#, fuzzy
+#~ msgid ""
+#~ "It seems that there is nothing to order. Please try to choose some "
+#~ "products"
+#~ msgstr "Похоже, что нечего заказывать. Пожалуйста, выберите некотрые товары"
+
+# Can not -> Cannot (слитное написание, чтобы везде совпадало)
+#, fuzzy
+#~ msgid "Can not place order. Please try again later"
+#~ msgstr "Невозможно оформить заказ. Пожалуйста, попробуйте позднее"
+
+# -> Email (одним словом, чтобы везде одинаковое написание было)
+#, fuzzy
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+# Can not -> Cannot (слитное написание, чтобы везде совпадало)
+# ->Невозможно добавить дополнения в корзину
+#, fuzzy
+#~ msgid "Can not add extras to the cart"
+#~ msgstr "Невозможно добавить дополнительные продукты в корзину"
+
+# Can not -> Cannot (слитное написание, чтобы везде совпадало)
+#, fuzzy
+#~ msgid "Can not find the address on the map"
+#~ msgstr "Невозможно найти адрес на карте"
+
+# ->The period of keeping cars in the cart
+# ->Период хранения автомобилей в корзине
+#, fuzzy
+#~ msgid "Period of storage of goods in the cart"
+#~ msgstr "Период хранения продуктов в корзине"
+
+# -> Pick-Up Date
+# -> Дата подачи
+#, fuzzy
+#~ msgid "Pick Up Date"
+#~ msgstr "Дата получения"
+
+# ->Drop-Off Date
+#, fuzzy
+#~ msgid "Drop Off Date"
+#~ msgstr "Дата возврата"
+
+# ->Postfixes to links used on user accounts pages to perform certain actions. They must be unique and not contain spaces or other characters that are not allowed for use in the links.
+# /
+# ->Постфиксы к ссылкам, используемым на страницах учетных записей для выполнения определенных действий. Они должны быть уникальными и не содержать пробелов или других символов, которые нельзя использовать в ссылках.
+#, fuzzy
+#~ msgid ""
+#~ "Postfixes to links that are used on the user's page to perform an action. "
+#~ "They must be unique, do not contain spaces or any other symbols not "
+#~ "allowed to use in site links"
+#~ msgstr ""
+#~ "Постфиксы к  ссылкам на страницах аккаунтов пользователя обработки "
+#~ "определённых действий. Они должны быть уникальными, не содержать пробелы "
+#~ "или другие символы, неразрешенные для использования в ссылках"
+
+# ->Install demo data to add demo cars and demo extras with images, details, manufacturers, body types, and car classes.
+# /
+# -> Установите демонстрационные данные, чтобы добавить демонстрационные автомобили и демонстрационные дополнения с изображениями, подробностями, производителями, типами кузова и классами автомобилей.
+#, fuzzy
+#~ msgid ""
+#~ "Install demo-data to create demo-cars with images and details, demo-"
+#~ "extras with images and details, manufacturers, vehicles types and car "
+#~ "classes."
+#~ msgstr ""
+#~ "Установите демо данные для создания демо-автомобилей с изображениями и "
+#~ "подробностями, демо-дополнений с изображениями и подробностями, "
+#~ "производителей, типов кузова и классов автомобилей."
+
+# ->Not recommended in case you have changed and use demo data (cars, attributes, etc.).
+# /
+# ->Не рекомендуется, если Вы изменили и используете демо-данные (автомобили, характеристики и т.д. ).
+#, fuzzy
+#~ msgid ""
+#~ "Not recommended in case you have changed demo items (products, "
+#~ "attributes, etc.)."
+#~ msgstr ""
+#~ "Не рекомендуется в случае, если Вы каким-то образом изменили и "
+#~ "используете демо данные (продукты, аттрибуты и т.д. )."
+
+# e.g.  -> e.g.,  /запятая после e.g./
+# например,  -> например:  /двоеточие вместо запятой/
+#, fuzzy
+#~ msgid "Ascending (e.g. 1, 2, 3; a, b, c)"
+#~ msgstr "По возрастанию (например, 1, 2, 3; а, б, в)"
+
+# e.g.  -> e.g.,  /запятая после e.g./
+# например,  -> например:  /двоеточие вместо запятой/
+#, fuzzy
+#~ msgid "Descending (e.g. 3, 2, 1; c, b, a)"
+#~ msgstr "По убыванию (например, 3, 2, 1; в, б, а)"
+
+# Products -> Cars
+# продукты -> автомобили
+#~ msgid "Sort Products by"
+#~ msgstr "Сортировать автомобили по"
+
+# Product -> Car
+# продуктов -> автомобилей
+#, fuzzy
+#~ msgid "Product Statuses"
+#~ msgstr "Статусы продуктов"
+
+# ->Demo data deleted successfully
+# ->Демо-данные успешно удалены
+#, fuzzy
+#~ msgid "Demo data have been removed successfully"
+#~ msgstr "Демо данные успешно удалены"
+
+# ->Demo data successfully installed
+# ->Демо-данные успешно установлены
+#, fuzzy
+#~ msgid "Demo data have been installed successfully"
+#~ msgstr "Демо данные успешно установлены"
+
+# Demo products -> Demo data
+# Демо-продукты -> Демо-данные
+#~ msgid "Demo products will be completely removed from your site"
+#~ msgstr "Демо-данные будут полностью удалены с Вашего сайта"
+
+# ->New cars will be created that you can manage the way you want
+# ->Будут созданы новые автомобили, которыми Вы можете управлять необходимым Вам образом
+#, fuzzy
+#~ msgid ""
+#~ "There will be created new products which you can manage as you desire"
+#~ msgstr ""
+#~ "На Вашем сайте будут созданы новые продукты, которыми Вы сможете "
+#~ "манипулировать необходимым Вам образом"
+
+# ->Select the base crop position (the default is center).
+# ->Выберите базовую позицию обрезки (по умолчанию - центр).
+#, fuzzy
+#~ msgid "Select crop position base (by default: center)."
+#~ msgstr "Выберите позицию обрезки (по умолчанию: в центре)."
+
+# during loading -> when loading
+#, fuzzy
+#~ msgid ""
+#~ "Enable to crop images during loading. Disable to resize images "
+#~ "automatically using their aspect ratio."
+#~ msgstr ""
+#~ "Включите, чтобы обрезать изображения при загрузке. Отключите, чтобы "
+#~ "изменить размер изображения автоматически, используя их пропорции."
+
+# ->Gallery Images Size
+# ->Размер изображений в галерее
+#, fuzzy
+#~ msgid "Galleries Images Size"
+#~ msgstr "Размер изображений в галерее продукта"
+
+# ->Thousands Separator
+# (S нужна. смотрел тут: https://support.office.com/en-us/article/Change-the-character-used-to-separate-thousands-or-decimals-c093b545-71cb-4903-b205-aebb9837bd1e)
+#, fuzzy
+#~ msgid "Numbers Thousand Separator"
+#~ msgstr "Тысячный разделитель"
+
+# ->Decimal Separator
+#, fuzzy
+#~ msgid "Numbers Decimal Separator"
+#~ msgstr "Десятичный разделитель"
+
+# ->Number of Decimal Places
+#, fuzzy
+#~ msgid "Numbers Decimals"
+#~ msgstr "Количество десятичных знаков"
+
+# ->Decimal separator  mustn't contain numbers
+# ->Десятичный разделитель не должен содержать чисел
+#, fuzzy
+#~ msgid "Numbers decimal separator  mustn't contain numbers"
+#~ msgstr "Десятичный разделитель не может содержать числа"
+
+# ->Thousands separator mustn't contain numbers
+# ->Тысячный разделитель не должен содержать чисел
+#, fuzzy
+#~ msgid "Numbers thousand separator mustn't contain numbers"
+#~ msgstr "Разделитель тысяч не может содержать числа"
+
+# ->Thousands and decimal separators can't be the same
+# ->Тысячный и десятичный разделители не могут совпадать
+#, fuzzy
+#~ msgid "Numbers thousand separator and decimal separators can't be the same"
+#~ msgstr "Разделитель тысяч и десятичный разделитель не могут совпадать"
+
+# -> Cannot get email data
+# -> Cannot и email (оба одним словом, чтобы везде одинаковое написание было)
+#, fuzzy
+#~ msgid "Can not get e-mails info"
+#~ msgstr "Невозможно получить данные сообщения"
+
+# ->Choose the agent(s) to receive service notifications
+# /
+# recIEve->recEIve
+#, fuzzy
+#~ msgid "Choose the agent(s) that will recieve service notifications"
+#~ msgstr "Выберите агентов, которые будут получать оповещения"
+
+#  ->Enter additional comma-separated emails of users who will receive notifications
+# /
+# recIEve->recEIve
+# -> email (одним словом, чтобы везде одинаковое написание было)
+#, fuzzy
+#~ msgid ""
+#~ "Enter additional coma separated users e-mails that will recieve "
+#~ "notifications"
+#~ msgstr ""
+#~ "Введите дополнительные адреса электронной почты  (через запятую), на "
+#~ "которые будут отправляться оповещения"
+
+# -> email (одним словом, чтобы везде одинаковое написание было)
+#, fuzzy
+#~ msgid "e-mail"
+#~ msgstr "e-mail"
+
+# -> email (одним словом, чтобы везде одинаковое написание было)
+# ->Невозможно получить данные получателя сообщений
+#, fuzzy
+#~ msgid "Can't get e-mail recipient data"
+#~ msgstr "Невозможно получить получателя сообщений"
+
+# -> email (одним словом, чтобы везде одинаковое написание было)
+#, fuzzy
+#~ msgid "Can't get e-mail data"
+#~ msgstr "Невозможно получить данные сообщения"
+
+# ->Select the user on whose behalf customers will receive notifications
+#, fuzzy
+#~ msgid ""
+#~ "Select a username of the person on whose behalf customers will receive "
+#~ "notifications"
+#~ msgstr "Выберите пользователя, от чьего имени будут отправляться письма"
+
+# ->No users allowed to send notifications to clients. Please check the users' capabilities on your site.
+# ->Отсутствуют пользователи, имеющие право  отправлять уведомления клиентам. Пожалуйста, проверьте права пользователей на Вашем сайте
+#, fuzzy
+#~ msgid ""
+#~ "There are no users which are allowed to send notifications to customers. "
+#~ "Please check users` capabilities on your site"
+#~ msgstr ""
+#~ "Пользвателей, которые имеют право отправлять письма клиентам, "
+#~ "отсутствуют. Пожалуйста, проверьте пользовательские права на Вашем сайте"
+
+# ->Enable to notify customers of their order being placed or marked as "On Hold"
+# ->Включите, чтобы уведомить клиентов о том, что их заказ размещен или помечен как «В ожидании»
+#, fuzzy
+#~ msgid ""
+#~ "Enable to send to the сustomer after placing the new order or marking it "
+#~ "as \"On Hold\""
+#~ msgstr ""
+#~ "Включите, для того, что бы клиент получал оповещения при новом заказе или "
+#~ "при присвоении заказу статуса  \"В ожидании\""
+
+# -> Enable to notify customers of their order being processed
+# -> Включите, чтобы уведомить клиентов о том, что их заказ находится в процессе выполнения
+#, fuzzy
+#~ msgid ""
+#~ "Enable to send to the customer after marking the order as \"Processed\""
+#~ msgstr ""
+#~ "Включите, для того, чтобы клиент получал оповещения при присвоении заказу "
+#~ "статуса \"В процессе выполнения\""
+
+# ->Enable to notify customers of their order being  completed
+# -> Включите, чтобы уведомить клиентов о выполнении их заказа
+#, fuzzy
+#~ msgid ""
+#~ "Enable to send to the customer after marking the order as \"Completed\""
+#~ msgstr ""
+#~ "Включите, чтобы клиент получал оповещения при присвоении заказу статуса "
+#~ "\"Выполненный\""
+
+# ->Enable to notify customers of their order being  canceled
+# -> Включите, чтобы уведомить клиентов об отмене их заказа
+#, fuzzy
+#~ msgid "Enable to send to the customer after the order cancelation"
+#~ msgstr "Включите, чтобы клиент получал оповещения после отмены заказа"
+
+# ->Enable to notify agents of a new order being placed or marked as "On Hold"
+# ->Включите, чтобы уведомить агентов о том, что новый заказ размещен или помечен как «В ожидании»
+#, fuzzy
+#~ msgid ""
+#~ "Enable to send to the agent after placing the new order or marking it as "
+#~ "\"On Hold\""
+#~ msgstr ""
+#~ "Включите, чтобы агент получал оповещения при новом заказе или при "
+#~ "присвоении заказу статуса  \"В ожидании\""
+
+# ->Enable to notify agents of an order being marked as "Processed"
+# ->Включите, чтобы уведомить агентов о том, что заказ помечен как «В процессе выполнения»
+#, fuzzy
+#~ msgid "Enable to send to the agent after marking the order as \"Processed\""
+#~ msgstr ""
+#~ "Включите, чтобы агент получал оповещения при присвоении заказу статуса "
+#~ "\"В обработке\""
+
+# ->Enable to notify agents of an order being marked as "Completed"
+# ->Включите, чтобы уведомить агентов о том, что заказ помечен как «Выполненный»
+#, fuzzy
+#~ msgid "Enable to send to the agent after marking the order as \"Completed\""
+#~ msgstr ""
+#~ "Включите, чтобы агент получал оповещения при присвоении заказу статуса "
+#~ "\"Выполненный\""
+
+# ->Enable to notify agents of order cancellation
+# ->Включите, чтобы уведомить агентов об отмене заказа
+#, fuzzy
+#~ msgid "Enable to send to the agent after the order cancelation"
+#~ msgstr "Включите, чтобы агент получал оповещения после отмены заказа"
+
+# "Admin Panel" -> "Dashboard"
+# "Панель Администратора" -> "Консоль"
+#~ msgid ""
+#~ "The registration will be enabled but not required. Also, please make sure "
+#~ "that users registration is enabled on \"Admin Panel\" -> \"Settings\" -> "
+#~ "\"General\" page"
+#~ msgstr ""
+#~ "Регистрация будет включена, но не будет обязательной. Пожалуйста, "
+#~ "убедитесь, что регистрация пользователей включена на странице \"Консоль\" "
+#~ "->  \"Настройки\" -> \"Общие\""
+
+# Products -> Cars
+# продуктов -> автомобилей
+#, fuzzy
+#~ msgid "Products Page"
+#~ msgstr "Страница продуктов"
+
+# ->Edit Car
+# ->Редактировать автомобиль
+#, fuzzy
+#~ msgid "Edit Product"
+#~ msgstr "Редактировать продукт"
+
+# ->New Car
+# ->Новый автомобиль
+#, fuzzy
+#~ msgid "New Product"
+#~ msgstr "Новый продукт"
+
+# -> View Car
+# -> Просмотреть автомобиль
+#, fuzzy
+#~ msgid "View Product"
+#~ msgstr "Просмотреть продукт"
+
+# -> Search Cars
+# -> Поиск автомобилей
+#, fuzzy
+#~ msgid "Search Products"
+#~ msgstr "Поиск продуктов"
+
+# No Products found -> No cars found
+# Продукты не найдены -> Автомобили не найдены
+#, fuzzy
+#~ msgid "No Products found"
+#~ msgstr "Продукты не найдены"
+
+# There are no any notes from the customer
+# ->
+# 1) There aren't any notes from the customer
+# 2) There are no notes from the customer
+#, fuzzy
+#~ msgid "There are no any notes from the customer"
+#~ msgstr "Пользователь не оставил никаких сообщений"
+
+# -> Pick-Up & Drop-Off Dates
+# / Pick-up & drop-off dates
+# /
+# ->Дата подачи и возврата
+# / Время подачи и возврата
+#, fuzzy
+#~ msgid "Pick-up & Drop-off dates"
+#~ msgstr "Время получения и возврата"
+
+# ->Pick-Up & Drop-Off Dates
+# / Pick-up & drop-off dates
+# /
+# ->Дата подачи и возврата
+# / Время подачи и возврата
+#, fuzzy
+#~ msgid "Pick-up & Drop-off Dates"
+#~ msgstr "Время получения и возврата"
+
+# Select products that will be offered as extras for the currently edited ->
+# Select products that will be offered as extras for the currently edited one.
+# /
+# Выберите продукты, которые будут предложены пользоватеДю в качестве дополнительных к текущему ->
+# Выберите продукты, которые будут предложены пользователю в качестве дополнений к текущему
+#, fuzzy
+#~ msgid ""
+#~ "Select products that will be offered as extras for the currently edited"
+#~ msgstr ""
+#~ "Выберите продукты, которые будут предложены пользоватедю в качестве "
+#~ "дополнительных к текущему"
+
+# Product Status
+# ->
+# Car Status
+# Статус продукта
+# ->
+# Статус автомобиля
+#, fuzzy
+#~ msgid "Product Status"
+#~ msgstr "Статус продукта"
+
+# Can not -> Cannot (слитное написание, чтобы везде совпадало)
+#, fuzzy
+#~ msgid "Can not get product's data"
+#~ msgstr "Невозможно получить данные продукта"
+
+# Product variation
+# ->
+# Car variation
+#, fuzzy
+#~ msgid "Product variation has been added successfully"
+#~ msgstr "Вариация успешно добавлена"
+
+# Product variation
+# ->
+# Car variation
+#, fuzzy
+#~ msgid "Product variation has been removed successfully"
+#~ msgstr "Вариация успешно удалена"
+
+# Product variation
+# ->
+# Car variation
+#, fuzzy
+#~ msgid "Product variation has been copied successfully"
+#~ msgstr "Вариация успешно скопирована"
+
+# Can not -> Cannot (слитное написание, чтобы везде совпадало)
+#, fuzzy
+#~ msgid "Can not get the parent post"
+#~ msgstr "Невозможно получить родительскую запись"
+
+# Can not -> Cannot (слитное написание, чтобы везде совпадало)
+#, fuzzy
+#~ msgid "Can not create the variation"
+#~ msgstr "Невозможно создать вариацию"
+
+# Work
+# ->
+# Workday / Work Day
+#, fuzzy
+#~ msgid "Work"
+#~ msgstr "Рабочий день"
+
+#~ msgid "Till"
+#~ msgstr "До"
+
+#, fuzzy
+#~ msgid "Booking Customer"
+#~ msgstr "Все Клиенты"
+
+#~ msgid ""
+#~ "Adds the list of users data that were entered during placing the order"
+#~ msgstr ""
+#~ "Добавляет даннве пользователя, которые были введены при оформлении заказа"
+
+#, fuzzy
+#~ msgid "Shows the order details"
+#~ msgstr "Закрыть подробности авто"
+
+#~ msgid "Enter new status endpoint"
+#~ msgstr "Введите слаг нового статуса"
+
+#~ msgid "Unicode region subtag identifiers"
+#~ msgstr "Юникода идентификатора региона"
+
+#~ msgid "Usage Limits"
+#~ msgstr "Лимиты использования"
+
+#~ msgid "here"
+#~ msgstr "здесь"
+
+#, fuzzy
+#~ msgid "User Notifications"
+#~ msgstr "Выберите расположение"
+
+#~ msgid "Admin Notifications"
+#~ msgstr "Оповещения администраторам"
+
+#, fuzzy
+#~ msgid "Customer Notice"
+#~ msgstr "Пользовательский код"
+
+#~ msgid "Sidebar on Car page"
+#~ msgstr "Сайдбар на странице Авто"
+
+#~ msgid "Sidebar is displayed on the Choose Car page."
+#~ msgstr "Сайдбар выводится на странице Выбор Автомобиля."
+
+#~ msgid "Sidebar on Extras page"
+#~ msgstr "Сайдбар на странице Дополнения"
+
+#~ msgid "Sidebar is displayed on the Choose Extras page."
+#~ msgstr "Сайдбар выводится на странице Выбор Дополнений"
+
+#~ msgid "Sidebar on Review page"
+#~ msgstr "Сайдбар на странице Просмотр"
+
+#~ msgid "Sidebar is displayed on the Review page."
+#~ msgstr "Сайдбар выводится на странице Просмотр."
+
+#~ msgid "l/100km"
+#~ msgstr "л/100км"
+
+#~ msgid "Free"
+#~ msgstr "Свободен"
+
+#~ msgid "In use"
+#~ msgstr "Занят"
+
+#~ msgctxt "post type general name"
+#~ msgid "Cars"
+#~ msgstr "Автомобили"
+
+#~ msgctxt "post type singular name"
+#~ msgid "Car"
+#~ msgstr "Автомобиль"
+
+#~ msgctxt "admin menu"
+#~ msgid "Cars"
+#~ msgstr "Автомобили"
+
+#~ msgctxt "add new on admin bar"
+#~ msgid "Car"
+#~ msgstr "Автомобиль"
+
+#~ msgid "No Cars found in Trash."
+#~ msgstr "Не найдено Автомобилей в Корзине."
+
+#~ msgid "Filter Cars list"
+#~ msgstr "Фильтровать список Автомобилей"
+
+#~ msgid "Cars list navigation"
+#~ msgstr "Поиск Автомобилей"
+
+#~ msgid "Cars list"
+#~ msgstr "Список Автомобилей"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "Manufacturers"
+#~ msgstr "Производители"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "Manufacturer"
+#~ msgstr "Производитель"
+
+#~ msgid "Popular Manufacturers"
+#~ msgstr "Популярные Производители"
+
+#~ msgid "All Manufacturers"
+#~ msgstr "Все Производители"
+
+#~ msgid "Edit Manufacturer"
+#~ msgstr "Редактировать Производителя"
+
+#~ msgid "Update Manufacturer"
+#~ msgstr "Обновить Производителя"
+
+#~ msgid "Add New Manufacturer"
+#~ msgstr "Добавить Нового Производителя"
+
+#~ msgid "View Manufacturer"
+#~ msgstr "Просмотреть Производителя"
+
+#~ msgid "New Manufacturer Name"
+#~ msgstr "Название нового Производителя"
+
+#~ msgid "Separate Manufacturers with commas"
+#~ msgstr "Разделите Производителей  запятыми"
+
+#~ msgid "Add or remove Manufacturers"
+#~ msgstr "Добавить или удалить Производителя"
+
+#~ msgid "Choose from the most used Manufacturers"
+#~ msgstr "Выбрать из часто используемых Производителей"
+
+#~ msgid "No Manufacturers found."
+#~ msgstr "Производителей не найдено."
+
+#~ msgid "Manufacturers"
+#~ msgstr "Производители"
+
+#~ msgid "Manufacturers list navigation"
+#~ msgstr "Поиск Производителей"
+
+#~ msgid "Manufacturers list"
+#~ msgstr "Список Производителей"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "Vehicle Types"
+#~ msgstr "Типы кузова"
+
+#~ msgid "Search Vehicle Types"
+#~ msgstr "Поиск Типов кузова"
+
+#~ msgid "Popular Vehicle Types"
+#~ msgstr "Популярные Типы кузова"
+
+#~ msgid "All Vehicle Types"
+#~ msgstr "Все Типы кузова"
+
+#~ msgid "Edit Vehicle Type"
+#~ msgstr "Редактировать Тип кузова"
+
+#~ msgid "Update Vehicle Type"
+#~ msgstr "Обновить Тип кузова"
+
+#~ msgid "Add New Vehicle Type"
+#~ msgstr "Добавить Новый Тип кузова"
+
+#~ msgid "View Vehicle Type"
+#~ msgstr "Просмотреть Тип кузова"
+
+#~ msgid "New Vehicle Type Name"
+#~ msgstr "Название нового Типа кузова"
+
+#~ msgid "Separate Vehicle Types with commas"
+#~ msgstr "Разделите Типы кузова запятыми"
+
+#~ msgid "Add or remove Vehicle Types"
+#~ msgstr "Добавить или удалить Типы кузова"
+
+#~ msgid "Choose from the most used Vehicle Types"
+#~ msgstr "Выбрать из часто используемых Типов кузова"
+
+#~ msgid "Vehicle Types"
+#~ msgstr "Типы кузова"
+
+#~ msgid "Vehicle Types list navigation"
+#~ msgstr "Поиск Типов кузова"
+
+#~ msgid "Vehicle Types list"
+#~ msgstr "Список Типов кузова"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "Car Classes"
+#~ msgstr "Классы Авто"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "Car Class"
+#~ msgstr "Класс Авто"
+
+#~ msgid "Search Car Classes"
+#~ msgstr "Поиск Классов Авто"
+
+#~ msgid "Popular Car Classes"
+#~ msgstr "Популярные Классы Авто"
+
+#~ msgid "All Car Classes"
+#~ msgstr "Все Классы Авто"
+
+#~ msgid "Edit Car Class"
+#~ msgstr "Редактировать Класс Авто"
+
+#~ msgid "Add New Car Class"
+#~ msgstr "Добавить Новый Класс Авто"
+
+#~ msgid "View Car Class"
+#~ msgstr "Просмотреть Класс Авто"
+
+#~ msgid "New Car Class Name"
+#~ msgstr "Название нового Класса Авто"
+
+#~ msgid "Separate Car Classes with commas"
+#~ msgstr "Разделите Классы Авто запятыми"
+
+#~ msgid "Add or remove Car Classes"
+#~ msgstr "Добавить или удалить Классы Авто"
+
+#~ msgid "Choose from the most used Car Classes"
+#~ msgstr "Выбрать из часто используемых Классов Авто"
+
+#~ msgid "No Car Classes found."
+#~ msgstr "Классов Авто не найдено."
+
+#~ msgid "Car Classes"
+#~ msgstr "Классы Авто"
+
+#~ msgid "Car Classes list navigation"
+#~ msgstr "Поиск Классов Автомобилей"
+
+#~ msgid "Car Classes list"
+#~ msgstr "Список Классов Автомобилей"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "Extras"
+#~ msgstr "Дополнения"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "Extra"
+#~ msgstr "Дополнение"
+
+#~ msgid "Popular Extras"
+#~ msgstr "Популярные Дополнения"
+
+#~ msgid "All Extras"
+#~ msgstr "Все Дополнения"
+
+#~ msgid "Edit Extra"
+#~ msgstr "Редактировать Дополнение"
+
+#~ msgid "Update Extra"
+#~ msgstr "Обновить Дополнение"
+
+#~ msgid "View Extra"
+#~ msgstr "Просмотреть Дополнение"
+
+#~ msgid "New Extra Name"
+#~ msgstr "Название нового Дополнения"
+
+#~ msgid "Separate Extras with commas"
+#~ msgstr "Разделите Дополнения запятыми"
+
+#~ msgid "Add or remove Extras"
+#~ msgstr "Добавить или удалить Дополнения"
+
+#~ msgid "Choose from the most used Extras"
+#~ msgstr "Выбрать из часто используемых Дополнений"
+
+#~ msgid "No Extras found."
+#~ msgstr "Дополнений не найдено."
+
+#~ msgid "Extras list navigation"
+#~ msgstr "Поиск Дополнений"
+
+#~ msgid "Extras list"
+#~ msgstr "Список Дополнений"
+
+#~ msgid "Car's Info"
+#~ msgstr "Информация Авто"
+
+#~ msgid "Choose location from list"
+#~ msgstr "Выбрать расположение из списка"
+
+#~ msgid "Enter a location"
+#~ msgstr "Введите расположение"
+
+#~ msgid "Number of Doors"
+#~ msgstr "Количество дверей"
+
+#~ msgid "Luggage Quantity"
+#~ msgstr "Объем багажа"
+
+#~ msgid "large suitcases"
+#~ msgstr "для крупного багажа"
+
+#~ msgid "small suitcases"
+#~ msgstr "для мелкого багажа"
+
+#~ msgid "Transmission Type"
+#~ msgstr "Тип трансмиссии"
+
+#~ msgid "Automatic"
+#~ msgstr "Автомат"
+
+#~ msgid "Manual"
+#~ msgstr "Ручная"
+
+#~ msgid "Average Consumption"
+#~ msgstr "Средний расход топлива"
+
+#~ msgid ""
+#~ "You can change unit of consumption on the %1$splugin's settings page%2$s."
+#~ msgstr ""
+#~ "Вы можете изменить единицы расхода топлива на %1$sстранице настроек "
+#~ "плагина%2$s."
+
+#~ msgid "Price per Hour"
+#~ msgstr "Цена за час"
+
+#~ msgid "You can change currency on the %1$splugin's settings page%2$s."
+#~ msgstr "Вы можете изменить валюту на %1$sстранице настроек плагина%2$s."
+
+#~ msgid "More about this extra"
+#~ msgstr "Дополнительная информация об этом дополнении"
+
+#~ msgid "The price for one unit. For example"
+#~ msgstr "Цена для одной единицы. Например"
+
+#~ msgid "max."
+#~ msgstr "макс."
+
+#~ msgid "Ability to choose a quantity"
+#~ msgstr "Возможность выбора количества"
+
+#~ msgid "Option is available"
+#~ msgstr "Опция доступна"
+
+#~ msgid "No image chosen"
+#~ msgstr "Изображение не выбрано"
+
+#~ msgid "Extras Image"
+#~ msgstr "Изображение Дополнения"
+
+#~ msgid "Change image"
+#~ msgstr "Изменить изображение"
+
+#~ msgid "Choose file"
+#~ msgstr "Выберите файл"
+
+#~ msgid "No file chosen"
+#~ msgstr "Файл не выбран"
+
+#~ msgid "Warning: You can add only image"
+#~ msgstr "Внимание: Вы можете добавить только изображение"
+
+#~ msgid ""
+#~ "Thank you for a booking. We will contact you for the order confirmation. "
+#~ "Your order is #%d"
+#~ msgstr ""
+#~ "Спасибо за заказ. Мы свяжемся с Вами для его подтверждения. Номер вашего "
+#~ "заказа: %d"
+
+#~ msgid "New booking order #"
+#~ msgstr "Новый заказ №"
+
+#~ msgid "Order Info"
+#~ msgstr "Информация о Заказе"
+
+#~ msgid "Client"
+#~ msgstr "Клиент"
+
+#~ msgid "Pick Up Location"
+#~ msgstr "Место получения"
+
+#~ msgid "Drop Off Location"
+#~ msgstr "Место возврата"
+
+#~ msgid "An error occured while creating the order."
+#~ msgstr "При создании заказа произошла ошибка."
+
+#~ msgid "FAQ"
+#~ msgstr "FAQ"
+
+#~ msgid "Support"
+#~ msgstr "Поддержка"
+
+#~ msgid ""
+#~ "Your theme does not declare Car Rental Pro plugin support. Please check "
+#~ "out our %s theme which has been developed specifically for use with Car "
+#~ "Rental Pro plugin."
+#~ msgstr ""
+#~ "Используемая тема не гарантирует поддержки всех возможностей плагина Car "
+#~ "Rental Pro. Пожалуйста, ознакомьтесь с нашей темой %s, которая была "
+#~ "разработана специально для плагина Car Rental Pro."
+
+#~ msgid "Close notice"
+#~ msgstr "Закрыть уведомление"
+
+#~ msgid "Slide settings saved."
+#~ msgstr "Настройки слайда сохранены."
+
+#~ msgid "Please choose new image for slide. Settings not saved."
+#~ msgstr ""
+#~ "Пожалуйста, выберите новое изображение для слайда. Настройки не сохранены."
+
+#~ msgid "Please choose image for slide. Settings not saved."
+#~ msgstr ""
+#~ "Пожалуйста, выберите изображение для слайда. Настройки не сохранены."
+
+#~ msgid ""
+#~ "If you want to display the slider on your homepage, paste the following "
+#~ "strings into the template source code"
+#~ msgstr ""
+#~ "Если вы хотите добавить слайдер на домашнюю страницу, вставьте следующие "
+#~ "строки в исходный код шаблона"
+
+#~ msgid ""
+#~ "If you want to display the slider on any page (e.g. that uses some custom "
+#~ "template), paste the following strings into the source code of the "
+#~ "corresponding template"
+#~ msgstr ""
+#~ "Если вы хотите отображать слайдер на любой странице (например на странице "
+#~ "с пользовательским шаблоном ), вставьте следующие строки в исходный код "
+#~ "соответствующего файла шаблона"
+
+#~ msgid "- This slide has no title -"
+#~ msgstr "- Слайд не имеет заголовка -"
+
+#~ msgid "Add Slide"
+#~ msgstr "Добавить Слайд"
+
+#~ msgid "Image URL"
+#~ msgstr "URL изображения"
+
+#~ msgid "Upload Image"
+#~ msgstr "Загрузить изображение"
+
+#~ msgid "Change Image"
+#~ msgstr "Изменить изображение"
+
+#~ msgid "Slide Title"
+#~ msgstr "Заголовок слайда"
+
+#~ msgid "Slide Link"
+#~ msgstr "Ссылка слайда"
+
+#~ msgid "Go to"
+#~ msgstr "Перейти к"
+
+#~ msgid "Learn More"
+#~ msgstr "Подробнее"
+
+#~ msgid "Car Rental Order Info"
+#~ msgstr "Car Rental Информация о Заказе"
+
+#~ msgid "Widget for displaying Order Info."
+#~ msgstr "Виджет для отображения Информации о Заказе."
+
+#~ msgid "Please choose Pick Up date"
+#~ msgstr "Пожалуйста, выберите дату получения"
+
+#~ msgid "Please choose Drop Off date"
+#~ msgstr "Пожалуйста, выберите дату возврата"
+
+#~ msgid "%s passenger"
+#~ msgid_plural "%s passengers"
+#~ msgstr[0] "%s пассажир"
+#~ msgstr[1] "%s пассажира"
+#~ msgstr[2] "%s пассажиров"
+
+#~ msgid "%s Door"
+#~ msgid_plural "%s Doors"
+#~ msgstr[0] "%s дверь"
+#~ msgstr[1] "%s двери"
+#~ msgstr[2] "%s дверей"
+
+#~ msgid "%s large suitcase"
+#~ msgid_plural "%s large suitcases"
+#~ msgstr[0] "%s крупный"
+#~ msgstr[1] "%s крупных"
+#~ msgstr[2] "%s крупных"
+
+#~ msgid "%s small suitcase"
+#~ msgid_plural "%s small suitcases"
+#~ msgstr[0] "%s мелкий"
+#~ msgstr[1] "%s мелких"
+#~ msgstr[2] "%s мелких"
+
+#~ msgid "automatic transmission"
+#~ msgstr "трансмиссия автомат"
+
+#~ msgid "manual transmission"
+#~ msgstr "ручная трансмиссия"
+
+#~ msgid "View car details"
+#~ msgstr "Просмотреть подробности авто"
+
+#~ msgid "Pick Up time"
+#~ msgstr "Время получения"
+
+#~ msgid "Return time"
+#~ msgstr "Время возврата"
+
+#~ msgid "Pickup and Return Location"
+#~ msgstr "Место получения и возврата"
+
+#~ msgid "Choose car"
+#~ msgstr "Выбор Авто"
+
+#~ msgid "Review & Book"
+#~ msgstr "Просмотр и заказ"
+
+#~ msgid "Please enter the correct value for custom currency field."
+#~ msgstr ""
+#~ "Пожалуйста, введите правильное значение для поля пользовательской валюты."
+
+#~ msgid "Please enter the correct value for custom unit of consumption field."
+#~ msgstr ""
+#~ "Пожалуйста, введите правильное значение для пользовательской единицы "
+#~ "расхода топлива."
+
+#~ msgid ""
+#~ "Warning! The status \"%1$s\" can not be removed, because it is used in "
+#~ "the %2$s orders."
+#~ msgstr ""
+#~ "Внимание! Статус \"%1$s\" не может быть удален, так как он используется в "
+#~ "%2$s заказе(ах)."
+
+#~ msgid "An error occurred during the updating status list."
+#~ msgstr "При обновлении списка статусов произошла ошибка."
+
+#~ msgid "Important"
+#~ msgstr "Внимание"
+
+#~ msgid "for the correct plugin work, please choose page for \"%s\""
+#~ msgstr ""
+#~ "для корректной работы плагина, пожалуйста, выберите страницу для \"%s\""
+
+#~ msgid "edit"
+#~ msgstr "изменить"
+
+#~ msgid "&mdash; Select &mdash;"
+#~ msgstr "&mdash; Выбрать &mdash;"
+
+#~ msgid "Custom currency"
+#~ msgstr "Пользовательская валюта"
+
+#~ msgid "Custom currency, for example"
+#~ msgstr "Пользовательская валюта, например"
+
+#~ msgid "km/l"
+#~ msgstr "км/л"
+
+#~ msgid "Custom unit of consumption"
+#~ msgstr "Пользовательская единица расхода топлива"
+
+#~ msgid "Custom Unit of Consumption"
+#~ msgstr "Пользовательская единица расхода топлива"
+
+#~ msgid "Enable to display Pick Up & Drop Off Time option."
+#~ msgstr "Включите для отображения опции выбора времени получения и возврата."
+
+#~ msgid "Return Location"
+#~ msgstr "Место возврата"
+
+#~ msgid "Enable to display Return Location option."
+#~ msgstr "Включите для отображения опции выбора места возврата."
+
+#~ msgid "Hour"
+#~ msgstr "Час"
+
+#~ msgid "Google Maps API Key"
+#~ msgstr "API ключ для Google Maps"
+
+#~ msgid ""
+#~ "Including a key in your request allows you to monitor your application's "
+#~ "API usage in the %s."
+#~ msgstr ""
+#~ "Добавление ключа в запрос позволяет отслеживать использование API вашего "
+#~ "приложения в  %s."
+
+#~ msgid "Don't have an API key?"
+#~ msgstr "Ещё нет ключа API?"
+
+#~ msgid "Get it now!"
+#~ msgstr "Получить сейчас!"
+
+#~ msgid "Search Pages Show at Most"
+#~ msgstr "Показывать на странице поиска не более"
+
+#~ msgid "delete"
+#~ msgstr "удалить"
+
+#~ msgid "Download"
+#~ msgstr "Скачать"
+
+#~ msgid "Enable to use %s for Review & Book form."
+#~ msgstr "Включите для использования %s в форме \"Просмотр и заказ\"."
+
+#~ msgid ""
+#~ "Please enable JavaScript in your browser for fully functional work of the "
+#~ "plugin."
+#~ msgstr ""
+#~ "Пожалуйста, включите JavaScript в вашем браузере для полноценной работы "
+#~ "плагина."
+
+#~ msgid "Car Rental Post Type"
+#~ msgstr "Тип записей Car Rental"
+
+#~ msgid ""
+#~ "Enable to avoid conflicts with other plugins installed. All Cars created "
+#~ "earlier will stay unchanged. However, after enabling we recommend to "
+#~ "check settings of other plugins where \"cars\" post type is used."
+#~ msgstr ""
+#~ "Включите для избежания конфликтов с другими установленными плагинами. Все "
+#~ "автомобили, созданные ранее, останутся без изменений. В любом случае, "
+#~ "после включения данной опции мы рекомендуем проверить настройки других "
+#~ "плагинов, где используется тип записи \"cars\"."
+
+#~ msgid "Car Rental filters"
+#~ msgstr "Car Rental фильтры"
+
+#~ msgid "Widget for displaying Cars filters."
+#~ msgstr "Виджет для отображения фильтров Автомобилей."
+
+#~ msgid "Price range"
+#~ msgstr "Цена"
+
+#~ msgid "to"
+#~ msgstr "до"
+
+#~ msgid "Clear"
+#~ msgstr "Очистить"
+
+#~ msgid "Select All"
+#~ msgstr "Выбрать Все"
+
+#~ msgid "Number of passengers"
+#~ msgstr "Количество пассажиров"
+
+#~ msgid "Vehicle type"
+#~ msgstr "Тип кузова"
+
+#~ msgid "Apply filters"
+#~ msgstr "Применить фильтр"
+
+#~ msgid "On request"
+#~ msgstr "По запросу"
+
+#~ msgid "Order ID"
+#~ msgstr "ID Заказа"
+
+#~ msgid "Location from"
+#~ msgstr "От места"
+
+#~ msgid "An error occurred during the deleting orders"
+#~ msgstr "При удалении заказа произошла ошибка"
+
+#~ msgid "An error occurred during the saving order"
+#~ msgstr "При сохранении заказа произошла ошибка"
+
+#~ msgid "All changes have been saved"
+#~ msgstr "Все настройки сохранены"
+
+#~ msgid "Return to Manage orders page"
+#~ msgstr "Вернуться на Страницу управления заказами"
+
+#~ msgid "pcs."
+#~ msgstr "шт."
+
+#~ msgid "Choose Pick Up date"
+#~ msgstr "Выберите дату получения"
+
+#~ msgid "YYYY-MM-DD"
+#~ msgstr "ГГГГ-ММ-ДД"
+
+#~ msgid "Choose Pick Up time"
+#~ msgstr "Выберите время получения"
+
+#~ msgid "Choose Drop Off date"
+#~ msgstr "Выберите дату возврата"
+
+#~ msgid "Delete demo data and restore old plugin settings."
+#~ msgstr "Удалить демо данные и восстановить предыдущие настройки плагина."
+
+#~ msgid "Yes, install demo data"
+#~ msgstr "Да, установить демо данные"
+
+#~ msgid "Are you sure you want to install demo data?"
+#~ msgstr "Вы уверены, что хотите установить демо данные?"
+
+#~ msgid "Yes, remove demo data"
+#~ msgstr "Да, удалить демо данные"
+
+#~ msgid "No, go back to the settings page"
+#~ msgstr "Нет, вернуться на страницу настроек"
+
+#~ msgid "Demo options already installed."
+#~ msgstr "Демо настройки уже установлены."
+
+#~ msgid "Demo data successfully installed."
+#~ msgstr "Демо данные успешно установлены."
+
+#~ msgid "View page with examples"
+#~ msgstr "Посмотреть страницу с примерами"
+
+#~ msgid "Installation of demo data with some errors occurred."
+#~ msgstr "Установка демо данных прошла с ошибками."
+
+#~ msgid "Posts data is missing."
+#~ msgstr "Данные записей отсутствуют."
+
+#~ msgid "Removing demo data with some errors occurred."
+#~ msgstr "Удаление демо данных прошло с ошибками."
+
+#~ msgid "Install demo data"
+#~ msgstr "Установить демо данные"
+
+#~ msgid "for an acquaintance with the possibilities of the"
+#~ msgstr "для ознакомления с возможностями"
+
+#~ msgid "Please choose Pick Up time"
+#~ msgstr "Пожалуйста, выберите время получения"
+
+#~ msgid "Please choose correct Pick Up datetime in format \"YYYY-MM-DD\""
+#~ msgstr ""
+#~ "Пожалуйста, выберите корректную дату получения в формате \"ГГГГ-ММ-ДД\""
+
+#~ msgid "Please choose Drop Off time"
+#~ msgstr "Пожалуйста, выберите время возврата"
+
+#~ msgid "Please choose correct Drop Off datetime in format \"YYYY-MM-DD\""
+#~ msgstr ""
+#~ "Пожалуйста, выберите корректную дату возврата в формате \"ГГГГ-ММ-ДД\""
+
+#~ msgid "Please choose correct Drop Off datetime"
+#~ msgstr "Пожалуйста, выберите корректную дату возврата"
+
+#~ msgid "Please confirm your e-mail address."
+#~ msgstr "Подтвердите адрес email."
+
+#~ msgid "Error during user creation"
+#~ msgstr "Ошибка при создании пользователя"
+
+#~ msgid "Create request"
+#~ msgstr "Создание заявки"
+
+#~ msgid "Choose a car"
+#~ msgstr "Выбор Авто"
+
+#~ msgid "Review &amp; Book"
+#~ msgstr "Просмотр и Заказ"
+
+#~ msgid "Enter your first name"
+#~ msgstr "Введите ваше имя"
+
+#~ msgid "Age"
+#~ msgstr "Возраст"
+
+#~ msgid "Choose your age"
+#~ msgstr "Укажите возраст"
+
+#~ msgid "Enter your email address"
+#~ msgstr "Введите адрес email"
+
+#~ msgid "Confirm your email address"
+#~ msgstr "Подтвердите адрес email"
+
+#~ msgid "Book a Car"
+#~ msgstr "Заказ Авто"
+
+#~ msgid "Edit Locations & Dates"
+#~ msgstr "Изменить Расположения и Даты"
+
+#~ msgid "Search for a car"
+#~ msgstr "Поиск Авто"
+
+#~ msgid "Return at different location"
+#~ msgstr "Возврат в другом месте"
+
+#~ msgid "Pick Up date"
+#~ msgstr "Дата получения"
+
+#~ msgid "Drop Off date"
+#~ msgstr "Дата возврата"
+
+#~ msgid "Choose Drop Off time"
+#~ msgstr "Выберите время возврата"
+
+#~ msgid "Car Class"
+#~ msgstr "Класс Авто"
+
+#~ msgid "Choose Car Class"
+#~ msgstr "Выберите Класс Авто"
+
+#~ msgid "Choose Class"
+#~ msgstr "Выберите Класс"
+
+#~ msgid "Continue"
+#~ msgstr "Продолжить"
+
+#~ msgid "Results"
+#~ msgstr "Результаты"
+
+#~ msgid "Continue to checkout"
+#~ msgstr "Продолжить заказ"
+
+#~ msgid "Please enter the correct value for Google Maps Key field."
+#~ msgstr ""
+#~ "Для правильной работы плагина, пожалуйста, введите Ключ Google Maps."
+
+#~ msgid ""
+#~ "for the correct plugin work, please choose the %2$s template for the %1$s "
+#~ "page"
+#~ msgstr ""
+#~ "для корректной работы плагина, пожалуйста, выберите шаблон %2$s для "
+#~ "страницы %1$s"
+
+#, fuzzy
+#~ msgid "Please choose Pick-Up date"
+#~ msgstr "Пожалуйста, выберите дату получения"
+
+#, fuzzy
+#~ msgid "Please choose Drop-Off date"
+#~ msgstr "Пожалуйста, выберите дату возврата"
+
+#~ msgid "Please, choose location"
+#~ msgstr "Пожалуйста, выберите расположение"
+
+#~ msgid ""
+#~ "The following files '%s', '%s' and '%s' were not found in the directory "
+#~ "of your theme. Please copy them from the directory `%s` to the directory "
+#~ "of your theme for the correct work of the Car Rental Pro plugin"
+#~ msgstr ""
+#~ "Файлы '%s', '%s' and '%s' не найдены в папке вашей темы. Пожалуйста, "
+#~ "скопируйте эти файлы из папки `%s` в папку вашей темы для корректной "
+#~ "работы плагина Car Rental Pro"
+
+#~ msgid "All plugin settings were restored to default."
+#~ msgstr "Все настройки плагина восстановлены по умолчанию."
+
+#~ msgid "for choosing a Car"
+#~ msgstr "для выбора Авто"
+
+#~ msgid "for choosing Extras"
+#~ msgstr "для выбора Дополнений"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Настройки плагина были изменены. Не забудьте сохранить настройки, нажав "
+#~ "кнопку 'Сохранить изменения'."
+
+#~ msgid "Enable selecting pick-up&drop-off time"
+#~ msgstr "Возможность выбора времени получения и возврата"
+
+#~ msgid "How to get a Key"
+#~ msgstr "Как получить Ключ"
+
+#~ msgid "Pickup Location"
+#~ msgstr "Место получения"
+
+#~ msgid "Pick-up date"
+#~ msgstr "Дата получения"
+
+#~ msgid "Choose Drop-off date"
+#~ msgstr "Выберите дату возврата"
+
+#~ msgid "Plugin \"Car Rental Pro\" is not activated"
+#~ msgstr "Плагин \"Car Rental Pro\" не активирован"
+
+#~ msgid "Error in total calculate"
+#~ msgstr "Ошибка при подсчете суммы"
+
+#~ msgid "Extras: "
+#~ msgstr "Опции: "
+
+#~ msgid "Order Info:"
+#~ msgstr "Информация о Заказе:"
+
+#~ msgid "Car: "
+#~ msgstr "Авто: "
+
+#~ msgid "Total: "
+#~ msgstr "Сумма: "
+
+#~ msgid "from:"
+#~ msgstr "от:"
+
+#~ msgid ""
+#~ "An error occurred while saving slider settings. Settings were not saved."
+#~ msgstr ""
+#~ "При сохранении настроек слайдера произошла ошибка. Настройки не сохранены."
+
+#~ msgid ""
+#~ "You are using the %1$s theme. If you want to enable the slider, find the "
+#~ "\"header.php\" file of your theme, and add the following code after &lt;"
+#~ "header&gt; block or to any necessary place: %2$s"
+#~ msgstr ""
+#~ "Вы используете тему %1$s. Если вы хотите чтобы слайдер отображался, в "
+#~ "файле \"header.php\" этой темы после блока &lt;header&gt; или в другом "
+#~ "месте, где вы хотите отображать слайдер, добавьте следующий код: %2$s"
+
+#~ msgid "Send me latest news &amp; updates"
+#~ msgstr "Получать новости и обновления"
+
+#~ msgid "Show Slider"
+#~ msgstr "Показывать слайдер"
+
+#~ msgid "- This slide has no image -"
+#~ msgstr "- Слайд не имеет картинки -"
+
+#~ msgid "Edit Slide"
+#~ msgstr "Редактировать Слайд"
+
+#~ msgid " - No slides yet - "
+#~ msgstr " - Пока нет слайдов - "
+
+#~ msgid "All plugin settings were restored."
+#~ msgstr "Все настройки плагина восстановлены."
+
+#~ msgid "Error while deleting plugin settings. "
+#~ msgstr "При удалении настроек плагина произошла ошибка. "
+
+#~ msgid "Error while deleting slider settings. "
+#~ msgstr "Ошибка при удалении настроек слайдера. "
+
+#~ msgid "Default settings has been already installed."
+#~ msgstr "Настройки по умолчанию уже установлены."
+
+#~ msgid "Class"
+#~ msgstr "Класс"
+
+#~ msgctxt "admin menu"
+#~ msgid "Cars for rental"
+#~ msgstr "Авто в Аренду"
+
+#~ msgid "Photos"
+#~ msgstr "Фото"
+
+#~ msgid "Add photo"
+#~ msgstr "Добавить фото"
+
+#~ msgid "Option is not available"
+#~ msgstr "Опция не доступна"
+
+#~ msgid "Airport codes"
+#~ msgstr "Код аэропорта"
+
+#~ msgid "Unlimited free miles included"
+#~ msgstr "Неограниченные бесплатные мили"
+
+#~ msgid "Enter airport, city or zip code"
+#~ msgstr "Аэропорт, город или индекс"
+
+#~ msgid "Credit Card Information"
+#~ msgstr "Информация о кредитной карте"
+
+#~ msgid "%s item"
+#~ msgid_plural "%s items"
+#~ msgstr[0] "%s шт."
+#~ msgstr[1] "%s шт."
+#~ msgstr[2] "%s шт."
+
+#, fuzzy
+#~ msgid "Learn more"
+#~ msgstr "Читать далее"
